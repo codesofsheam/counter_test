@@ -75,6 +75,7 @@ Metal11  | horizontal |  0.22   |  0.2    | 0.475
 ![drc](media/timing_report.png)
 ![antenna](media/timing_report.png)
 ![connectivity](media/timing_report.png)
+
 *Figure 5. Overall Verification summary.*
 
 
