@@ -1,0 +1,413 @@
+
+Cadence Voltus(TM) IC Power Integrity Solution.
+Copyright 2025 Cadence Design Systems, Inc. All rights reserved worldwide.
+
+Version:	v25.10-p001_1, built Fri Apr 11 11:58:59 PDT 2025
+Options:	
+Date:		Wed Nov 25 11:28:25 2026
+Host:		techcad (x86_64 w/Linux 4.18.0-305.el8.x86_64) (12cores*48cpus*Intel(R) Xeon(R) Silver 4310 CPU @ 2.10GHz 18432KB)
+OS:		Red Hat Enterprise Linux 8.4 (Ootpa)
+
+License:
+		[11:28:25.453529] Configured Lic search path (25.01-s002): 5280@techcad
+
+		vtsxl	Voltus Power Integrity Solution XL	25.1	checkout succeeded
+		8 CPU jobs allowed with the current license(s). Use set_multi_cpu_usage to set your required CPU count.
+The soft stacksize limit is either up to the hard limit or larger than 0.2% of RAM. No change is needed.
+environment variable TMPDIR is '/tmp/ssv_tmpdir_1949701_37f2dc35-b5b6-4df7-a2d3-dfb1aef7e7ad_doqnCb'.
+<CMD> ::stop_gui -keepDgui
+Has not load the powerDB, will keep enalbed
+Has not load the powerDB, will keep enalbed
+Turn off visibility of signal net in Voltus by default.
+<CMD> setLayerPreference net -isVisible 0
+<CMD> setLayerPreference clock -isVisible 0
+<CMD> set_multi_cpu_usage -localCpu 8
+<CMD> read_lib {/home/user_50/projects/counter_45/lib/slow_vdd1v0_basicCells_lvt.lib /home/user_50/projects/counter_45/lib/slow_vdd1v0_basicCells_hvt.lib /home/user_50/projects/counter_45/lib/slow_vdd1v0_basicCells_svt.lib}
+<CMD> read_lib -lef {/home/user_50/projects/counter_45/lef/gsclib045_tech.lef /home/user_50/projects/counter_45/lef/gsclib045_svt_macro.lef /home/user_50/projects/counter_45/lef/gsclib045_hvt_macro.lef /home/user_50/projects/counter_45/lef/gsclib045_lvt_macro.lef}
+<CMD> read_verilog /home/user_50/projects/counter_45/pnr/outputs/counter_innovus_final.v
+<CMD> set_top_module counter
+#% Begin Load MMMC data ... (date=11/25 11:29:16, mem=1707.8M)
+Number of views requested 1 are allowed with the current licenses... continuing with set_analysis_view.
+#% End Load MMMC data ... (date=11/25 11:29:16, total cpu=0:00:00.0, real=0:00:00.0, peak res=1709.5M, current mem=1709.5M)
+default_emulate_early_rc_corner default_emulate_late_rc_corner default_emulate_rc_corner
+
+Loading LEF file /home/user_50/projects/counter_45/lef/gsclib045_tech.lef ...
+Set DBUPerIGU to M2 pitch 400.
+
+Loading LEF file /home/user_50/projects/counter_45/lef/gsclib045_svt_macro.lef ...
+
+Loading LEF file /home/user_50/projects/counter_45/lef/gsclib045_hvt_macro.lef ...
+
+Loading LEF file /home/user_50/projects/counter_45/lef/gsclib045_lvt_macro.lef ...
+**WARN: (IMPLF-200):	Pin 'A' in macro 'ANTENNALVT' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (IMPLF-200):	Pin 'A' in macro 'ANTENNAHVT' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (IMPLF-200):	Pin 'A' in macro 'ANTENNA' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+
+##  Check design process and node:  
+##  Both design process and tech node are not set.
+
+Loading view definition file from .ssv_emulate_view_definition_1949701_37f2dc35-b5b6-4df7-a2d3-dfb1aef7e7ad.tcl
+Starting library reading in 'Multi-threaded flow' (with '8' threads)
+Reading   timing library /home/user_50/projects/counter_45/lib/slow_vdd1v0_basicCells_lvt.lib.
+**WARN: (TECHLIB-302):	No function defined for cell 'ANTENNALVT'. The cell will only be used for analysis. (File /home/user_50/projects/counter_45/lib/slow_vdd1v0_basicCells_lvt.lib)
+Read 480 cells in library slow_vdd1v0.
+Library reading multithread flow ended.
+Starting library reading in 'Multi-threaded flow' (with '8' threads)
+Reading   timing library /home/user_50/projects/counter_45/lib/slow_vdd1v0_basicCells_hvt.lib.
+**WARN: (TECHLIB-302):	No function defined for cell 'ANTENNAHVT'. The cell will only be used for analysis. (File /home/user_50/projects/counter_45/lib/slow_vdd1v0_basicCells_hvt.lib)
+Read 480 cells in library slow_vdd1v0.
+Reading   timing library /home/user_50/projects/counter_45/lib/slow_vdd1v0_basicCells_svt.lib.
+**WARN: (TECHLIB-302):	No function defined for cell 'DECAP9'. The cell will only be used for analysis. (File /home/user_50/projects/counter_45/lib/slow_vdd1v0_basicCells_svt.lib)
+**WARN: (TECHLIB-302):	No function defined for cell 'DECAP8'. The cell will only be used for analysis. (File /home/user_50/projects/counter_45/lib/slow_vdd1v0_basicCells_svt.lib)
+**WARN: (TECHLIB-302):	No function defined for cell 'DECAP7'. The cell will only be used for analysis. (File /home/user_50/projects/counter_45/lib/slow_vdd1v0_basicCells_svt.lib)
+**WARN: (TECHLIB-302):	No function defined for cell 'DECAP6'. The cell will only be used for analysis. (File /home/user_50/projects/counter_45/lib/slow_vdd1v0_basicCells_svt.lib)
+**WARN: (TECHLIB-302):	No function defined for cell 'DECAP5'. The cell will only be used for analysis. (File /home/user_50/projects/counter_45/lib/slow_vdd1v0_basicCells_svt.lib)
+**WARN: (TECHLIB-302):	No function defined for cell 'DECAP4'. The cell will only be used for analysis. (File /home/user_50/projects/counter_45/lib/slow_vdd1v0_basicCells_svt.lib)
+**WARN: (TECHLIB-302):	No function defined for cell 'DECAP3'. The cell will only be used for analysis. (File /home/user_50/projects/counter_45/lib/slow_vdd1v0_basicCells_svt.lib)
+**WARN: (TECHLIB-302):	No function defined for cell 'DECAP2'. The cell will only be used for analysis. (File /home/user_50/projects/counter_45/lib/slow_vdd1v0_basicCells_svt.lib)
+**WARN: (TECHLIB-302):	No function defined for cell 'DECAP10'. The cell will only be used for analysis. (File /home/user_50/projects/counter_45/lib/slow_vdd1v0_basicCells_svt.lib)
+**WARN: (TECHLIB-302):	No function defined for cell 'ANTENNA'. The cell will only be used for analysis. (File /home/user_50/projects/counter_45/lib/slow_vdd1v0_basicCells_svt.lib)
+Read 489 cells in library slow_vdd1v0.
+Library reading multithread flow ended.
+*** End library_loading (cpu=0.17min, real=0.02min, mem=36.6M, fe_cpu=0.52min, fe_real=0.88min, fe_mem=1812.5M) ***
+#% Begin Load netlist data ... (date=11/25 11:29:18, mem=1812.5M)
+*** Begin netlist parsing (mem=1813.0M) ***
+Reading verilog netlist '/home/user_50/projects/counter_45/pnr/outputs/counter_innovus_final.v'
+
+*** Memory Usage v#1 (Current mem = 1963.098M, initial mem = 881.098M) ***
+*** End netlist parsing (cpu=0:00:00.1, real=0:00:01.0, mem=1963.1M) ***
+#% End Load netlist data ... (date=11/25 11:29:19, total cpu=0:00:00.6, real=0:00:01.0, peak res=1955.3M, current mem=1955.3M)
+Set top cell to counter.
+Has not load the powerDB, will keep enalbed
+Has not load the powerDB, will keep enalbed
+Starting consistency checks on late and early library sets of delay corner 'default_emulate_delay_corner'
+late library set: default_emulate_libset_max
+early library set: default_emulate_libset_min
+Completed consistency checks. Status: Successful
+Starting consistency checks on late and early library sets of delay corner 'default_emulate_delay_corner'
+late library set: default_emulate_libset_max
+early library set: default_emulate_libset_min
+Completed consistency checks. Status: Successful
+Building hierarchical netlist for Cell counter ...
+***** UseNewTieNetMode *****.
+*** Netlist is unique.
+** info: there are 1569 modules.
+** info: there are 150 stdCell insts.
+** info: there are 150 stdCell insts with at least one signal pin.
+
+*** Memory Usage v#1 (Current mem = 2532.863M, initial mem = 881.098M) ***
+**WARN: (IMPFP-3961):	The techSite 'CornerSite' has no related standard cells in the LEF/OA library. The calculations for this site type cannot be made unless standard cell models of this type exist in the LEF/OA library. Ignore this warning if the SITE is not used by the library. Alternatively, remove the SITE definition for the LEF/OA library to avoid this message.
+**WARN: (IMPFP-3961):	The techSite 'IOSite' has no related standard cells in the LEF/OA library. The calculations for this site type cannot be made unless standard cell models of this type exist in the LEF/OA library. Ignore this warning if the SITE is not used by the library. Alternatively, remove the SITE definition for the LEF/OA library to avoid this message.
+Start create_tracks
+Set Default Input Pin Transition as 0.1 ps.
+Has not load the powerDB, will keep enalbed
+Has not load the powerDB, will keep enalbed
+Has not load the powerDB, will keep enalbed
+Has not load the powerDB, will keep enalbed
+Has not load the powerDB, will keep enalbed
+Has not load the powerDB, will keep enalbed
+/dev/null
+Extraction setup Started for TopCell counter 
+Summary of Active RC-Corners : 
+ 
+ Analysis View: default_emulate_view
+    RC-Corner Name        : default_emulate_rc_corner
+    RC-Corner Index       : 0
+    RC-Corner Temperature : 25 Celsius
+    RC-Corner Cap Table   : ''
+    RC-Corner PostRoute Res Factor        : 1
+    RC-Corner PostRoute Cap Factor        : 1
+    RC-Corner PostRoute XCap Factor       : 1
+Initializing multi-corner resistance tables ...
+Starting consistency checks on late and early library sets of delay corner 'default_emulate_delay_corner'
+late library set: default_emulate_libset_max
+early library set: default_emulate_libset_min
+Completed consistency checks. Status: Successful
+Multithreaded Timing Analysis is initialized with 8 threads
+
+Reading timing constraints file '/dev/null' ...
+Current (total cpu=0:00:33.3, real=0:00:56.0, peak res=3017.2M, current mem=3017.2M)
+Total number of combinational cells: 954
+Total number of sequential cells: 456
+Total number of tristate cells: 30
+Total number of level shifter cells: 0
+Total number of power gating cells: 0
+Total number of isolation cells: 0
+Total number of power switch cells: 0
+Total number of pulse generator cells: 0
+Total number of always on buffers: 0
+Total number of retention cells: 0
+Total number of physical cells: 9
+List of usable buffers: CLKBUFX2LVT BUFX2LVT CLKBUFX2HVT BUFX2HVT CLKBUFX2 BUFX2 CLKBUFX3LVT BUFX3LVT CLKBUFX3HVT BUFX3HVT CLKBUFX3 BUFX3 CLKBUFX4LVT BUFX4LVT CLKBUFX4HVT BUFX4HVT CLKBUFX4 BUFX4 DLY1X1LVT CLKBUFX6LVT BUFX6LVT CLKBUFX6HVT BUFX6HVT CLKBUFX6 BUFX6 DLY1X4LVT CLKBUFX8LVT BUFX8LVT CLKBUFX8HVT BUFX8HVT CLKBUFX8 BUFX8 CLKBUFX12LVT BUFX12LVT CLKBUFX12HVT BUFX12HVT CLKBUFX12 BUFX12 CLKBUFX16LVT BUFX16LVT CLKBUFX16HVT BUFX16HVT CLKBUFX16 BUFX16 CLKBUFX20LVT BUFX20LVT CLKBUFX20HVT BUFX20HVT CLKBUFX20 BUFX20
+Total number of usable buffers: 50
+List of unusable buffers:
+Total number of unusable buffers: 0
+List of usable inverters: INVXLLVT INVX1LVT INVXLHVT INVX1HVT INVXL INVX1 INVX2LVT CLKINVX1LVT INVX2HVT CLKINVX1HVT INVX2 CLKINVX1 INVX3LVT CLKINVX2LVT INVX3HVT CLKINVX2HVT INVX3 CLKINVX2 INVX4LVT CLKINVX4LVT CLKINVX3LVT INVX4HVT CLKINVX4HVT CLKINVX3HVT INVX4 CLKINVX4 CLKINVX3 INVX6LVT CLKINVX6LVT INVX6HVT CLKINVX6HVT INVX6 CLKINVX6 INVX8LVT CLKINVX8LVT INVX8HVT CLKINVX8HVT INVX8 CLKINVX8 INVX12LVT CLKINVX12LVT INVX12HVT CLKINVX12HVT INVX12 CLKINVX12 INVX16LVT CLKINVX16LVT INVX16HVT CLKINVX16HVT INVX16 CLKINVX16 INVX20LVT CLKINVX20LVT INVX20HVT CLKINVX20HVT INVX20 CLKINVX20
+Total number of usable inverters: 57
+List of unusable inverters:
+Total number of unusable inverters: 0
+List of identified usable delay cells: DLY1X1HVT DLY1X1 DLY1X4HVT DLY1X4 DLY2X1LVT DLY2X1HVT DLY2X1 DLY2X4LVT DLY2X4HVT DLY2X4 DLY3X1LVT DLY3X1HVT DLY3X1 DLY3X4LVT DLY3X4HVT DLY3X4 DLY4X1LVT DLY4X1HVT DLY4X1 DLY4X4LVT DLY4X4HVT DLY4X4
+Total number of identified usable delay cells: 22
+List of identified unusable delay cells:
+Total number of identified unusable delay cells: 0
+default_emulate_constraint_mode
+Extraction setup Started for TopCell counter 
+Summary of Active RC-Corners : 
+ 
+ Analysis View: default_emulate_view
+    RC-Corner Name        : default_emulate_rc_corner
+    RC-Corner Index       : 0
+    RC-Corner Temperature : 125 Celsius
+    RC-Corner Cap Table   : ''
+    RC-Corner PostRoute Res Factor        : 1
+    RC-Corner PostRoute Cap Factor        : 1
+    RC-Corner PostRoute XCap Factor       : 1
+Initializing multi-corner resistance tables ...
+Extraction setup Started for TopCell counter 
+Summary of Active RC-Corners : 
+ 
+ Analysis View: default_emulate_view
+    RC-Corner Name        : default_emulate_rc_corner
+    RC-Corner Index       : 0
+    RC-Corner Temperature : 125 Celsius
+    RC-Corner Cap Table   : ''
+    RC-Corner PostRoute Res Factor        : 1
+    RC-Corner PostRoute Cap Factor        : 1
+    RC-Corner PostRoute XCap Factor       : 1
+Initializing multi-corner resistance tables ...
+Extraction setup Started for TopCell counter 
+Summary of Active RC-Corners : 
+ 
+ Analysis View: default_emulate_view
+    RC-Corner Name        : default_emulate_rc_corner
+    RC-Corner Index       : 0
+    RC-Corner Temperature : 125 Celsius
+    RC-Corner Cap Table   : ''
+    RC-Corner PostRoute Res Factor        : 1
+    RC-Corner PostRoute Cap Factor        : 1
+    RC-Corner PostRoute XCap Factor       : 1
+Initializing multi-corner resistance tables ...
+default_emulate_libset_max default_emulate_libset_min
+<CMD> read_def /home/user_50/projects/counter_45/pnr/outputs/counter_final.def
+Reading DEF file '/home/user_50/projects/counter_45/pnr/outputs/counter_final.def', current time is Wed Nov 25 11:29:21 2026 ...
+--- DIVIDERCHAR '/'
+--- UnitsPerDBU = 1.0000
+**WARN: (IMPFP-3961):	The techSite 'CornerSite' has no related standard cells in the LEF/OA library. The calculations for this site type cannot be made unless standard cell models of this type exist in the LEF/OA library. Ignore this warning if the SITE is not used by the library. Alternatively, remove the SITE definition for the LEF/OA library to avoid this message.
+**WARN: (IMPFP-3961):	The techSite 'IOSite' has no related standard cells in the LEF/OA library. The calculations for this site type cannot be made unless standard cell models of this type exist in the LEF/OA library. Ignore this warning if the SITE is not used by the library. Alternatively, remove the SITE definition for the LEF/OA library to avoid this message.
+Start create_tracks
+--- DIEAREA (0 0) (240000 238640)
+Extracting standard cell pins and blockage ...... 
+Pin and blockage extraction finished
+Extracting macro/IO cell pins and blockage ...... 
+Pin and blockage extraction finished
+DEF file '/home/user_50/projects/counter_45/pnr/outputs/counter_final.def' is parsed, current time is Wed Nov 25 11:29:21 2026.
+Updating the floorplan ...
+**WARN: (IMPFP-3335):	Constraint (10.0000, 80.1800) (45.0000, 109.3600) out of core.
+**WARN: (IMPFP-3335):	Constraint (45.0000, 80.1800) (80.0000, 109.3600) out of core.
+**WARN: (IMPFP-3335):	Constraint (80.0000, 80.1800) (110.0000, 109.3600) out of core.
+Has not load the powerDB, will keep enalbed
+Has not load the powerDB, will keep enalbed
+Has not load the powerDB, will keep enalbed
+Has not load the powerDB, will keep enalbed
+<CMD> read_sdc /home/user_50/projects/counter_45/pnr/outputs/counter_signoff.sdc
+Current (total cpu=0:00:34.1, real=0:00:56.0, peak res=3050.8M, current mem=3010.2M)
+counter
+------------------------------------------------------------------------------------
+CONSTRAINT READING SUMMARY                                                          
+------------------------------------------------------------------------------------
+Constraint                                        | Success        | Fail           
+------------------------------------------------------------------------------------
+set_clock_uncertainty                             | 2              | 0              
+set_output_delay                                  | 16             | 0              
+set_propagated_clock                              | 1              | 0              
+set_input_delay                                   | 2              | 0              
+set_clock_transition                              | 4              | 0              
+get_clocks                                        | 24             | 0              
+set_false_path                                    | 1              | 0              
+create_clock                                      | 1              | 0              
+set_clock_latency                                 | 2              | 0              
+get_ports                                         | 23             | 0              
+set_clock_gating_check                            | 2              | 0              
+current_design                                    | 1              | 0              
+------------------------------------------------------------------------------------
+INFO (CTE): Constraints read successfully.
+Ending "Constraint file reading stats" (total cpu=0:00:00.0, real=0:00:01.0, peak res=3018.0M, current mem=3018.0M)
+Current (total cpu=0:00:34.2, real=0:00:57.0, peak res=3050.8M, current mem=3018.0M)
+<CMD> read_spef /home/user_50/projects/counter_45/post_layout_analysis/pex_quantus/results/counter_typical.spef
+<CMD> set_propagated_clock [all_clocks]
+<CMD> update_timing -full
+[11:29:22.192666] Periodic Lic check successful
+[11:29:22.192691] Feature usage summary:
+[11:29:22.192691] Voltus_Power_Integrity_XL  
+[11:29:22.192696] Tempus_Timing_Signoff_XL  
+(#64) This command "update_timing -full" required an extra checkout of license tpsxl.
+Additional license(s) checked out: 1 'tpsxl' (Tempus_Timing_Signoff_XL; TPS200; 25.1) license(s)
+AAE_INFO: opIsDesignInPostRouteState() is 1
+AAE_INFO: deleting AAE DB in update_timing -full ...
+AAE DB initialization (MEM=3050.382812 CPU=0:00:00.0 REAL=0:00:00.0) 
+#################################################################################
+# Design Name: counter
+# Design Mode: 65nm
+# Analysis Mode: MMMC OCV 
+# Parasitics Mode: SPEF/RCDB 
+# Signoff Settings: SI Off 
+#################################################################################
+Current (total cpu=0:00:35.5, real=0:00:57.0, peak res=3051.1M, current mem=3051.0M)
+SPEF file /home/user_50/projects/counter_45/post_layout_analysis/pex_quantus/results/counter_typical.spef.
+Number of Resistors     : 567
+Number of Ground Caps   : 519
+Number of Coupling Caps : 0
+
+End spef parsing (MEM=3050.03 CPU=0:00:00.1 REAL=0:00:00.0).
+Current (total cpu=0:00:35.6, real=0:00:57.0, peak res=3051.1M, current mem=3042.0M)
+Has not load the powerDB, will keep enalbed
+Has not load the powerDB, will keep enalbed
+Start delay calculation (fullDC) (8 T). (MEM=3135.36)
+/dev/null
+End delay calculation. (MEM=3202.52 CPU=0:00:00.1 REAL=0:00:00.0)
+Begin loading slews from CTE ...
+Loading slews from CTE completed...
+End delay calculation (fullDC). (MEM=3199.93 CPU=0:00:00.3 REAL=0:00:00.0)
+Has not load the powerDB, will keep enalbed
+Has not load the powerDB, will keep enalbed
+<CMD> set_power_analysis_mode -reset
+<CMD> set_power_analysis_mode -method static -corner max -create_binary_db true -write_static_currents true
+<CMD> set_default_switching_activity -input_activity 0.2 -seq_activity 0.2
+'set_default_switching_activity' finished successfully.
+<CMD> propagate_activity
+clk(500MHz) 
+Starting Building Netlist
+2026-Nov-25 11:29:24 (2026-Nov-25 16:29:24 GMT)
+2026-Nov-25 11:29:24 (2026-Nov-25 16:29:24 GMT): 50%
+
+Finished Building Netlist
+2026-Nov-25 11:29:24 (2026-Nov-25 16:29:24 GMT)
+
+Starting Levelizing
+2026-Nov-25 11:29:24 (2026-Nov-25 16:29:24 GMT)
+2026-Nov-25 11:29:24 (2026-Nov-25 16:29:24 GMT): 10%
+2026-Nov-25 11:29:24 (2026-Nov-25 16:29:24 GMT): 20%
+2026-Nov-25 11:29:24 (2026-Nov-25 16:29:24 GMT): 30%
+2026-Nov-25 11:29:24 (2026-Nov-25 16:29:24 GMT): 40%
+2026-Nov-25 11:29:24 (2026-Nov-25 16:29:24 GMT): 50%
+2026-Nov-25 11:29:24 (2026-Nov-25 16:29:24 GMT): 60%
+2026-Nov-25 11:29:24 (2026-Nov-25 16:29:24 GMT): 70%
+2026-Nov-25 11:29:24 (2026-Nov-25 16:29:24 GMT): 80%
+2026-Nov-25 11:29:24 (2026-Nov-25 16:29:24 GMT): 90%
+
+Finished Levelizing
+2026-Nov-25 11:29:24 (2026-Nov-25 16:29:24 GMT)
+
+Starting Activity Propagation
+2026-Nov-25 11:29:24 (2026-Nov-25 16:29:24 GMT)
+2026-Nov-25 11:29:24 (2026-Nov-25 16:29:24 GMT): 10%
+2026-Nov-25 11:29:24 (2026-Nov-25 16:29:24 GMT): 20%
+2026-Nov-25 11:29:24 (2026-Nov-25 16:29:24 GMT): 30%
+2026-Nov-25 11:29:24 (2026-Nov-25 16:29:24 GMT): 40%
+2026-Nov-25 11:29:24 (2026-Nov-25 16:29:24 GMT): 50%
+2026-Nov-25 11:29:24 (2026-Nov-25 16:29:24 GMT): 60%
+2026-Nov-25 11:29:24 (2026-Nov-25 16:29:24 GMT): 70%
+2026-Nov-25 11:29:24 (2026-Nov-25 16:29:24 GMT): 80%
+2026-Nov-25 11:29:24 (2026-Nov-25 16:29:24 GMT): 90%
+
+Finished Activity Propagation
+2026-Nov-25 11:29:24 (2026-Nov-25 16:29:24 GMT)
+<CMD> report_power -outfile voltus_static_power.rpt
+env CDS_WORKAREA is set to /home/user_50/projects/counter_45/post_layout_analysis/power_voltus
+
+Power Net Detected:
+        Voltage	    Name
+             0V	    VSS
+           0.9V	    VDD
+             0V	    VSS
+           0.9V	    VDD
+Using Power View: default_emulate_view.
+             0V	    VSS
+           0.9V	    VDD
+      ----------------------------------------------------------
+      # of cell(s) missing both power/leakage table: 0
+      # of cell(s) missing power table: 1
+      # of cell(s) missing leakage table: 0
+      ----------------------------------------------------------
+CellName                                  Missing Table(s)
+TIEHI                                     internal power, 
+
+
+
+Starting Calculating power
+2026-Nov-25 11:29:24 (2026-Nov-25 16:29:24 GMT)
+2026-Nov-25 11:29:24 (2026-Nov-25 16:29:24 GMT): 10%
+2026-Nov-25 11:29:24 (2026-Nov-25 16:29:24 GMT): 20%
+2026-Nov-25 11:29:24 (2026-Nov-25 16:29:24 GMT): 30%
+2026-Nov-25 11:29:24 (2026-Nov-25 16:29:24 GMT): 40%
+2026-Nov-25 11:29:24 (2026-Nov-25 16:29:24 GMT): 50%
+2026-Nov-25 11:29:24 (2026-Nov-25 16:29:24 GMT): 60%
+2026-Nov-25 11:29:24 (2026-Nov-25 16:29:24 GMT): 70%
+2026-Nov-25 11:29:24 (2026-Nov-25 16:29:24 GMT): 80%
+2026-Nov-25 11:29:24 (2026-Nov-25 16:29:24 GMT): 90%
+
+Finished Calculating power
+2026-Nov-25 11:29:24 (2026-Nov-25 16:29:24 GMT)
+      # of MSMV cell(s) missing power_level: 0
+Begin Processing set_power
+Ended Processing set_power: (cpu=0:00:00, real=0:00:00,
+mem(process/total/peak)=3374.16MB/11377.11MB/3374.31MB)
+Begin Boundary Leakage Calculation
+Ended Boundary Leakage Calculation: (cpu=0:00:00, real=0:00:00,
+mem(process/total/peak)=3374.31MB/11377.11MB/3374.31MB)
+Begin Static Power Report Generation
+*
+
+
+
+Total Power
+-----------------------------------------------------------------------------------------
+Total Internal Power:        0.01345359 	   92.6876%
+Total Switching Power:       0.00104256 	    7.1826%
+Total Leakage Power:         0.00001884 	    0.1298%
+Total Power:                 0.01451498
+-----------------------------------------------------------------------------------------
+** WARN:  (VOLTUS_POWR-3424): Cell INVX2 has no power pin defined in LEF/PGV.
+
+** WARN:  (VOLTUS_POWR-3424): Cell CLKXOR2X1LVT has no power pin defined in LEF/PGV.
+
+** WARN:  (VOLTUS_POWR-3424): Cell BUFX4 has no power pin defined in LEF/PGV.
+
+** WARN:  (VOLTUS_POWR-3424): Cell BUFX3 has no power pin defined in LEF/PGV.
+
+** WARN:  (VOLTUS_POWR-3424): Cell NOR2X2 has no power pin defined in LEF/PGV.
+
+** WARN:  (VOLTUS_POWR-3424): Cell ADDHX1LVT has no power pin defined in LEF/PGV.
+
+** WARN:  (VOLTUS_POWR-3424): Cell INVX4 has no power pin defined in LEF/PGV.
+
+** WARN:  (VOLTUS_POWR-3424): Cell MX2X2 has no power pin defined in LEF/PGV.
+
+** WARN:  (VOLTUS_POWR-3424): Cell NAND2X2 has no power pin defined in LEF/PGV.
+
+** WARN:  (VOLTUS_POWR-3424): Cell DFFRX1LVT has no power pin defined in LEF/PGV.
+
+** WARN:  (VOLTUS_POWR-3424): Cell TIEHI has no power pin defined in LEF/PGV.
+
+** WARN:  (VOLTUS_POWR-3424): Cell DFFHQX1 has no power pin defined in LEF/PGV.
+
+** WARN:  (VOLTUS_POWR-3424): Cell DFFRHQX1LVT has no power pin defined in LEF/PGV.
+
+** INFO:  (VOLTUS_POWR-3465): There are 0 decaps and 0 fillers in the design
+
+Ended Static Power Report Generation: (cpu=0:00:00, real=0:00:00,
+mem(process/total/peak)=3374.85MB/11377.11MB/3374.85MB)
+
+Begin Creating Binary Database
+Ended Creating Binary Database: (cpu=0:00:00, real=0:00:00,
+mem(process/total/peak)=3884.85MB/12915.53MB/3884.85MB)
+
+Output file is .//voltus_static_power.rpt.
+<CMD> exit
+
+--------------------------------------------------------------------------------
+Exiting Voltus IC Power Integrity Solution on Wed Nov 25 11:32:17 2026
+  Total CPU time:     0:00:39
+  Total real time:    0:03:54
+  Peak memory (main): 3996.70MB
+

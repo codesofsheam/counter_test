@@ -1,0 +1,131 @@
+
+
+INFO:    Comparing netlists using calculon ...
+INFO:    Setup VLDB (0s)
+INFO:    Init sch rules (0s)
+INFO:    Init lay rules (0s)
+INFO:    Init structures (0s)
+INFO:    Set cells to delete (0s)
+INFO:    Check expand on pin error (0s)
+INFO:    Reading schematic network
+INFO:     inputting cdl netlist /home/user_50/projects/counter_45/cdl/gsclib045_lvt.cdl...
+INFO:     finished loading cdl netlist /home/user_50/projects/counter_45/cdl/gsclib045_lvt.cdl (0s)
+INFO:     inputting cdl netlist /home/user_50/projects/counter_45/cdl/gsclib045_hvt.cdl...
+INFO:     finished loading cdl netlist /home/user_50/projects/counter_45/cdl/gsclib045_hvt.cdl (0s)
+INFO:     inputting cdl netlist /home/user_50/projects/counter_45/cdl/gsclib045_svt.cdl...
+INFO:     finished loading cdl netlist /home/user_50/projects/counter_45/cdl/gsclib045_svt.cdl (0s)
+          inputting verilog netlist /home/user_50/projects/counter_45/pnr/outputs/counter_innovus_final.v...
+WARNING (NVN-15191): Verilog is case sensitive. Ignoring schematic_case_sensitive no for this file.
+WARNING (NVN-13259): The char '\' will be truncated from the beginning of net names. This will cause nets to be combined that have the same name 
+           and do not have this prefix.
+           To prevent renaming, use '-keep_backslash' option in the 'schematic_path' or 'layout_path' command.
+INFO:     finished loading verilog netlist /home/user_50/projects/counter_45/pnr/outputs/counter_innovus_final.v (0s)
+INFO:     commit cdl netlist(s)...
+INFO:     finished committing cdl netlists (0s)
+INFO:    Post sch netlist rule processing (0s)
+INFO:    Reading layout network
+INFO:     inputting (fast parser) cdl netlist  /home/user_50/projects/counter_45/post_layout_analysis/rc_lvs_pegasus/run_lvs/svdb/counter.net...
+INFO:     finished loading cdl netlist /home/user_50/projects/counter_45/post_layout_analysis/rc_lvs_pegasus/run_lvs/svdb/counter.net (0s)
+INFO:     commit cdl netlist(s)...
+INFO:     finished committing cdl netlists (0s)
+INFO:    Post lay netlist rule processing (0s)
+INFO:    Processing blackBox rules (0s)
+INFO:    Processing bindings (0s)
+INFO:    Commit sch verilog netlist (0s)
+INFO:    Commit lay verilog netlist (0s)
+INFO:    Erase netlist data (0s)
+INFO:    Set blackbox cells (0s)
+INFO:    Sch put cells in memory (0s)
+INFO:    Sch update netlist rules (0s)
+INFO:    Sch set devices to delete (0s)
+INFO:    Sch adjust device pins (0s)
+INFO:    Sch calc hier order (0s)
+INFO:    Sch process inherited connections (0s)
+INFO:    Sch generate qrc files (0s)
+INFO:    Sch handle global pins (0s)
+INFO:    Sch apply rule actions with processed netlist (0s)
+INFO:    Sch process cell supply (0s)
+INFO:    Lay put cells in memory (0s)
+INFO:    Lay update netlist rules (0s)
+INFO:    Lay set devices to delete (0s)
+INFO:    Lay calc hier order (0s)
+INFO:    Lay process inherited connections (0s)
+INFO:    Lay generate qrc files (0s)
+INFO:    Lay handle global pins (0s)
+INFO:    Lay apply rule actions with processed netlist (0s)
+INFO:    Lay process cell supply (0s)
+INFO:    Check if interposer flow (0s)
+INFO:    Check binding file (0s)
+INFO:    Set topcell global pin indicator (0s)
+INFO:    Calculate preserve parameterized cells (0s)
+INFO:    Check generic device bindings (0s)
+INFO:    Calculate primitive device bindings (0s)
+INFO:    Remove unused device parameters (0s)
+INFO:    Set instances to flatten inside cells (0s)
+INFO:    Calculate parameters (0s)
+INFO:    Start sch normalization (0s)
+INFO:    Start lay normalization (0s)
+INFO:    Calculate primitive device bindings (2nd time) (0s)
+INFO:    Finalize binding (0s)
+INFO:    Sch join nets (0s)
+INFO:    Sch setup hier normalization (0s)
+INFO:    Sch remove feedthroughs and black box cell instances (0s)
+INFO:    Sch remove identical pins (0s)
+INFO:    Sch calc connection counts (0s)
+INFO:    Run genHierCells (0s)
+INFO:    Reset normalization flags (0s)
+INFO:    Lay join nets (0s)
+INFO:    Lay setup hier normalization (0s)
+INFO:    Lay remove feedthroughs and black box cell instances (0s)
+INFO:    Lay remove identical pins (0s)
+INFO:    Lay calc connection counts (0s)
+INFO:    Normalize sch (0s)
+INFO:    Read in color file (0s)
+INFO:    Set scale factor per cell (0s)
+INFO:    Setup property init rules (0s)
+INFO:    Write sch vldb file (0s)
+INFO:    Write lay vldb file (0s)
+INFO:    Apply preserve parameterized cells (0s)
+INFO:    Cleanup after VLDB processing (0s)
+WARNING (NVN-15002): Rule 'lvs_recognize_gates -all' was set, but either
+           the power net or the ground net (or both) was missing as follows.
+               schematic power
+               schematic ground
+               layout power
+               layout ground
+           Rule 'lvs_recognize_gates -all' requires both power and ground nets to operate.
+           These can be identified using rules 'lvs_power_name' and 'lvs_ground_name'.
+           Resetting rule to 'lvs_recognize_gates -simple'
+WARNING (NVN-10006): No ecdb file available.
+
+INFO:    Cell comparison output format:
+            <Comparing|Top Cell> <Layout Cell> vs <Schematic Cell>
+               <Layout instances> insts vs <Schematic instances> insts  (<Time>)-<Status>
+
+         Top Cell  counter vs counter
+            803 insts vs 804 insts . . . . . . . . . . .  (0s)-mismatch, parameter errors
+
+INFO:    Generating the LVS report...
+           Report Init (0s)
+           Load common queries (0s)
+           Create report (2s)
+           Cleanup (0s)
+INFO:    Report finished
+
+         Total CPU Time        : 2(s)
+         Total Real Time       : 2(s)
+         Peak Memory Used      : 362.08(M)
+
+    #######################################################################
+    #                                                                     #
+    # Run Result             : MISMATCH                                   #
+    #                                                                     #
+    # Run Summary            : [ERROR] Connectivity Mismatches            #
+    #                        : [ERROR] Instance Subtype Mismatches        #
+    #                        : [ERROR] Parameter Mismatches               #
+    #                        : [INFO]  Some Sections Have Been Truncated  #
+    #                                                                     #
+    # Comparison Report File : counter.lvsrpt.cls                         #
+    #                                                                     #
+    #######################################################################
+

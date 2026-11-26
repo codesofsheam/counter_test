@@ -1,0 +1,39 @@
+# This Pegasus GUI File Index Registry was created automatically
+# Do not attempt to modify this file as any change may lead
+# to Pegasus GUI Tools malfunction.
+# 
+"ERC Result" internal none EMPTY
+"ERC Summary" output text /home/user_50/projects/counter_45/post_layout_analysis/rc_lvs_pegasus/run_lvs/result.sum
+"Extraction Report" output erc /home/user_50/projects/counter_45/post_layout_analysis/rc_lvs_pegasus/run_lvs/counter.lvsrpt
+"LVS Report Options" internal none none
+"Layout GDSII" input none /home/user_50/projects/counter_45/pnr/counter_final.gds
+"Layout Top Cell" internal none counter
+"Report MaxResults" internal none 1000
+"Rule File" input text /home/user_50/projects/counter_45/post_layout_analysis/rc_lvs_pegasus/counter_lvs.rul
+"Run Directory" internal none /home/user_50/projects/counter_45/post_layout_analysis/rc_lvs_pegasus/run_lvs/
+"Extraction Result" internal none ERRORS
+"SCONNECT RDB" output rdb /home/user_50/projects/counter_45/post_layout_analysis/rc_lvs_pegasus/run_lvs/counter.softchk
+"Schematic Top Cell" internal none counter
+"LVS Run Name" internal none counter.lvsrpt
+"Schematic Netlist" input text /home/user_50/projects/counter_45/cdl/gsclib045_lvt.cdl
+"Schematic Netlist" input text /home/user_50/projects/counter_45/cdl/gsclib045_hvt.cdl
+"Schematic Netlist" input text /home/user_50/projects/counter_45/cdl/gsclib045_svt.cdl
+"Schematic Netlist" input text /home/user_50/projects/counter_45/pnr/outputs/counter_innovus_final.v
+"Comparison Report" output cls /home/user_50/projects/counter_45/post_layout_analysis/rc_lvs_pegasus/run_lvs/counter.lvsrpt.cls
+"Pegasus Mode Info" internal none PNEMDIMCCBLAJACLOMCAEGFMLEBAGALP
+"Pegasus Version" internal none 25.12-s007
+"Binary Name" internal none pegasus
+"Pegasus Build Date" internal none "Tue Mar 24 20:25:29 EDT 2026"
+"Pegasus Job Time" internal none 1795629214
+"Pegasus Job Mode" internal none lvs
+"Schematic Netlist" input text /home/user_50/projects/counter_45/cdl/gsclib045_lvt.cdl
+"Schematic Netlist" input text /home/user_50/projects/counter_45/cdl/gsclib045_hvt.cdl
+"Schematic Netlist" input text /home/user_50/projects/counter_45/cdl/gsclib045_svt.cdl
+"Schematic Netlist" input text /home/user_50/projects/counter_45/pnr/outputs/counter_innovus_final.v
+"Comparison Result" internal none MISMATCH
+"Run Directory" internal none /home/user_50/projects/counter_45/post_layout_analysis/rc_lvs_pegasus/run_lvs/
+"LVS Run Name" internal none counter.lvsrpt
+"Pegasus Version" internal none 25.12-s007
+"Binary Name" internal none pegasusnvn
+"Pegasus Build Date" internal none "Tue Mar 24 08:15:23 PDT 2026"
+"Pegasus Job Time" internal none 1795629210

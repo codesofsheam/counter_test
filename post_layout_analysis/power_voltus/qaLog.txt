@@ -1,0 +1,115 @@
+11/25/2026 11:28:25 (73389-4117937216 voltus): Initialization started (25.01-s002)...
+11/25/2026 11:28:25 (73389-4117937216): TLS ok
+11/25/2026 11:28:25 (73389-4117937216): CDS_LIC_VALIDATE disabled
+11/25/2026 11:28:25 (73389-4117937216): Use of default clients files is enabled
+11/25/2026 11:28:25 (73389-4117937216): FLEXnet version 11.16.4.0 build 252457
+11/25/2026 11:28:25 (73389-4117937216): Process ID 1949701
+11/25/2026 11:28:25 (73389-4117937216): Creating a new job ...
+11/25/2026 11:28:25 (73389-4117937216): Validating server path: 
+11/25/2026 11:28:25 (73389-4117937216): Server path validation status: 0
+11/25/2026 11:28:25 (73389-4117937216):   Configuration of license path is '5280@techcad'.
+11/25/2026 11:28:25 (73389-4117937216):   Configuration of recheck interval minimum is 290.
+11/25/2026 11:28:25 (73389-4117937216):   Configuration of 2000000000 maximum retry calls.
+11/25/2026 11:28:25 (73389-4117937216):   Configuration of sleep time value of 0.
+11/25/2026 11:28:25 (73389-4117937216):   Configuration of display specification is 'localhost:10.0'.
+11/25/2026 11:28:25 (73389-4117937216):   Licenses will be checked out using user_50@techcad(localhost:10.0).
+11/25/2026 11:28:25 (73389-4117937216):   (System spec would have been user_50@techcad(/dev/pts/20) )
+11/25/2026 11:28:25 (73389-4117937216): Job creation completed with status 0 (time 0).
+11/25/2026 11:28:25 (73389-4117937216): Creating a new job ...
+11/25/2026 11:28:25 (73389-4117937216):   Configuration of license path is '5280@techcad'.
+11/25/2026 11:28:25 (73389-4117937216):   Configuration of recheck interval minimum is 290.
+11/25/2026 11:28:25 (73389-4117937216):   Configuration of 2000000000 maximum retry calls.
+11/25/2026 11:28:25 (73389-4117937216):   Configuration of sleep time value of 0.
+11/25/2026 11:28:25 (73389-4117937216):   Configuration of display specification is 'localhost:10.0'.
+11/25/2026 11:28:25 (73389-4117937216):   Licenses will be checked out using user_50@techcad(localhost:10.0).
+11/25/2026 11:28:25 (73389-4117937216):   (System spec would have been user_50@techcad(/dev/pts/20) )
+11/25/2026 11:28:25 (73389-4117937216): Job creation completed with status 0 (time 0).
+11/25/2026 11:28:25 (73389-4117937216): Creating a new job ...
+11/25/2026 11:28:25 (73389-4117937216):   Configuration of license path is '5280@techcad'.
+11/25/2026 11:28:25 (73389-4117937216):   Configuration of recheck interval minimum is 290.
+11/25/2026 11:28:25 (73389-4117937216):   Configuration of 2000000000 maximum retry calls.
+11/25/2026 11:28:25 (73389-4117937216):   Configuration of sleep time value of 0.
+11/25/2026 11:28:25 (73389-4117937216):   Configuration of display specification is 'localhost:10.0'.
+11/25/2026 11:28:25 (73389-4117937216):   Licenses will be checked out using user_50@techcad(localhost:10.0).
+11/25/2026 11:28:25 (73389-4117937216):   (System spec would have been user_50@techcad(/dev/pts/20) )
+11/25/2026 11:28:25 (73389-4117937216): Job creation completed with status 0 (time 0).
+11/25/2026 11:28:25 (73389-4117937216): Creating a new job ...
+11/25/2026 11:28:25 (73389-4117937216):   Configuration of license path is '5280@techcad'.
+11/25/2026 11:28:25 (73389-4117937216):   Configuration of recheck interval minimum is 290.
+11/25/2026 11:28:25 (73389-4117937216):   Configuration of 2000000000 maximum retry calls.
+11/25/2026 11:28:25 (73389-4117937216):   Configuration of sleep time value of 0.
+11/25/2026 11:28:25 (73389-4117937216):   Configuration of display specification is 'localhost:10.0'.
+11/25/2026 11:28:25 (73389-4117937216):   Licenses will be checked out using user_50@techcad(localhost:10.0).
+11/25/2026 11:28:25 (73389-4117937216):   (System spec would have been user_50@techcad(/dev/pts/20) )
+11/25/2026 11:28:25 (73389-4117937216): Job creation completed with status 0 (time 0).
+11/25/2026 11:28:25 (73389-4117937216): Initialization completed with status 0 (time 0).
+11/25/2026 11:28:25 (73389-4117937216): Api started: api=FeatureExists;feature=Voltus_Power_Integrity_XL;version=25.10000
+11/25/2026 11:28:25 (73389-4117937216): FeatureExists started ....
+11/25/2026 11:28:25 (73389-4117937216): Check-out started ....
+11/25/2026 11:28:25 (73389-4117937216): Testing only for the validity of feature Voltus_Power_Integrity_XL 25.100...
+11/25/2026 11:28:25 (73389-4117937216): Retrieved VBL error code 0 for thread ID 4117937216
+11/25/2026 11:28:25 (73389-4117937216): Setting VBL error code to 0 for thread ID 4117937216
+11/25/2026 11:28:25 (73389-4117937216): Validity test completed with status 0.
+11/25/2026 11:28:25 (73389-4117937216): Check-out completed with status 0 (time 0).
+11/25/2026 11:28:25 (73389-4117937216): FeatureExists of Voltus_Power_Integrity_XL completed with status 0 (time 0).
+11/25/2026 11:28:25 (73389-4117937216): Added Voltus_Power_Integrity_XL,25.100000 entry with status 0 to feature exists cache
+11/25/2026 11:28:25 (73389-4117937216): FeatureNumLic started ....
+11/25/2026 11:28:25 (73389-4117937216): Api started: api=FeatureNumLic;feature=Voltus_Power_Integrity_XL
+11/25/2026 11:28:25 (73389-4117937216): FeatureNumLic of Voltus_Power_Integrity_XL completed with status 0 (time 0).
+11/25/2026 11:28:25 (73389-4117937216): Api started: api=CheckOut;feature=Voltus_Power_Integrity_XL;version=25.10000;count=1,wait=SS_NOWAIT;lic_type=0
+11/25/2026 11:28:25 (73389-4117937216): Check-out started ....
+11/25/2026 11:28:25 (73389-4117937216): Checking out 1 license(s) for Voltus_Power_Integrity_XL 25.100...
+11/25/2026 11:28:25 (73389-4117937216):   (Checked out from file '5280@techcad',
+             line '26.1 14-apr-2027 40 EF3C3B3EF30D72A7E217 ')
+11/25/2026 11:28:25 (73389-4117937216): Check-out completed with status 0 (time 0).
+11/25/2026 11:28:25 (73389-3525072640): Recheck started ....
+11/25/2026 11:28:25 (73389-3525072640): Api started: api=Recheck
+11/25/2026 11:28:25 (73389-3525072640):   Checking feature Voltus_Power_Integrity_XL
+11/25/2026 11:28:25 (73389-3525072640):   Time spent in server Recheck was 0.
+11/25/2026 11:28:25 (73389-3525072640): Re-check completed with status 0 (time 0).
+11/25/2026 11:29:22 (73389-4117937216): Api started: api=FeatureExists;feature=Tempus_Timing_Signoff_XL;version=25.10000
+11/25/2026 11:29:22 (73389-4117937216): FeatureExists started ....
+11/25/2026 11:29:22 (73389-4117937216): Check-out started ....
+11/25/2026 11:29:22 (73389-4117937216): Testing only for the validity of feature Tempus_Timing_Signoff_XL 25.100...
+11/25/2026 11:29:22 (73389-4117937216): Retrieved VBL error code 0 for thread ID 4117937216
+11/25/2026 11:29:22 (73389-4117937216): Setting VBL error code to 0 for thread ID 4117937216
+11/25/2026 11:29:22 (73389-4117937216): Validity test completed with status 0.
+11/25/2026 11:29:22 (73389-4117937216): Check-out completed with status 0 (time 0).
+11/25/2026 11:29:22 (73389-4117937216): FeatureExists of Tempus_Timing_Signoff_XL completed with status 0 (time 0).
+11/25/2026 11:29:22 (73389-4117937216): Added Tempus_Timing_Signoff_XL,25.100000 entry with status 0 to feature exists cache
+11/25/2026 11:29:22 (73389-4117937216): Api started: api=CheckOutIncr;feature=Tempus_Timing_Signoff_XL;version=25.10000;count=1,wait=SS_NOWAIT;lic_type=0
+11/25/2026 11:29:22 (73389-4117937216): Check-out (Increment) started ....
+11/25/2026 11:29:22 (73389-4117937216): Creating a new job ...
+11/25/2026 11:29:22 (73389-4117937216): Validating server path: 5280@techcad
+11/25/2026 11:29:22 (73389-4117937216): Server path validation status: 0
+11/25/2026 11:29:22 (73389-4117937216):   Configuration of license path is '5280@techcad'.
+11/25/2026 11:29:22 (73389-4117937216):   Configuration of recheck interval minimum is 290.
+11/25/2026 11:29:22 (73389-4117937216):   Configuration of 2000000000 maximum retry calls.
+11/25/2026 11:29:22 (73389-4117937216):   Configuration of sleep time value of 0.
+11/25/2026 11:29:22 (73389-4117937216):   Configuration of display specification is 'localhost:10.0'.
+11/25/2026 11:29:22 (73389-4117937216):   Licenses will be checked out using user_50@techcad(localhost:10.0).
+11/25/2026 11:29:22 (73389-4117937216):   (System spec would have been user_50@techcad(/dev/pts/20) )
+11/25/2026 11:29:22 (73389-4117937216): Job creation completed with status 0 (time 0).
+11/25/2026 11:29:22 (73389-4117937216): Checking out 1 license(s) for Tempus_Timing_Signoff_XL 25.100...
+11/25/2026 11:29:22 (73389-4117937216):   (Checked out from file '5280@techcad',
+             line '26.1 14-apr-2027 40 7FDC1B3EFC31BBB2544E ')
+11/25/2026 11:29:22 (73389-4117937216): Check-out (Increment) completed with status 0 (time 0).
+11/25/2026 11:30:49 (73389-3525072640): Recheck started ....
+11/25/2026 11:30:49 (73389-3525072640): Api started: api=Recheck
+11/25/2026 11:30:49 (73389-3525072640):   Actual recheck skipped due to recheck interval...
+11/25/2026 11:30:49 (73389-3525072640): Re-check completed with status 0 (time 0).
+11/25/2026 11:32:17 (73389-4117937216): Exit started ....
+11/25/2026 11:32:17 (73389-4117937216): Check-in (Increment) of Voltus_Power_Integrity_XL completed with status 0 (time 0).
+11/25/2026 11:32:17 (73389-4117937216): Creating a new job ...
+11/25/2026 11:32:17 (73389-4117937216): Validating server path: 5280@techcad
+11/25/2026 11:32:17 (73389-4117937216): Server path validation status: 0
+11/25/2026 11:32:17 (73389-4117937216):   Configuration of license path is '5280@techcad'.
+11/25/2026 11:32:17 (73389-4117937216):   Configuration of recheck interval minimum is 290.
+11/25/2026 11:32:17 (73389-4117937216):   Configuration of 2000000000 maximum retry calls.
+11/25/2026 11:32:17 (73389-4117937216):   Configuration of sleep time value of 0.
+11/25/2026 11:32:17 (73389-4117937216):   Configuration of display specification is 'localhost:10.0'.
+11/25/2026 11:32:17 (73389-4117937216):   Licenses will be checked out using user_50@techcad(localhost:10.0).
+11/25/2026 11:32:17 (73389-4117937216):   (System spec would have been user_50@techcad(/dev/pts/20) )
+11/25/2026 11:32:17 (73389-4117937216): Job creation completed with status 0 (time 0).
+11/25/2026 11:32:17 (73389-4117937216): Check-in (Increment) of Tempus_Timing_Signoff_XL completed with status 0 (time 0).
+11/25/2026 11:32:17 (73389-4117937216): Exit completed with status 0 (time 0).

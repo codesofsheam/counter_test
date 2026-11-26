@@ -1,0 +1,4831 @@
+counter 2000
+soft_check_3
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+soft_check_3: ptap missing stamped connections from pdiff_conn
+soft_check_9
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+soft_check_9: ntap missing stamped connections from ndiff_conn
+POLYR.W.1.1
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+POLYR.W.1.1: Minimum Poly resistor width >= 0.1 um
+BONDPAD.SP.7_10
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+BONDPAD.SP.7: Bondpad Via10 array to Bondpad Via10 array spacing must be >= 1.1 um
+BONDPAD.SP.7_8
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+BONDPAD.SP.7: Bondpad Via8 array to Bondpad Via8 array spacing must be >= 1.1 um
+BONDPAD.SP.7_7
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+BONDPAD.SP.7: Bondpad Via7 array to Bondpad Via7 array spacing must be >= 1.1 um
+BONDPAD.SP.7_6
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+BONDPAD.SP.7: Bondpad Via6 array to Bondpad Via6 array spacing must be >= 1.1 um
+BONDPAD.SP.7_4
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+BONDPAD.SP.7: Bondpad Via4 array to Bondpad Via4 array spacing must be >= 1.1 um
+BONDPAD.SP.7_3
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+BONDPAD.SP.7: Bondpad Via3 array to Bondpad Via3 array spacing must be >= 1.1 um
+BONDPAD.SP.7_2
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+BONDPAD.SP.7: Bondpad Via2 array to Bondpad Via2 array spacing must be >= 1.1 um
+BONDPAD.SP.6_9
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+BONDPAD.SP.6: Bondpad Metal9 to Bondpad Metal9 spacing across first slot must be >= 1.00 um and <= 3.50 um
+BONDPAD.SP.6_7
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+BONDPAD.SP.6: Bondpad Metal7 to Bondpad Metal7 spacing across first slot must be >= 1.00 um and <= 3.50 um
+BONDPAD.SP.6_6
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+BONDPAD.SP.6: Bondpad Metal6 to Bondpad Metal6 spacing across first slot must be >= 1.00 um and <= 3.50 um
+BONDPAD.SP.6_5
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+BONDPAD.SP.6: Bondpad Metal5 to Bondpad Metal5 spacing across first slot must be >= 1.00 um and <= 3.50 um
+BONDPAD.E.1_5
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+BONDPAD.E.1: Metal5 to Bondpad enclosure must be >= 2.0 um
+BONDPAD.B.1A_7
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+BONDPAD.B.1A: Bondpad Metal7 must have bevelled corners
+VIA9.SP.1
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+VIA9.SP.1: Via9 to Via9 spacing must be >= 0.18 um
+BONDPAD.B.1A_3
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+BONDPAD.B.1A: Bondpad Metal3 must have bevelled corners
+VIA9.W.1
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+VIA9.W.1: Via9 shapes must be 0.18x0.18 rectangles
+NLVT.X.3
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+NLVT.X.3: Nlvt is NOT allowed on P+ Oxide
+BONDPAD.E.1_10
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+BONDPAD.E.1: Metal10 to Bondpad enclosure must be >= 2.0 um
+CMET.E.2
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+CMET.E.2: Minimum CapMetal overlap of Via 10 >= 0.15 um
+CMET.E.1
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+CMET.E.1: Minimum Metal 1 overlap of Via 10 on CapMetal >= 0.05 um
+PHVT.W.1
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+PHVT.W.1: Minimum Phvt width >= 0.12
+METAL10.SP.1.4
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+METAL10.SP.1.4: Metal10 to Metal10 spacing must be >= 0.75 um
+BONDPAD.W.4_5
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+BONDPAD.W.4: Bondpad Metal5 slot width must be == 1.00
+BONDPAD.SP.3_3
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+BONDPAD.SP.3: Bondpad Via3 to Bondpad Via3 spacing must be >= 0.22 um
+BONDPAD.W.4
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+BONDPAD.W.4: Bondpad Metal1 slot width must be == 1.00
+NBL.SE.3
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+NBL.SE.3: Minimum Nwell ring (on Nburied) to P+ Active spacing >= 0.09 um
+SIPROT.E.3
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+SIPROT.E.3: Minimum Salicide Block to Poly (on field) enclosure >= 0.14 um
+NZVT.SE.1
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+NZVT.SE.1: Minimum Nzvt to Active spacing >= 0.18 um
+METAL11.W.1
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+METAL11.W.1: Metal11 width must be >= 0.22 um
+METAL10.SP.1.5
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+METAL10.SP.1.5: Metal10 to Metal10 spacing must be >= 1.25 um
+BONDPAD.W.4_6
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+BONDPAD.W.4: Bondpad Metal6 slot width must be == 1.00
+METAL10.E.1_METAL10.E.2
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+METAL10.E.1_METAL10.E.2: Metal10 Enc 0.005 & 0.03
+SIPROT.E.1
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+SIPROT.E.1: Minimum Salicide Block to Active Area enclosure >= 0.12 um
+BONDPAD.SP.7_5
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+BONDPAD.SP.7: Bondpad Via5 array to Bondpad Via5 array spacing must be >= 1.1 um
+VIA9.E.1
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+VIA9.E.1: Metal9 to Via9 enclosure must be >= 0.015 um
+METAL10.W.2
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+METAL10.W.2: Metal10 width must be <= 6.0 um
+BONDPAD.E.1_8
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+BONDPAD.E.1: Metal8 to Bondpad enclosure must be >= 2.0 um
+BONDPAD.SP.3_6
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+BONDPAD.SP.3: Bondpad Via6 to Bondpad Via6 spacing must be >= 0.22 um
+SIPROT.E.2
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+SIPROT.E.2: Minimum Active Area to Salicide Block enclosure >= 0.12 um
+ESD.4_2
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+ESD.4: P+ source should connect to Pad or Nwell
+BONDPAD.SP.7
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+BONDPAD.SP.7: Bondpad Via1 array to Bondpad Via1 array spacing must be >= 1.1 um
+CONT.SE.4
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+CONT.SE.4: Minimum 1.8V gate Contact on Active Area spacing >= 0.07 um
+METAL10.A.1
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+METAL10.A.1: Metal10 area must be >= 0.10 um
+CONT.SE.2
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+CONT.SE.2: Minimum Contact on 1.8V Active Area to gate spacing >= 0.06 um
+BONDPAD.B.1A_5
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+BONDPAD.B.1A: Bondpad Metal5 must have bevelled corners
+POLYR.X.1
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+POLYR.X.1: Poly resistors must have N+ or P+ Implant
+BONDPAD.E.3_2
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+BONDPAD.E.3: Bondpad Metal8 to Via8 enclosure must be >= 0.05 um
+NZVT.L.1
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+NZVT.L.1: Minimum Native device Poly gate length >= 0.30 um
+SIPROT.SE.1
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+SIPROT.SE.1: Minimum Salicide Block to Contact spacing >= 0.12 um
+POLYR.SE.2
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+POLYR.SE.2: Minimum Poly resistor to other Implant spacing >= 0.15 um
+PLVT.SP.1
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+PLVT.SP.1: Minimum Plvt spacing >= 0.12
+BONDPAD.W.5_8
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+BONDPAD.W.5: Bondpad Metal8 outside Metal8 ring width must be == 5.00
+METAL10.W.1
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+METAL10.W.1: Metal10 width must be >= 0.22 um
+POLY.SP.4
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+POLY.SP.4: Minimum gate space in thick active >= 0.20 um
+NW.SP.2
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+NW.SP.2: Minimum Nwell spacing to Nwell (different potential) >= 0.6 um
+BONDPAD.E.2_9
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+BONDPAD.E.2: Bondpad Metal4 to Via3 enclosure must be >= 0.05 um
+METAL11.SP.1.4
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+METAL11.SP.1.4: Metal11 to Metal11 spacing must be >= 0.75 um
+BONDPAD.W.5_10
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+BONDPAD.W.5: Bondpad Metal10 outside Metal10 ring width must be == 5.00
+POLY.W.4
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+POLY.W.4: Minimum 1.8V P-channel gate length >= 0.15 um
+VIA10.SP.1
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+VIA10.SP.1: Via10 to Via10 spacing must be >= 0.18 um
+POLYR.E.3
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+POLYR.E.3: Minimum P+ Implant to Poly used in resistor enclosure >= 0.07 um
+NZVT.X.4
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+NZVT.X.4: Only one Oxide region may be in an Nzvt region
+NZVT.W.2
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+NZVT.W.2: Minimum Native device Poly gate width >= 0.50 um
+METAL11.SP.1.5
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+METAL11.SP.1.5: Metal11 to Metal11 spacing must be >= 1.25 um
+OXIDETHK.SP.2
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+OXIDETHK.SP.2: Minimum Thick Active Area bent 45 degrees to Thick Active Area spacing >= 0.32 um
+BONDPAD.SP.2_7
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+BONDPAD.SP.2: Bondpad Metal7 to Metal7 spacing must be >= 3.0 um
+BONDPAD.L.1
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+BONDPAD.L.1: Bondpad length must be >= 68.0 um
+NZVT.SE.2
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+NZVT.SE.2: Minimum Nzvt to Nwell spacing >= 0.6 um
+BONDPAD.W.4_8
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+BONDPAD.W.4: Bondpad Metal8 slot width must be == 1.00
+VIA10.W.1
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+VIA10.W.1: Via10 shapes must be 0.18x0.18 rectangles
+NWR.O.1
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+NWR.O.1: Minimum N+ Implant to Resist Protect Oxide overlap >= 0.22 um
+BONDPAD.W.5
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+BONDPAD.W.5: Bondpad Metal1 outside Metal1 ring width must be == 5.00
+BONDPAD.SP.1
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+BONDPAD.SP.1: Bondpad to Bondpad spacing must be >= 8.0 um
+OXIDE.W.2.2.2
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+OXIDE.W.2.2.2: Minimum 1.8V P-channel gate width >= 0.32 um
+soft_check_16
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+soft_check_16: nb_tap causing multiple stamped connections to Nburied
+OXIDER.E.1
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+OXIDER.E.1: Minimum Salicide Block to Active Resistor enclosure >= 0.12 um
+BONDPAD.E.2_2
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+BONDPAD.E.2: Bondpad Metal2 to Via2 enclosure must be >= 0.05 um
+NW.SE.3
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+NW.SE.3: Minimum Nwell spacing to N+ 1.8V Active Area >= 0.24 um
+soft_check_14
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+soft_check_14: nb_tap has multiple stamped connections from nwell_conn
+OXIDETHK.W.1
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+OXIDETHK.W.1: Minimum Thick Active Area width >= 0.35 um
+BONDPAD.SP.4_3
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+BONDPAD.SP.4: Bondpad Via9 to Bondpad Via9 spacing must be >= 0.54 um
+METAL11.SP.1.1
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+METAL11.SP.1.1: Metal11 to Metal11 spacing must be >= 0.20 um
+NZVT.X.3
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+NZVT.X.3: P+ Oxide is NOT allowed in Nzvt
+OXIDETHK.E.1
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+OXIDETHK.E.1: Minimum Thick Active Area to Active Area enclosure >= 0.16 um
+NHVT.W.1
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+NHVT.W.1: Minimum Nhvt width >= 0.12
+BONDPAD.SP.2_6
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+BONDPAD.SP.2: Bondpad Metal6 to Metal6 spacing must be >= 3.0 um
+NWR.E.1
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+NWR.E.1: Minimum Active Area to Nwell (in resistor) enclosure >= 0.6 um
+NLVT.W.1
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+NLVT.W.1: Minimum Nlvt width >= 0.12
+NHVT.SP.1
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+NHVT.SP.1: Minimum Nhvt spacing >= 0.12
+BONDPAD.SP.5_3
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+BONDPAD.SP.5: Bondpad Metal3 slot to Bondpad Metal3 slot spacing must be == 1.50
+BONDPAD.SP.7_9
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+BONDPAD.SP.7: Bondpad Via9 array to Bondpad Via9 array spacing must be >= 1.1 um
+METAL10.SP.1.2
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+METAL10.SP.1.2: Metal10 to Metal10 spacing must be >= 0.35 um
+PHVT.X.4
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+PHVT.X.4: Phvt is NOT allowed on Nzvt
+OXIDER.X.1
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+OXIDER.X.1: Oxide resistors must have N+ or P+ Implant
+soft_check_18
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+soft_check_18: Nburied missing stamped connections from nb_tap
+ESD.1
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+ESD.1: ESD gate width must be >= 10.0 um and <= 30.0 um
+BONDPAD.W.5_6
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+BONDPAD.W.5: Bondpad Metal6 outside Metal6 ring width must be == 5.00
+NWR.X.1
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+NWR.X.1: Thick Oxide is NOT allowed over Nwell resistor
+SIPROT.SE.2
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+SIPROT.SE.2: Minimum Salicide Block to unrelated Active Area spacing >= 0.12 um
+OXIDE.W.2.1.2
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+OXIDE.W.2.1.2: Minimum 1.8V N-channel gate width >= 0.32 um
+soft_check_15
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+soft_check_15: nb_tap missing stamped connections from nwell_conn
+METAL11.SP.1.2
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+METAL11.SP.1.2: Metal11 to Metal11 spacing must be >= 0.35 um
+BONDPAD.SP.2_8
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+BONDPAD.SP.2: Bondpad Metal8 to Metal8 spacing must be >= 3.0 um
+NBL.W.1
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+NBL.W.1: Minimum Nburied Width >= 0.8 um
+SIPROT.SP.1
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+SIPROT.SP.1: Minimum Salicide Block space >= 0.22 um
+POLY.W.3
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+POLY.W.3: Minimum 1.8V N-channel gate length >= 0.15 um
+CMET.E.3
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+CMET.E.3: Minimum CapMetal extension over Metal 11 >= 0.1 um
+BONDPAD.SP.6_3
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+BONDPAD.SP.6: Bondpad Metal3 to Bondpad Metal3 spacing across first slot must be >= 1.00 um and <= 3.50 um
+soft_check_13
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+soft_check_13: nwell_conn causing multiple stamped connections to nb_tap
+OXIDETHK.SP.1
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+OXIDETHK.SP.1: Minimum Thick Active Area to Thick Active Area spacing >= 0.16 um
+BONDPAD.E.1_4
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+BONDPAD.E.1: Metal4 to Bondpad enclosure must be >= 2.0 um
+METAL11.EA.1
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+METAL11.EA.1: Metal11 enclosed area must be >= 0.05 um
+BONDPAD.B.1A_6
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+BONDPAD.B.1A: Bondpad Metal6 must have bevelled corners
+PHVT.X.3
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+PHVT.X.3: Phvt is NOT allowed on N+ Oxide
+METAL10.SP.1.3
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+METAL10.SP.1.3: Metal10 to Metal10 spacing must be >= 0.45 um
+ESD.8
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+ESD.8: N+ drains must be non-salicided (except Contact area)
+BONDPAD.B.1B_11
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+BONDPAD.B.1B: Bondpad Metal11 beveled segments must be >= 1.8 um and <= 3.2 um
+soft_check_17
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+soft_check_17: Nburied has multiple stamped connections from nb_tap
+NBL.E.1
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+NBL.E.1: Minimum Nburied to Nwell enclosure >= 0.2 um
+BONDPAD.W.1
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+BONDPAD.W.1: Bondpad width must be >= 45.0 um
+OXIDER.SE.2
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+OXIDER.SE.2: Minimum Active Resistor to N+ or P+ Implant spacing >= 0.16 um
+NBL.SP.1
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+NBL.SP.1: Minimum Nburied to Nburied spacing >= 2.0 um
+CMET.S.1
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+CMET.S.1: Minimum space of CapMetal >= 1.0 um
+OXIDE.SE.1
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+OXIDE.SE.1: Minimum Active Area to Thick Active Area spacing >= 0.18 um
+CMET.W.1
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+CMET.W.1: Minimum width of CapMetal >= 1.0 um
+METAL11.SP.1.3
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+METAL11.SP.1.3: Metal11 to Metal11 spacing must be >= 0.45 um
+OXIDETHK.SE.1
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+OXIDETHK.SE.1: Minimum N+ 1.8V Active Area to 1.8V N+ Active Area spacing >= 0.1 um
+NBL.SE.2
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+NBL.SE.2: Minimum Nburied to non-related Oxide spacing >= 1.2 um
+METAL10.EA.1
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+METAL10.EA.1: Metal10 enclosed area must be >= 0.05 um
+NWR.E.2
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+NWR.E.2: Minimum salicided Nwell to Contact enclosure >= 0.16 um
+NBL.X.1
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+NBL.X.1: Nburied must have an Nwell isolation ring
+BONDPAD.SP.6_4
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+BONDPAD.SP.6: Bondpad Metal4 to Bondpad Metal4 spacing across first slot must be >= 1.00 um and <= 3.50 um
+POLYR.SE.2_3
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+POLYR.SE.2: Minimum Poly resistor to other Implant spacing >= 0.15 um
+PHVT.X.2
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+PHVT.X.2: Phvt is NOT allowed outside Nwell
+BONDPAD.SP.6
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+BONDPAD.SP.6: Bondpad Metal1 to Bondpad Metal1 spacing across first slot must be >= 1.00 um and <= 3.50 um
+PLVT.X.4
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+PLVT.X.4: Plvt is NOT allowed on Nzvt
+NW.E.3
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+NW.E.3: Minimum Nwell enclosure of N+ 1.8V Active Area >= 0.24 um
+METAL10.SP.1.1
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+METAL10.SP.1.1: Metal10 to Metal10 spacing must be >= 0.20 um
+NW.SE.4
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+NW.SE.4: Minimum Nwell spacing to P+ 1.8V Active Area >= 0.24 um
+SIPROT.A.1
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+SIPROT.A.1: Minimum Salicide Block area >= 0.6 um
+OXIDER.SE.2_2
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+OXIDER.SE.2: Minimum Active Resistor to N+ or P+ Implant spacing >= 0.16 um
+BONDPAD.SP.6_10
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+BONDPAD.SP.6: Bondpad Metal10 to Bondpad Metal10 spacing across first slot must be >= 1.00 um and <= 3.50 um
+SIPROT.W.1
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+SIPROT.W.1: Minimum Salicide Block width >= 0.22 um
+OXIDETHK.SE.2
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+OXIDETHK.SE.2: Minimum P+ 1.8V Active Area to 1.8V P+ Active Area spacing >= 0.1 um
+OXIDETHK.SE.3
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+OXIDETHK.SE.3: Minimum N+ 1.8V Active Area to 1.8V P+ Active Area spacing >= 0.12 um
+BONDPAD.SP.5_10
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+BONDPAD.SP.5: Bondpad Metal10 slot to Bondpad Metal10 slot spacing must be == 1.50
+BONDPAD.SP.5_7
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+BONDPAD.SP.5: Bondpad Metal7 slot to Bondpad Metal7 slot spacing must be == 1.50
+OXIDETHK.SE.5
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+OXIDETHK.SE.5: Minimum Thick Active Area to 1.1V Poly gate spacing >= 0.18 um
+BONDPAD.B.1A
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+BONDPAD.B.1A: Bondpad Metal1 must have bevelled corners
+BONDPAD.W.5_9
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+BONDPAD.W.5: Bondpad Metal9 outside Metal9 ring width must be == 5.00
+POLYR.E.2
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+POLYR.E.2: Minimum N+ Implant to Poly used in resistor enclosure >= 0.07 um
+POLY.X.2
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+POLY.X.2: Poly resistor cannot have bends
+NLVT.SP.1
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+NLVT.SP.1: Minimum Nlvt spacing >= 0.12
+CMET.E.4
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+CMET.E.4: Minimum Metal 10 overlap of CapMetal >= 0.2 um
+METAL11.W.2
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+METAL11.W.2: Metal11 width must be <= 6.0 um
+NHVT.X.2
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+NHVT.X.2: Nhvt is NOT allowed on Nwell
+POLYR.SE.2_2
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+POLYR.SE.2: Minimum Poly resistor to other Implant spacing >= 0.15 um
+BONDPAD.SP.4_2
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+BONDPAD.SP.4: Bondpad Via8 to Bondpad Via8 spacing must be >= 0.22 um
+PHVT.SP.1
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+PHVT.SP.1: Minimum Phvt spacing >= 0.12
+METAL11.E.1_METAL11.E.2
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+METAL11.E.1_METAL11.E.2: Metal11 Enc 0.005 & 0.03
+BONDPAD.E.2_6
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+BONDPAD.E.2: Bondpad Metal6 to Via6 enclosure must be >= 0.05 um
+NHVT.X.3
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+NHVT.X.3: Nhvt is NOT allowed on P+ Oxide
+BONDPAD.SP.5_6
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+BONDPAD.SP.5: Bondpad Metal6 slot to Bondpad Metal6 slot spacing must be == 1.50
+PLVT.X.3
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+PLVT.X.3: Plvt is NOT allowed on N+ Oxide
+OXIDETHK.E.2
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+OXIDETHK.E.2: Minimum Thick Active Area to Thick Poly gate enclosure >= 0.18 um
+NWR.SE.1
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+NWR.SE.1: Minimum Resist Protect Oxide to Nwell spacing >= 0.16 um
+BONDPAD.SP.2_11
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+BONDPAD.SP.2: Bondpad Metal11 to Metal11 spacing must be >= 3.0 um
+BONDPAD.SP.6_2
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+BONDPAD.SP.6: Bondpad Metal2 to Bondpad Metal2 spacing across first slot must be >= 1.00 um and <= 3.50 um
+PLVT.X.2
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+PLVT.X.2: Plvt is NOT allowed outside Nwell
+NBL.SE.4
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+NBL.SE.4: Minimum Nwell ring (on Nburied) to N+ Active spacing >= 0.09 um
+NLVT.X.2
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+NLVT.X.2: Nlvt is NOT allowed on Nwell
+ESD.11
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+ESD.11: Minimum SiProt to Poly gate overlap in NMOS and PMOS drains >= 0.05 um
+NW.SP.2_2
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+NW.SP.2: Minimum Nwell spacing to Nwell (different potential) >= 0.6 um
+NLVT.X.4
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+NLVT.X.4: Nlvt is NOT allowed on Nzvt
+VIA10.E.1
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+VIA10.E.1: Metal10 to Via10 enclosure must be >= 0.015 um
+BONDPAD.SP.5_4
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+BONDPAD.SP.5: Bondpad Metal4 slot to Bondpad Metal4 slot spacing must be == 1.50
+BONDPAD.W.4_3
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+BONDPAD.W.4: Bondpad Metal3 slot width must be == 1.00
+BONDPAD.W.4_4
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+BONDPAD.W.4: Bondpad Metal4 slot width must be == 1.00
+LATCHUP.3
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+LATCHUP.3: Minimum I/O or ESD NMOS to PMOS spacing >= 10.0 um
+BONDPAD.B.1A_11
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+BONDPAD.B.1A: Bondpad Metal11 must have bevelled corners
+LATCHUP.4
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+LATCHUP.4: Minimum I/O or ESD NMOS to PMOS spacing when not blocked by a double guardring >= 30.0 um
+ESD.4
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+ESD.4: N+ source should connect to Pad or Bulk
+POLY.SP.1
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+POLY.SP.1: Minimum Poly resistor space >= 0.3 um
+ESD.5
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+ESD.5: NMOS I/O and ESD devices must be inside P+ rings
+ESD.6
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+ESD.6: PMOS I/O and ESD devices must be inside N+ rings
+BONDPAD.W.5_7
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+BONDPAD.W.5: Bondpad Metal7 outside Metal7 ring width must be == 5.00
+ESD.7
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+ESD.7: P+ taps can NOT butt NMOS I/O and ESD devices
+BONDPAD.SP.5_2
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+BONDPAD.SP.5: Bondpad Metal2 slot to Bondpad Metal2 slot spacing must be == 1.50
+NZVT.E.1
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+NZVT.E.1: Minimum N+ Poly gate end cap to Native Active Area enclosure >= 0.1 um
+ESD.7_2
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+ESD.7: N+ taps can NOT butt PMOS I/O and ESD devices
+BONDPAD.E.2_4
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+BONDPAD.E.2: Bondpad Metal4 to Via4 enclosure must be >= 0.05 um
+ESD.8_2
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+ESD.8: P+ drains must be non-salicided (except Contact area)
+BONDPAD.B.1B_8
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+BONDPAD.B.1B: Bondpad Metal8 beveled segments must be >= 1.8 um and <= 3.2 um
+ESD.12
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+ESD.12: Minimum enclosure of SiProt edge to Poly gate edge in NMOS and PMOS drains >= 0.9 um
+METAL11.A.1
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+METAL11.A.1: Metal11 area must be >= 0.10 um
+BONDPAD.B.1A_10
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+BONDPAD.B.1A: Bondpad Metal10 must have bevelled corners
+BONDPAD.E.3_7
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+BONDPAD.E.3: Bondpad Metal10 to Via9 enclosure must be >= 0.09 um
+ESD.14
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+ESD.14: Exact gate length of NMOS and PMOS in I/O buffers and in Vdd to Vss ESD protection == 0.2 um
+NW.E.4
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+NW.E.4: Minimum Nwell enclosure of P+ 1.8V Active Area >= 0.24 um
+ESD.15
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+ESD.15: Minimu Poly gate to Contact spacing in NMOS and PMOS in I/O buffers and in Vdd to Vss ESD protection >= 0.12 um
+BONDPAD.W.4_2
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+BONDPAD.W.4: Bondpad Metal2 slot width must be == 1.00
+BONDPAD.W.4_10
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+BONDPAD.W.4: Bondpad Metal10 slot width must be == 1.00
+BONDPAD.SP.2
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+BONDPAD.SP.2: Bondpad Metal1 to Metal1 spacing must be >= 3.0 um
+BONDPAD.E.1_2
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+BONDPAD.E.1: Metal2 to Bondpad enclosure must be >= 2.0 um
+BONDPAD.E.3_8
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+BONDPAD.E.3: Bondpad Metal11 to Via10 enclosure must be >= 0.09 um
+BONDPAD.SP.2_2
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+BONDPAD.SP.2: Bondpad Metal2 to Metal2 spacing must be >= 3.0 um
+NBL.SE.1
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+NBL.SE.1: Minimum Nburied to non-related Nwell spacing >= 2.2 um
+BONDPAD.SP.2_3
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+BONDPAD.SP.2: Bondpad Metal3 to Metal3 spacing must be >= 3.0 um
+BONDPAD.SP.2_5
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+BONDPAD.SP.2: Bondpad Metal5 to Metal5 spacing must be >= 3.0 um
+BONDPAD.E.1_6
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+BONDPAD.E.1: Metal6 to Bondpad enclosure must be >= 2.0 um
+BONDPAD.E.1_7
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+BONDPAD.E.1: Metal7 to Bondpad enclosure must be >= 2.0 um
+SIPROT.SE.3
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+SIPROT.SE.3: Minimum Salicide Block to gate spacing >= 0.22 um
+BONDPAD.E.1_9
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+BONDPAD.E.1: Metal9 to Bondpad enclosure must be >= 2.0 um
+BONDPAD.SP.2_9
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+BONDPAD.SP.2: Bondpad Metal9 to Metal9 spacing must be >= 3.0 um
+BONDPAD.SP.5_5
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+BONDPAD.SP.5: Bondpad Metal5 slot to Bondpad Metal5 slot spacing must be == 1.50
+BONDPAD.SP.2_10
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+BONDPAD.SP.2: Bondpad Metal10 to Metal10 spacing must be >= 3.0 um
+ESD.13
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+ESD.13: Minimum SiProt to Oxide overlap in NMOS and PMOS I/O drains >= 0.9 um
+BONDPAD.SP.2_4
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+BONDPAD.SP.2: Bondpad Metal4 to Metal4 spacing must be >= 3.0 um
+BONDPAD.E.1_11
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+BONDPAD.E.1: Metal11 to Bondpad enclosure must be >= 2.0 um
+BONDPAD.B.1A_2
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+BONDPAD.B.1A: Bondpad Metal2 must have bevelled corners
+BONDPAD.B.1B_5
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+BONDPAD.B.1B: Bondpad Metal5 beveled segments must be >= 1.8 um and <= 3.2 um
+BONDPAD.B.1A_4
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+BONDPAD.B.1A: Bondpad Metal4 must have bevelled corners
+BONDPAD.B.1B_4
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+BONDPAD.B.1B: Bondpad Metal4 beveled segments must be >= 1.8 um and <= 3.2 um
+BONDPAD.B.1A_8
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+BONDPAD.B.1A: Bondpad Metal8 must have bevelled corners
+BONDPAD.E.3_6
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+BONDPAD.E.3: Bondpad Metal9 to Via8 enclosure must be >= 0.05 um
+BONDPAD.B.1A_9
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+BONDPAD.B.1A: Bondpad Metal9 must have bevelled corners
+BONDPAD.E.3
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+BONDPAD.E.3: Bondpad Metal7 to Via7 enclosure must be >= 0.05 um
+VIA9.E.2
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+VIA9.E.2: Metal9 to Via9 enclosure on opposite sides must be >= 0.04 um
+BONDPAD.E.1
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+BONDPAD.E.1: Metal1 to Bondpad enclosure must be >= 2.0 um
+BONDPAD.B.1B
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+BONDPAD.B.1B: Bondpad Metal1 beveled segments must be >= 1.8 um and <= 3.2 um
+BONDPAD.E.2_8
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+BONDPAD.E.2: Bondpad Metal3 to Via2 enclosure must be >= 0.05 um
+BONDPAD.B.1B_2
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+BONDPAD.B.1B: Bondpad Metal2 beveled segments must be >= 1.8 um and <= 3.2 um
+BONDPAD.B.1B_3
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+BONDPAD.B.1B: Bondpad Metal3 beveled segments must be >= 1.8 um and <= 3.2 um
+BONDPAD.E.2
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+BONDPAD.E.2: Bondpad Metal1 to Via1 enclosure must be >= 0.05 um
+BONDPAD.B.1B_6
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+BONDPAD.B.1B: Bondpad Metal6 beveled segments must be >= 1.8 um and <= 3.2 um
+BONDPAD.SP.3_4
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+BONDPAD.SP.3: Bondpad Via4 to Bondpad Via4 spacing must be >= 0.22 um
+NHVT.X.4
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+NHVT.X.4: Nhvt is NOT allowed on Nzvt
+BONDPAD.SP.3_5
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+BONDPAD.SP.3: Bondpad Via5 to Bondpad Via5 spacing must be >= 0.22 um
+BONDPAD.B.1B_7
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+BONDPAD.B.1B: Bondpad Metal7 beveled segments must be >= 1.8 um and <= 3.2 um
+NZVT.SP.1
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+NZVT.SP.1: Minimum Nzvt to Nzvt spacing >= 0.3 um
+BONDPAD.B.1B_9
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+BONDPAD.B.1B: Bondpad Metal9 beveled segments must be >= 1.8 um and <= 3.2 um
+BONDPAD.SP.6_8
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+BONDPAD.SP.6: Bondpad Metal8 to Bondpad Metal8 spacing across first slot must be >= 1.00 um and <= 3.50 um
+VIA10.E.2
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+VIA10.E.2: Metal10 to Via10 enclosure on opposite sides must be >= 0.04 um
+BONDPAD.B.1B_10
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+BONDPAD.B.1B: Bondpad Metal10 beveled segments must be >= 1.8 um and <= 3.2 um
+BONDPAD.SP.3
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+BONDPAD.SP.3: Bondpad Via1 to Bondpad Via1 spacing must be >= 0.22 um
+BONDPAD.SP.4
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+BONDPAD.SP.4: Bondpad Via7 to Bondpad Via7 spacing must be >= 0.22 um
+BONDPAD.SP.4_4
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+BONDPAD.SP.4: Bondpad Via10 to Bondpad Via10 spacing must be >= 0.54 um
+BONDPAD.E.2_3
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+BONDPAD.E.2: Bondpad Metal3 to Via3 enclosure must be >= 0.05 um
+BONDPAD.E.2_5
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+BONDPAD.E.2: Bondpad Metal5 to Via5 enclosure must be >= 0.05 um
+SIPROT.EA.1
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+SIPROT.EA.1: Minimum Salicide Block enclosed area >= 0.6 um
+BONDPAD.SP.5_9
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+BONDPAD.SP.5: Bondpad Metal9 slot to Bondpad Metal9 slot spacing must be == 1.50
+BONDPAD.E.3_3
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+BONDPAD.E.3: Bondpad Metal9 to Via9 enclosure must be >= 0.09 um
+BONDPAD.E.3_4
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+BONDPAD.E.3: Bondpad Metal9 to Via10 enclosure must be >= 0.09 um
+OXIDER.W.1.1
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+OXIDER.W.1.1: Minimum Active Resistor width >= 0.1 um
+BONDPAD.E.2_7
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+BONDPAD.E.2: Bondpad Metal2 to Via1 enclosure must be >= 0.05 um
+BONDPAD.E.2_10
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+BONDPAD.E.2: Bondpad Metal5 to Via4 enclosure must be >= 0.05 um
+BONDPAD.E.2_11
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+BONDPAD.E.2: Bondpad Metal6 to Via5 enclosure must be >= 0.05 um
+NZVT.O.1
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+NZVT.O.1: Minimum and maximum Nzvt to Active Area overlap == 0.16 um
+BONDPAD.E.1_3
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+BONDPAD.E.1: Metal3 to Bondpad enclosure must be >= 2.0 um
+BONDPAD.E.2_12
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+BONDPAD.E.2: Bondpad Metal7 to Via6 enclosure must be >= 0.05 um
+PLVT.W.1
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+PLVT.W.1: Minimum Plvt width >= 0.12
+POLYR.E.1
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+POLYR.E.1: Minimum Salicide Block to Poly resistor enclosure >= 0.14 um
+BONDPAD.E.3_5
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+BONDPAD.E.3: Bondpad Metal8 to Via7 enclosure must be >= 0.05 um
+BONDPAD.SP.5
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+BONDPAD.SP.5: Bondpad Metal1 slot to Bondpad Metal1 slot spacing must be == 1.50
+BONDPAD.SP.5_8
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+BONDPAD.SP.5: Bondpad Metal8 slot to Bondpad Metal8 slot spacing must be == 1.50
+BONDPAD.SP.3_2
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+BONDPAD.SP.3: Bondpad Via2 to Bondpad Via2 spacing must be >= 0.22 um
+BONDPAD.W.4_7
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+BONDPAD.W.4: Bondpad Metal7 slot width must be == 1.00
+BONDPAD.W.4_9
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+BONDPAD.W.4: Bondpad Metal9 slot width must be == 1.00
+BONDPAD.W.5_5
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+BONDPAD.W.5: Bondpad Metal5 outside Metal5 ring width must be == 5.00
+SIPROT.SE.4
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+SIPROT.SE.4: Minimum Salicide Block to Poly (on field) spacing >= 0.18 um
+BONDPAD.W.5_2
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+BONDPAD.W.5: Bondpad Metal2 outside Metal2 ring width must be == 5.00
+NZVT.W.1
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+NZVT.W.1: Minimum Nzvt width >= 0.35 um
+BONDPAD.W.5_3
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+BONDPAD.W.5: Bondpad Metal3 outside Metal3 ring width must be == 5.00
+BONDPAD.W.5_4
+0 0 2 Nov 25 12:38:21 2026
+Rule File Pathname: counter_drc.rul
+BONDPAD.W.5: Bondpad Metal4 outside Metal4 ring width must be == 5.00
+METAL1.L.1
+0 0 2 Nov 25 12:38:22 2026
+Rule File Pathname: counter_drc.rul
+METAL1.L.1: Metal1 non-90 degree segments must be >= 0.1 um
+METAL1.SP.2
+0 0 2 Nov 25 12:38:22 2026
+Rule File Pathname: counter_drc.rul
+METAL1.SP.2: Metal1 to bent Metal1 spacing must be >= 0.1 um
+METAL1.W.3
+0 0 2 Nov 25 12:38:22 2026
+Rule File Pathname: counter_drc.rul
+METAL1.W.3: Bent Metal1 (45 degree angle) width must be >= 0.07
+POLY.SP.5
+0 0 2 Nov 25 12:38:22 2026
+Rule File Pathname: counter_drc.rul
+POLY.SP.5: Minimum bent Poly space >= 0.1 um
+POLY.W.6
+0 0 2 Nov 25 12:38:22 2026
+Rule File Pathname: counter_drc.rul
+POLY.W.6: Minimum bent Poly width >= 0.1 um
+CONT.SP.2
+0 0 2 Nov 25 12:38:22 2026
+Rule File Pathname: counter_drc.rul
+CONT.SP.2: Space to three adjacent Contacts ( < 0.10um apart) >= 0.08 um
+CONT.SP.1
+0 0 2 Nov 25 12:38:22 2026
+Rule File Pathname: counter_drc.rul
+CONT.SP.1: Minimum Contact to Contact spacing >= 0.06 um
+METAL1.W.1
+0 0 2 Nov 25 12:38:22 2026
+Rule File Pathname: counter_drc.rul
+METAL1.W.1: Metal1 width must be >= 0.06 um
+METAL2.W.1
+0 0 2 Nov 25 12:38:22 2026
+Rule File Pathname: counter_drc.rul
+METAL2.W.1: Metal2 width must be >= 0.08 um
+METAL3.W.1
+0 0 2 Nov 25 12:38:22 2026
+Rule File Pathname: counter_drc.rul
+METAL3.W.1: Metal3 width must be >= 0.08 um
+OXIDE.W.3
+0 0 2 Nov 25 12:38:22 2026
+Rule File Pathname: counter_drc.rul
+OXIDE.W.3: Minimum Active Area bent 45 degress width >= 0.06 um
+OXIDE.SP.4
+0 0 2 Nov 25 12:38:22 2026
+Rule File Pathname: counter_drc.rul
+OXIDE.SP.4: Minimum Active Area bent 45 degress to Active Area spacing >= 0.1 um
+POLY.W.5
+0 0 2 Nov 25 12:38:22 2026
+Rule File Pathname: counter_drc.rul
+POLY.W.5: Minimum Poly interconnect width >= 0.045 um
+POLY.SP.2
+0 0 2 Nov 25 12:38:22 2026
+Rule File Pathname: counter_drc.rul
+POLY.SP.2: Minimum Poly gate space  >= 0.06 um
+NW.W.1
+0 0 2 Nov 25 12:38:22 2026
+Rule File Pathname: counter_drc.rul
+NW.W.1: Minimum Nwell Width >= 0.3 um
+POLY.SP.3
+0 0 2 Nov 25 12:38:22 2026
+Rule File Pathname: counter_drc.rul
+POLY.SP.3: Minimum Poly interconnect space >= 0.06 um
+OXIDE.W.1
+0 0 2 Nov 25 12:38:22 2026
+Rule File Pathname: counter_drc.rul
+OXIDE.W.1: Minimum Active Area width >= 0.05 um
+OXIDE.W.2.2.1
+0 0 2 Nov 25 12:38:22 2026
+Rule File Pathname: counter_drc.rul
+OXIDE.W.2.2.1: Minimum 1.1V P-channel gate width >= 0.12 um
+OXIDE.W.2.1.1
+0 0 2 Nov 25 12:38:22 2026
+Rule File Pathname: counter_drc.rul
+OXIDE.W.2.1.1: Minimum 1.1V N-channel gate width >= 0.12 um
+OXIDE.SP.1
+0 0 2 Nov 25 12:38:22 2026
+Rule File Pathname: counter_drc.rul
+OXIDE.SP.1: Minimum N+ Active Area to N+ Active Area spacing >= 0.08 um
+OXIDE.SP.2
+0 0 2 Nov 25 12:38:22 2026
+Rule File Pathname: counter_drc.rul
+OXIDE.SP.2: Minimum P+ Active Area to P+ Active Area spacing >= 0.08 um
+POLY.W.1
+0 0 2 Nov 25 12:38:22 2026
+Rule File Pathname: counter_drc.rul
+POLY.W.1: Minimum 1.1V N-channel gate length >= 0.045 um
+POLY.W.2
+0 0 2 Nov 25 12:38:22 2026
+Rule File Pathname: counter_drc.rul
+POLY.W.2: Minimum 1.1V P-channel gate length >= 0.045 um
+POLY.SE.1_POLY.SE.2
+0 0 2 Nov 25 12:38:22 2026
+Rule File Pathname: counter_drc.rul
+POLY.SE.1_POLY.SE.2: Minimum Poly interconnect to related Active Area space >= 0.05 um
+POLY.E.3
+0 0 2 Nov 25 12:38:22 2026
+Rule File Pathname: counter_drc.rul
+POLY.E.3: Minimum Active Area (source/drain) to gate enclosure >= 0.1 um
+NIMP.E.3
+0 0 2 Nov 25 12:38:22 2026
+Rule File Pathname: counter_drc.rul
+NIMP.E.3: Minimum N+ Implant to gate side enclosure >= 0.1 um
+NIMP.W.1
+0 0 2 Nov 25 12:38:22 2026
+Rule File Pathname: counter_drc.rul
+NIMP.W.1: Minimum N+ Implant width >= 0.12 um
+OXIDE.SP.3
+0 0 2 Nov 25 12:38:22 2026
+Rule File Pathname: counter_drc.rul
+OXIDE.SP.3: Minimum N+ Active Area to P+ Active Area spacing >= 0.1 um
+NIMP.O.1
+0 0 2 Nov 25 12:38:23 2026
+Rule File Pathname: counter_drc.rul
+NIMP.O.1: Minimum N+ Implant to Active Area overlap >= 0.08 um
+NIMP.E.1
+0 0 2 Nov 25 12:38:23 2026
+Rule File Pathname: counter_drc.rul
+NIMP.E.1: Minimum N+ Implant to Active Area enclosure >= 0.07 um
+PIMP.E.3
+0 0 2 Nov 25 12:38:23 2026
+Rule File Pathname: counter_drc.rul
+PIMP.E.3: Minimum P+ Implant to gate side enclosure >= 0.1 um
+PIMP.W.1
+0 0 2 Nov 25 12:38:23 2026
+Rule File Pathname: counter_drc.rul
+PIMP.W.1: Minimum P+ Implant width >= 0.12 um
+NIMP.E.2
+0 0 2 Nov 25 12:38:23 2026
+Rule File Pathname: counter_drc.rul
+NIMP.E.2: Minimum N+ Implant to Active Area (Nwell tie) enclosure >= 0.01 um
+PIMP.E.1
+0 0 2 Nov 25 12:38:23 2026
+Rule File Pathname: counter_drc.rul
+PIMP.E.1: Minimum P+ Implant to Active Area enclosure >= 0.07 um
+PIMP.O.1
+0 0 2 Nov 25 12:38:23 2026
+Rule File Pathname: counter_drc.rul
+PIMP.O.1: Minimum P+ Implant to Active Area overlap >= 0.08 um
+PIMP.E.2
+0 0 2 Nov 25 12:38:23 2026
+Rule File Pathname: counter_drc.rul
+PIMP.E.2: Minimum P+ Implant to Active Area (substrate tie) enclosure >= 0.01 um
+METAL4.W.1
+0 0 2 Nov 25 12:38:23 2026
+Rule File Pathname: counter_drc.rul
+METAL4.W.1: Metal4 width must be >= 0.08 um
+METAL5.W.1
+0 0 2 Nov 25 12:38:23 2026
+Rule File Pathname: counter_drc.rul
+METAL5.W.1: Metal5 width must be >= 0.08 um
+METAL6.W.1
+0 0 2 Nov 25 12:38:23 2026
+Rule File Pathname: counter_drc.rul
+METAL6.W.1: Metal6 width must be >= 0.08 um
+METAL1.SP.1.1
+0 0 2 Nov 25 12:38:23 2026
+Rule File Pathname: counter_drc.rul
+METAL1.SP.1.1: Metal1 to Metal1 spacing must be >= 0.06 um
+METAL2.SP.1.1
+0 0 2 Nov 25 12:38:23 2026
+Rule File Pathname: counter_drc.rul
+METAL2.SP.1.1: Metal2 to Metal2 spacing must be >= 0.07 um
+METAL3.SP.1.1
+0 0 2 Nov 25 12:38:23 2026
+Rule File Pathname: counter_drc.rul
+METAL3.SP.1.1: Metal3 to Metal3 spacing must be >= 0.07 um
+METAL7.SP.3
+0 0 2 Nov 25 12:38:23 2026
+Rule File Pathname: counter_drc.rul
+METAL7.SP.3: Min End Of Line Spacing >= 0.08
+METAL8.SP.3
+0 0 2 Nov 25 12:38:23 2026
+Rule File Pathname: counter_drc.rul
+METAL8.SP.3: Min End Of Line Spacing >= 0.08
+METAL9.SP.3
+0 0 2 Nov 25 12:38:23 2026
+Rule File Pathname: counter_drc.rul
+METAL9.SP.3: Min End Of Line Spacing >= 0.08
+METAL7.W.1
+0 0 2 Nov 25 12:38:23 2026
+Rule File Pathname: counter_drc.rul
+METAL7.W.1: Metal7 width must be >= 0.08 um
+METAL2.L.1
+0 0 2 Nov 25 12:38:23 2026
+Rule File Pathname: counter_drc.rul
+METAL2.L.1: Metal2 non-90 degree segments must be >= 0.1 um
+METAL2.SP.2
+0 0 2 Nov 25 12:38:23 2026
+Rule File Pathname: counter_drc.rul
+METAL2.SP.2: Metal2 to bent Metal2 spacing must be >= 0.1 um
+METAL2.W.3
+0 0 2 Nov 25 12:38:23 2026
+Rule File Pathname: counter_drc.rul
+METAL2.W.3: Bent Metal2 (45 degree angle) width must be >= 0.09
+METAL8.W.1
+0 0 2 Nov 25 12:38:23 2026
+Rule File Pathname: counter_drc.rul
+METAL8.W.1: Metal8 width must be >= 0.08 um
+METAL3.L.1
+0 0 2 Nov 25 12:38:23 2026
+Rule File Pathname: counter_drc.rul
+METAL3.L.1: Metal3 non-90 degree segments must be >= 0.1 um
+METAL3.SP.2
+0 0 2 Nov 25 12:38:23 2026
+Rule File Pathname: counter_drc.rul
+METAL3.SP.2: Metal3 to bent Metal3 spacing must be >= 0.1 um
+METAL3.W.3
+0 0 2 Nov 25 12:38:23 2026
+Rule File Pathname: counter_drc.rul
+METAL3.W.3: Bent Metal3 (45 degree angle) width must be >= 0.09
+METAL9.W.1
+0 0 2 Nov 25 12:38:23 2026
+Rule File Pathname: counter_drc.rul
+METAL9.W.1: Metal9 width must be >= 0.08 um
+METAL4.L.1
+0 0 2 Nov 25 12:38:23 2026
+Rule File Pathname: counter_drc.rul
+METAL4.L.1: Metal4 non-90 degree segments must be >= 0.1 um
+METAL4.SP.2
+0 0 2 Nov 25 12:38:23 2026
+Rule File Pathname: counter_drc.rul
+METAL4.SP.2: Metal4 to bent Metal4 spacing must be >= 0.1 um
+METAL4.W.3
+0 0 2 Nov 25 12:38:23 2026
+Rule File Pathname: counter_drc.rul
+METAL4.W.3: Bent Metal4 (45 degree angle) width must be >= 0.09
+METAL4.SP.1.1
+0 0 2 Nov 25 12:38:23 2026
+Rule File Pathname: counter_drc.rul
+METAL4.SP.1.1: Metal4 to Metal4 spacing must be >= 0.07 um
+METAL5.SP.1.1
+0 0 2 Nov 25 12:38:23 2026
+Rule File Pathname: counter_drc.rul
+METAL5.SP.1.1: Metal5 to Metal5 spacing must be >= 0.07 um
+METAL6.SP.1.1
+0 0 2 Nov 25 12:38:23 2026
+Rule File Pathname: counter_drc.rul
+METAL6.SP.1.1: Metal6 to Metal6 spacing must be >= 0.07 um
+METAL7.SP.1.1
+0 0 2 Nov 25 12:38:23 2026
+Rule File Pathname: counter_drc.rul
+METAL7.SP.1.1: Metal7 to Metal7 spacing must be >= 0.07 um
+METAL8.SP.1.1
+0 0 2 Nov 25 12:38:23 2026
+Rule File Pathname: counter_drc.rul
+METAL8.SP.1.1: Metal8 to Metal8 spacing must be >= 0.07 um
+METAL9.SP.1.1
+0 0 2 Nov 25 12:38:23 2026
+Rule File Pathname: counter_drc.rul
+METAL9.SP.1.1: Metal9 to Metal9 spacing must be >= 0.07 um
+METAL5.L.1
+0 0 2 Nov 25 12:38:23 2026
+Rule File Pathname: counter_drc.rul
+METAL5.L.1: Metal5 non-90 degree segments must be >= 0.1 um
+METAL5.SP.2
+0 0 2 Nov 25 12:38:23 2026
+Rule File Pathname: counter_drc.rul
+METAL5.SP.2: Metal5 to bent Metal5 spacing must be >= 0.1 um
+METAL5.W.3
+0 0 2 Nov 25 12:38:23 2026
+Rule File Pathname: counter_drc.rul
+METAL5.W.3: Bent Metal5 (45 degree angle) width must be >= 0.09
+METAL6.L.1
+0 0 2 Nov 25 12:38:23 2026
+Rule File Pathname: counter_drc.rul
+METAL6.L.1: Metal6 non-90 degree segments must be >= 0.1 um
+METAL6.SP.2
+0 0 2 Nov 25 12:38:23 2026
+Rule File Pathname: counter_drc.rul
+METAL6.SP.2: Metal6 to bent Metal6 spacing must be >= 0.1 um
+METAL6.W.3
+0 0 2 Nov 25 12:38:23 2026
+Rule File Pathname: counter_drc.rul
+METAL6.W.3: Bent Metal6 (45 degree angle) width must be >= 0.09
+METAL7.L.1
+0 0 2 Nov 25 12:38:23 2026
+Rule File Pathname: counter_drc.rul
+METAL7.L.1: Metal7 non-90 degree segments must be >= 0.1 um
+METAL8.L.1
+0 0 2 Nov 25 12:38:23 2026
+Rule File Pathname: counter_drc.rul
+METAL8.L.1: Metal8 non-90 degree segments must be >= 0.1 um
+METAL7.SP.2
+0 0 2 Nov 25 12:38:23 2026
+Rule File Pathname: counter_drc.rul
+METAL7.SP.2: Metal7 to bent Metal7 spacing must be >= 0.1 um
+METAL8.SP.2
+0 0 2 Nov 25 12:38:23 2026
+Rule File Pathname: counter_drc.rul
+METAL8.SP.2: Metal8 to bent Metal8 spacing must be >= 0.1 um
+METAL7.W.3
+0 0 2 Nov 25 12:38:23 2026
+Rule File Pathname: counter_drc.rul
+METAL7.W.3: Bent Metal7 (45 degree angle) width must be >= 0.09
+METAL8.W.3
+0 0 2 Nov 25 12:38:23 2026
+Rule File Pathname: counter_drc.rul
+METAL8.W.3: Bent Metal8 (45 degree angle) width must be >= 0.09
+METAL9.L.1
+0 0 2 Nov 25 12:38:23 2026
+Rule File Pathname: counter_drc.rul
+METAL9.L.1: Metal9 non-90 degree segments must be >= 0.1 um
+METAL9.SP.2
+0 0 2 Nov 25 12:38:23 2026
+Rule File Pathname: counter_drc.rul
+METAL9.SP.2: Metal9 to bent Metal9 spacing must be >= 0.1 um
+METAL9.W.3
+0 0 2 Nov 25 12:38:23 2026
+Rule File Pathname: counter_drc.rul
+METAL9.W.3: Bent Metal9 (45 degree angle) width must be >= 0.09
+VIA1.SP.1
+0 0 2 Nov 25 12:38:24 2026
+Rule File Pathname: counter_drc.rul
+VIA1.SP.1: Via1 to Via1 spacing must be >= 0.07 um
+VIA2.SP.1
+0 0 2 Nov 25 12:38:24 2026
+Rule File Pathname: counter_drc.rul
+VIA2.SP.1: Via2 to Via2 spacing must be >= 0.07 um
+VIA3.SP.1
+0 0 2 Nov 25 12:38:24 2026
+Rule File Pathname: counter_drc.rul
+VIA3.SP.1: Via3 to Via3 spacing must be >= 0.07 um
+VIA4.SP.1
+0 0 2 Nov 25 12:38:24 2026
+Rule File Pathname: counter_drc.rul
+VIA4.SP.1: Via4 to Via4 spacing must be >= 0.07 um
+VIA1.E.1
+0 0 2 Nov 25 12:38:24 2026
+Rule File Pathname: counter_drc.rul
+VIA1.E.1: Metal1 to Via1 enclosure must be >= 0.005 um
+VIA5.SP.1
+0 0 2 Nov 25 12:38:24 2026
+Rule File Pathname: counter_drc.rul
+VIA5.SP.1: Via5 to Via5 spacing must be >= 0.07 um
+VIA6.SP.1
+0 0 2 Nov 25 12:38:24 2026
+Rule File Pathname: counter_drc.rul
+VIA6.SP.1: Via6 to Via6 spacing must be >= 0.07 um
+VIA7.SP.1
+0 0 2 Nov 25 12:38:24 2026
+Rule File Pathname: counter_drc.rul
+VIA7.SP.1: Via7 to Via7 spacing must be >= 0.07 um
+VIA8.SP.1
+0 0 2 Nov 25 12:38:24 2026
+Rule File Pathname: counter_drc.rul
+VIA8.SP.1: Via8 to Via8 spacing must be >= 0.07 um
+VIA2.E.1
+0 0 2 Nov 25 12:38:24 2026
+Rule File Pathname: counter_drc.rul
+VIA2.E.1: Metal2 to Via2 enclosure must be >= 0.005 um
+VIA3.E.1
+0 0 2 Nov 25 12:38:24 2026
+Rule File Pathname: counter_drc.rul
+VIA3.E.1: Metal3 to Via3 enclosure must be >= 0.005 um
+VIA7.E.1
+0 0 2 Nov 25 12:38:24 2026
+Rule File Pathname: counter_drc.rul
+VIA7.E.1: Metal7 to Via7 enclosure must be >= 0.005 um
+VIA8.E.1
+0 0 2 Nov 25 12:38:24 2026
+Rule File Pathname: counter_drc.rul
+VIA8.E.1: Metal8 to Via8 enclosure must be >= 0.005 um
+VIA4.E.1
+0 0 2 Nov 25 12:38:24 2026
+Rule File Pathname: counter_drc.rul
+VIA4.E.1: Metal4 to Via4 enclosure must be >= 0.005 um
+VIA5.E.1
+0 0 2 Nov 25 12:38:24 2026
+Rule File Pathname: counter_drc.rul
+VIA5.E.1: Metal5 to Via5 enclosure must be >= 0.005 um
+VIA6.E.1
+0 0 2 Nov 25 12:38:24 2026
+Rule File Pathname: counter_drc.rul
+VIA6.E.1: Metal6 to Via6 enclosure must be >= 0.005 um
+CONT.E.1
+0 0 2 Nov 25 12:38:26 2026
+Rule File Pathname: counter_drc.rul
+CONT.E.1: Minimum Active Area to Contact enclosure >= 0.03 um
+CONT.E.4
+0 0 2 Nov 25 12:38:26 2026
+Rule File Pathname: counter_drc.rul
+CONT.E.4: Minimum N+/P+ Implant on Active Area to Contact enclosure >= 0.03 um
+CONT.E.4_2
+0 0 2 Nov 25 12:38:26 2026
+Rule File Pathname: counter_drc.rul
+CONT.E.4: Minimum N+/P+ Implant on Active Area to Contact enclosure >= 0.03 um
+CONT.E.2
+0 0 2 Nov 25 12:38:26 2026
+Rule File Pathname: counter_drc.rul
+CONT.E.2: Minimum Poly to Contact enclosure >= 0.02 um
+CONT.X.2
+0 0 2 Nov 25 12:38:26 2026
+Rule File Pathname: counter_drc.rul
+CONT.X.2: Nimp edge is NOT allowed on Oxide Cont
+CONT.W.1
+0 0 2 Nov 25 12:38:26 2026
+Rule File Pathname: counter_drc.rul
+CONT.W.1: Maximum and minimum Contact width/length == 0.06 um
+CONT.SE.1
+0 0 2 Nov 25 12:38:26 2026
+Rule File Pathname: counter_drc.rul
+CONT.SE.1: Minimum Contact on Active Area to gate spacing >= 0.05 um
+CONT.SE.3
+0 0 2 Nov 25 12:38:26 2026
+Rule File Pathname: counter_drc.rul
+CONT.SE.3: Minimum gate Contact on Active Area spacing >= 0.06 um
+CONT.X.1
+0 0 2 Nov 25 12:38:26 2026
+Rule File Pathname: counter_drc.rul
+CONT.X.1: Cont on gate is NOT allowed
+CONT.X.2_2
+0 0 2 Nov 25 12:38:26 2026
+Rule File Pathname: counter_drc.rul
+CONT.X.2: Pimp edge is NOT allowed on Oxide Cont
+METAL1.A.1
+0 0 2 Nov 25 12:38:26 2026
+Rule File Pathname: counter_drc.rul
+METAL1.A.1: Metal1 area must be >= 0.02 um
+CONT.X.3
+0 0 2 Nov 25 12:38:26 2026
+Rule File Pathname: counter_drc.rul
+CONT.X.3: CONT must be covered by Oxide or Poly
+METAL1.EA.1
+0 0 2 Nov 25 12:38:26 2026
+Rule File Pathname: counter_drc.rul
+METAL1.EA.1: Metal1 enclosed area must be >= 0.05 um
+METAL1.SP.1.3
+0 0 2 Nov 25 12:38:27 2026
+Rule File Pathname: counter_drc.rul
+METAL1.SP.1.3: Metal1 to Metal1 spacing must be >= 0.25 um
+METAL1.SP.1.4
+0 0 2 Nov 25 12:38:27 2026
+Rule File Pathname: counter_drc.rul
+METAL1.SP.1.4: Metal1 to Metal1 spacing must be >= 0.45 um
+METAL1.SP.1.5
+0 0 2 Nov 25 12:38:27 2026
+Rule File Pathname: counter_drc.rul
+METAL1.SP.1.5: Metal1 to Metal1 spacing must be >= 0.75 um
+METAL1.SP.1.6
+0 0 2 Nov 25 12:38:27 2026
+Rule File Pathname: counter_drc.rul
+METAL1.SP.1.6: Metal1 to Metal1 spacing must be >= 1.25 um
+LATCHUP.1
+0 0 2 Nov 25 12:38:27 2026
+Rule File Pathname: counter_drc.rul
+LATCHUP.1: The maximum distance from any point in a P+ source/drain Active Area to the nearest Nwell pick-up in the same Nwell >= 20.0 um
+METAL1.E.1_METAL1.E.2
+0 0 2 Nov 25 12:38:27 2026
+Rule File Pathname: counter_drc.rul
+METAL1.E.1_METAL1.E.2: Metal1 Enc 0 & 0.03
+METAL2.A.1
+0 0 2 Nov 25 12:38:27 2026
+Rule File Pathname: counter_drc.rul
+METAL2.A.1: Metal2 area must be >= 0.02 um
+METAL2.EA.1
+0 0 2 Nov 25 12:38:27 2026
+Rule File Pathname: counter_drc.rul
+METAL2.EA.1: Metal2 enclosed area must be >= 0.05 um
+CONT.E.3
+0 0 2 Nov 25 12:38:27 2026
+Rule File Pathname: counter_drc.rul
+CONT.E.3: Minimum Poly to Contact enclosure on at least two opposite sides >= 0.03 um
+METAL2.E.1_METAL2.E.2
+0 0 2 Nov 25 12:38:27 2026
+Rule File Pathname: counter_drc.rul
+METAL2.E.1_METAL2.E.2: Metal2 Enc 0.005 & 0.03
+METAL3.A.1
+0 0 2 Nov 25 12:38:27 2026
+Rule File Pathname: counter_drc.rul
+METAL3.A.1: Metal3 area must be >= 0.02 um
+METAL3.EA.1
+0 0 2 Nov 25 12:38:27 2026
+Rule File Pathname: counter_drc.rul
+METAL3.EA.1: Metal3 enclosed area must be >= 0.05 um
+METAL3.E.1_METAL3.E.2
+0 0 2 Nov 25 12:38:27 2026
+Rule File Pathname: counter_drc.rul
+METAL3.E.1_METAL3.E.2: Metal3 Enc 0.005 & 0.03
+METAL2.SP.1.3
+0 0 2 Nov 25 12:38:27 2026
+Rule File Pathname: counter_drc.rul
+METAL2.SP.1.3: Metal2 to Metal2 spacing must be >= 0.25 um
+METAL2.SP.1.4
+0 0 2 Nov 25 12:38:27 2026
+Rule File Pathname: counter_drc.rul
+METAL2.SP.1.4: Metal2 to Metal2 spacing must be >= 0.45 um
+METAL2.SP.1.6
+0 0 2 Nov 25 12:38:27 2026
+Rule File Pathname: counter_drc.rul
+METAL2.SP.1.6: Metal2 to Metal2 spacing must be >= 1.25 um
+METAL2.SP.1.5
+0 0 2 Nov 25 12:38:27 2026
+Rule File Pathname: counter_drc.rul
+METAL2.SP.1.5: Metal2 to Metal2 spacing must be >= 0.75 um
+METAL1.W.2
+0 0 2 Nov 25 12:38:27 2026
+Rule File Pathname: counter_drc.rul
+METAL1.W.2: Metal1 width must be <= 6.0 um
+METAL1.SP.1.2
+0 0 2 Nov 25 12:38:27 2026
+Rule File Pathname: counter_drc.rul
+METAL1.SP.1.2: Metal1 to Metal1 spacing must be >= 0.1 um
+METAL3.SP.1.3
+0 0 2 Nov 25 12:38:27 2026
+Rule File Pathname: counter_drc.rul
+METAL3.SP.1.3: Metal3 to Metal3 spacing must be >= 0.25 um
+METAL3.SP.1.4
+0 0 2 Nov 25 12:38:27 2026
+Rule File Pathname: counter_drc.rul
+METAL3.SP.1.4: Metal3 to Metal3 spacing must be >= 0.45 um
+METAL3.SP.1.6
+0 0 2 Nov 25 12:38:27 2026
+Rule File Pathname: counter_drc.rul
+METAL3.SP.1.6: Metal3 to Metal3 spacing must be >= 1.25 um
+METAL3.SP.1.5
+0 0 2 Nov 25 12:38:27 2026
+Rule File Pathname: counter_drc.rul
+METAL3.SP.1.5: Metal3 to Metal3 spacing must be >= 0.75 um
+LATCHUP.2
+0 0 2 Nov 25 12:38:27 2026
+Rule File Pathname: counter_drc.rul
+LATCHUP.2: The maximum distance from any point in a N+ source/drain Active Area to the nearest Psub pick-up in the same Psub >= 20.0 um
+METAL4.A.1
+0 0 2 Nov 25 12:38:27 2026
+Rule File Pathname: counter_drc.rul
+METAL4.A.1: Metal4 area must be >= 0.02 um
+METAL4.EA.1
+0 0 2 Nov 25 12:38:27 2026
+Rule File Pathname: counter_drc.rul
+METAL4.EA.1: Metal4 enclosed area must be >= 0.05 um
+METAL2.W.2
+0 0 2 Nov 25 12:38:27 2026
+Rule File Pathname: counter_drc.rul
+METAL2.W.2: Metal2 width must be <= 6.0 um
+METAL4.E.1_METAL4.E.2
+0 0 2 Nov 25 12:38:27 2026
+Rule File Pathname: counter_drc.rul
+METAL4.E.1_METAL4.E.2: Metal4 Enc 0.005 & 0.03
+METAL2.SP.3
+0 0 2 Nov 25 12:38:27 2026
+Rule File Pathname: counter_drc.rul
+METAL2.SP.3: Min End Of Line Spacing >= 0.08
+METAL4.SP.1.3
+0 0 2 Nov 25 12:38:27 2026
+Rule File Pathname: counter_drc.rul
+METAL4.SP.1.3: Metal4 to Metal4 spacing must be >= 0.25 um
+METAL3.SP.1.2
+0 0 2 Nov 25 12:38:27 2026
+Rule File Pathname: counter_drc.rul
+METAL3.SP.1.2: Metal3 to Metal3 spacing must be >= 0.15 um
+METAL4.SP.1.4
+0 0 2 Nov 25 12:38:27 2026
+Rule File Pathname: counter_drc.rul
+METAL4.SP.1.4: Metal4 to Metal4 spacing must be >= 0.45 um
+METAL4.SP.1.6
+0 0 2 Nov 25 12:38:27 2026
+Rule File Pathname: counter_drc.rul
+METAL4.SP.1.6: Metal4 to Metal4 spacing must be >= 1.25 um
+METAL4.SP.1.5
+0 0 2 Nov 25 12:38:27 2026
+Rule File Pathname: counter_drc.rul
+METAL4.SP.1.5: Metal4 to Metal4 spacing must be >= 0.75 um
+METAL2.SP.1.2
+0 0 2 Nov 25 12:38:27 2026
+Rule File Pathname: counter_drc.rul
+METAL2.SP.1.2: Metal2 to Metal2 spacing must be >= 0.15 um
+VIA1.E.3
+0 0 2 Nov 25 12:38:27 2026
+Rule File Pathname: counter_drc.rul
+VIA1.E.3: At least 2 Via1 must be used to join Metal1 and Metal2 when they are within 3.0um of a metal plate (Metal1/Metal2) when the metal plate size is has width > 1.5 and length > 1.5
+VIA2.E.3
+0 0 2 Nov 25 12:38:27 2026
+Rule File Pathname: counter_drc.rul
+VIA2.E.3: At least 2 Via2 must be used to join Metal2 and Metal3 when they are within 3.0um of a metal plate (Metal2/Metal3) when the metal plate size is has width > 1.5 and length > 1.5
+VIA3.E.3
+0 0 2 Nov 25 12:38:27 2026
+Rule File Pathname: counter_drc.rul
+VIA3.E.3: At least 2 Via3 must be used to join Metal3 and Metal4 when they are within 3.0um of a metal plate (Metal3/Metal4) when the metal plate size is has width > 1.5 and length > 1.5
+VIA4.E.3
+0 0 2 Nov 25 12:38:27 2026
+Rule File Pathname: counter_drc.rul
+VIA4.E.3: At least 2 Via4 must be used to join Metal4 and Metal5 when they are within 3.0um of a metal plate (Metal4/Metal5) when the metal plate size is has width > 1.5 and length > 1.5
+VIA5.E.3
+0 0 2 Nov 25 12:38:27 2026
+Rule File Pathname: counter_drc.rul
+VIA5.E.3: At least 2 Via5 must be used to join Metal5 and Metal6 when they are within 3.0um of a metal plate (Metal5/Metal6) when the metal plate size is has width > 1.5 and length > 1.5
+VIA6.E.3
+0 0 2 Nov 25 12:38:27 2026
+Rule File Pathname: counter_drc.rul
+VIA6.E.3: At least 2 Via6 must be used to join Metal6 and Metal7 when they are within 3.0um of a metal plate (Metal6/Metal7) when the metal plate size is has width > 1.5 and length > 1.5
+VIA7.E.3
+0 0 2 Nov 25 12:38:27 2026
+Rule File Pathname: counter_drc.rul
+VIA7.E.3: At least 2 Via7 must be used to join Metal7 and Metal8 when they are within 3.0um of a metal plate (Metal7/Metal8) when the metal plate size is has width > 1.5 and length > 1.5
+VIA8.E.3
+0 0 2 Nov 25 12:38:27 2026
+Rule File Pathname: counter_drc.rul
+VIA8.E.3: At least 2 Via8 must be used to join Metal8 and Metal9 when they are within 3.0um of a metal plate (Metal8/Metal9) when the metal plate size is has width > 1.5 and length > 1.5
+METAL5.A.1
+0 0 2 Nov 25 12:38:27 2026
+Rule File Pathname: counter_drc.rul
+METAL5.A.1: Metal5 area must be >= 0.02 um
+METAL5.EA.1
+0 0 2 Nov 25 12:38:27 2026
+Rule File Pathname: counter_drc.rul
+METAL5.EA.1: Metal5 enclosed area must be >= 0.05 um
+METAL3.W.2
+0 0 2 Nov 25 12:38:27 2026
+Rule File Pathname: counter_drc.rul
+METAL3.W.2: Metal3 width must be <= 6.0 um
+METAL3.SP.3
+0 0 2 Nov 25 12:38:27 2026
+Rule File Pathname: counter_drc.rul
+METAL3.SP.3: Min End Of Line Spacing >= 0.08
+METAL5.E.1_METAL5.E.2
+0 0 2 Nov 25 12:38:28 2026
+Rule File Pathname: counter_drc.rul
+METAL5.E.1_METAL5.E.2: Metal5 Enc 0.005 & 0.03
+METAL6.A.1
+0 0 2 Nov 25 12:38:28 2026
+Rule File Pathname: counter_drc.rul
+METAL6.A.1: Metal6 area must be >= 0.02 um
+METAL5.SP.1.3
+0 0 2 Nov 25 12:38:28 2026
+Rule File Pathname: counter_drc.rul
+METAL5.SP.1.3: Metal5 to Metal5 spacing must be >= 0.25 um
+METAL5.SP.1.4
+0 0 2 Nov 25 12:38:28 2026
+Rule File Pathname: counter_drc.rul
+METAL5.SP.1.4: Metal5 to Metal5 spacing must be >= 0.45 um
+METAL5.SP.1.5
+0 0 2 Nov 25 12:38:28 2026
+Rule File Pathname: counter_drc.rul
+METAL5.SP.1.5: Metal5 to Metal5 spacing must be >= 0.75 um
+METAL5.SP.1.6
+0 0 2 Nov 25 12:38:28 2026
+Rule File Pathname: counter_drc.rul
+METAL5.SP.1.6: Metal5 to Metal5 spacing must be >= 1.25 um
+METAL4.SP.1.2
+0 0 2 Nov 25 12:38:28 2026
+Rule File Pathname: counter_drc.rul
+METAL4.SP.1.2: Metal4 to Metal4 spacing must be >= 0.15 um
+METAL6.E.1_METAL6.E.2
+0 0 2 Nov 25 12:38:28 2026
+Rule File Pathname: counter_drc.rul
+METAL6.E.1_METAL6.E.2: Metal6 Enc 0.005 & 0.03
+METAL6.EA.1
+0 0 2 Nov 25 12:38:28 2026
+Rule File Pathname: counter_drc.rul
+METAL6.EA.1: Metal6 enclosed area must be >= 0.05 um
+METAL4.SP.3
+0 0 2 Nov 25 12:38:28 2026
+Rule File Pathname: counter_drc.rul
+METAL4.SP.3: Min End Of Line Spacing >= 0.08
+METAL4.W.2
+0 0 2 Nov 25 12:38:28 2026
+Rule File Pathname: counter_drc.rul
+METAL4.W.2: Metal4 width must be <= 6.0 um
+METAL7.A.1
+0 0 2 Nov 25 12:38:28 2026
+Rule File Pathname: counter_drc.rul
+METAL7.A.1: Metal7 area must be >= 0.02 um
+METAL7.EA.1
+0 0 2 Nov 25 12:38:28 2026
+Rule File Pathname: counter_drc.rul
+METAL7.EA.1: Metal7 enclosed area must be >= 0.05 um
+METAL6.SP.1.3
+0 0 2 Nov 25 12:38:28 2026
+Rule File Pathname: counter_drc.rul
+METAL6.SP.1.3: Metal6 to Metal6 spacing must be >= 0.25 um
+METAL6.SP.1.4
+0 0 2 Nov 25 12:38:28 2026
+Rule File Pathname: counter_drc.rul
+METAL6.SP.1.4: Metal6 to Metal6 spacing must be >= 0.45 um
+METAL6.SP.1.5
+0 0 2 Nov 25 12:38:28 2026
+Rule File Pathname: counter_drc.rul
+METAL6.SP.1.5: Metal6 to Metal6 spacing must be >= 0.75 um
+METAL6.SP.1.6
+0 0 2 Nov 25 12:38:28 2026
+Rule File Pathname: counter_drc.rul
+METAL6.SP.1.6: Metal6 to Metal6 spacing must be >= 1.25 um
+METAL7.E.1_METAL7.E.2
+0 0 2 Nov 25 12:38:28 2026
+Rule File Pathname: counter_drc.rul
+METAL7.E.1_METAL7.E.2: Metal7 Enc 0.005 & 0.03
+METAL5.SP.1.2
+0 0 2 Nov 25 12:38:28 2026
+Rule File Pathname: counter_drc.rul
+METAL5.SP.1.2: Metal5 to Metal5 spacing must be >= 0.15 um
+METAL7.SP.1.3
+0 0 2 Nov 25 12:38:28 2026
+Rule File Pathname: counter_drc.rul
+METAL7.SP.1.3: Metal7 to Metal7 spacing must be >= 0.25 um
+METAL5.W.2
+0 0 2 Nov 25 12:38:28 2026
+Rule File Pathname: counter_drc.rul
+METAL5.W.2: Metal5 width must be <= 6.0 um
+METAL5.SP.3
+0 0 2 Nov 25 12:38:28 2026
+Rule File Pathname: counter_drc.rul
+METAL5.SP.3: Min End Of Line Spacing >= 0.08
+METAL7.SP.1.4
+0 0 2 Nov 25 12:38:28 2026
+Rule File Pathname: counter_drc.rul
+METAL7.SP.1.4: Metal7 to Metal7 spacing must be >= 0.45 um
+METAL8.A.1
+0 0 2 Nov 25 12:38:28 2026
+Rule File Pathname: counter_drc.rul
+METAL8.A.1: Metal8 area must be >= 0.02 um
+METAL7.SP.1.5
+0 0 2 Nov 25 12:38:28 2026
+Rule File Pathname: counter_drc.rul
+METAL7.SP.1.5: Metal7 to Metal7 spacing must be >= 0.75 um
+METAL7.SP.1.6
+0 0 2 Nov 25 12:38:28 2026
+Rule File Pathname: counter_drc.rul
+METAL7.SP.1.6: Metal7 to Metal7 spacing must be >= 1.25 um
+METAL8.EA.1
+0 0 2 Nov 25 12:38:28 2026
+Rule File Pathname: counter_drc.rul
+METAL8.EA.1: Metal8 enclosed area must be >= 0.05 um
+METAL6.SP.1.2
+0 0 2 Nov 25 12:38:28 2026
+Rule File Pathname: counter_drc.rul
+METAL6.SP.1.2: Metal6 to Metal6 spacing must be >= 0.15 um
+METAL8.E.1_METAL8.E.2
+0 0 2 Nov 25 12:38:28 2026
+Rule File Pathname: counter_drc.rul
+METAL8.E.1_METAL8.E.2: Metal8 Enc 0.005 & 0.03
+METAL9.A.1
+0 0 2 Nov 25 12:38:28 2026
+Rule File Pathname: counter_drc.rul
+METAL9.A.1: Metal9 area must be >= 0.02 um
+METAL9.EA.1
+0 0 2 Nov 25 12:38:28 2026
+Rule File Pathname: counter_drc.rul
+METAL9.EA.1: Metal9 enclosed area must be >= 0.05 um
+METAL6.W.2
+0 0 2 Nov 25 12:38:28 2026
+Rule File Pathname: counter_drc.rul
+METAL6.W.2: Metal6 width must be <= 6.0 um
+METAL6.SP.3
+0 0 2 Nov 25 12:38:28 2026
+Rule File Pathname: counter_drc.rul
+METAL6.SP.3: Min End Of Line Spacing >= 0.08
+METAL7.SP.1.2
+0 0 2 Nov 25 12:38:28 2026
+Rule File Pathname: counter_drc.rul
+METAL7.SP.1.2: Metal7 to Metal7 spacing must be >= 0.15 um
+METAL8.SP.1.3
+0 0 2 Nov 25 12:38:28 2026
+Rule File Pathname: counter_drc.rul
+METAL8.SP.1.3: Metal8 to Metal8 spacing must be >= 0.25 um
+METAL8.SP.1.4
+0 0 2 Nov 25 12:38:28 2026
+Rule File Pathname: counter_drc.rul
+METAL8.SP.1.4: Metal8 to Metal8 spacing must be >= 0.45 um
+METAL8.SP.1.5
+0 0 2 Nov 25 12:38:28 2026
+Rule File Pathname: counter_drc.rul
+METAL8.SP.1.5: Metal8 to Metal8 spacing must be >= 0.75 um
+METAL8.SP.1.6
+0 0 2 Nov 25 12:38:28 2026
+Rule File Pathname: counter_drc.rul
+METAL8.SP.1.6: Metal8 to Metal8 spacing must be >= 1.25 um
+METAL9.E.1_METAL9.E.2
+0 0 2 Nov 25 12:38:28 2026
+Rule File Pathname: counter_drc.rul
+METAL9.E.1_METAL9.E.2: Metal9 Enc 0.005 & 0.03
+NIMP.A.1
+0 0 2 Nov 25 12:38:28 2026
+Rule File Pathname: counter_drc.rul
+NIMP.A.1: Minimum area for N+ Implant >= 0.018 um
+METAL9.SP.1.3
+0 0 2 Nov 25 12:38:28 2026
+Rule File Pathname: counter_drc.rul
+METAL9.SP.1.3: Metal9 to Metal9 spacing must be >= 0.25 um
+METAL7.W.2
+0 0 2 Nov 25 12:38:28 2026
+Rule File Pathname: counter_drc.rul
+METAL7.W.2: Metal7 width must be <= 6.0 um
+METAL9.SP.1.4
+0 0 2 Nov 25 12:38:28 2026
+Rule File Pathname: counter_drc.rul
+METAL9.SP.1.4: Metal9 to Metal9 spacing must be >= 0.45 um
+NIMP.E.4
+0 0 2 Nov 25 12:38:28 2026
+Rule File Pathname: counter_drc.rul
+NIMP.E.4: Minimum N+ Implant to gate (endcap) enclosure >= 0.1 um
+NIMP.EA.1
+0 0 2 Nov 25 12:38:28 2026
+Rule File Pathname: counter_drc.rul
+NIMP.EA.1: Minimum N+ Implant ring enclosed area  >= 0.04 um
+METAL9.W.2
+0 0 2 Nov 25 12:38:28 2026
+Rule File Pathname: counter_drc.rul
+METAL9.W.2: Metal9 width must be <= 6.0 um
+METAL9.SP.1.5
+0 0 2 Nov 25 12:38:28 2026
+Rule File Pathname: counter_drc.rul
+METAL9.SP.1.5: Metal9 to Metal9 spacing must be >= 0.75 um
+METAL9.SP.1.6
+0 0 2 Nov 25 12:38:28 2026
+Rule File Pathname: counter_drc.rul
+METAL9.SP.1.6: Metal9 to Metal9 spacing must be >= 1.25 um
+METAL8.SP.1.2
+0 0 2 Nov 25 12:38:28 2026
+Rule File Pathname: counter_drc.rul
+METAL8.SP.1.2: Metal8 to Metal8 spacing must be >= 0.15 um
+NIMP.SE.1
+0 0 2 Nov 25 12:38:28 2026
+Rule File Pathname: counter_drc.rul
+NIMP.SE.1: Minimum N+ Implant to P+ Active Area (inside Nwell) spacing >= 0.08 um
+NIMP.X.1
+0 0 2 Nov 25 12:38:28 2026
+Rule File Pathname: counter_drc.rul
+NIMP.X.1: Nimp is NOT allowed over Pimp
+NW.A.1
+0 0 2 Nov 25 12:38:28 2026
+Rule File Pathname: counter_drc.rul
+NW.A.1: Minimum Nwell area >= 0.18 um
+NIMP.SE.3
+0 0 2 Nov 25 12:38:28 2026
+Rule File Pathname: counter_drc.rul
+NIMP.SE.3: Minimum N+ Implant to P+ gate side (butted Implant) spacing >= 0.1 um
+NIMP.SE.2
+0 0 2 Nov 25 12:38:28 2026
+Rule File Pathname: counter_drc.rul
+NIMP.SE.2: Minimum N+ Implant to P+ Active Area (substrate tie) spacing >= 0.02 um
+METAL8.W.2
+0 0 2 Nov 25 12:38:29 2026
+Rule File Pathname: counter_drc.rul
+METAL8.W.2: Metal8 width must be <= 6.0 um
+NW.E.1
+0 0 2 Nov 25 12:38:29 2026
+Rule File Pathname: counter_drc.rul
+NW.E.1: Minimum Nwell enclosure of N+ Active Area >= 0.06 um
+NW.SE.1
+0 0 2 Nov 25 12:38:29 2026
+Rule File Pathname: counter_drc.rul
+NW.SE.1: Minimum Nwell spacing to N+ Active Area >= 0.16 um
+METAL9.SP.1.2
+0 0 2 Nov 25 12:38:29 2026
+Rule File Pathname: counter_drc.rul
+METAL9.SP.1.2: Metal9 to Metal9 spacing must be >= 0.15 um
+NW.EA.1
+0 0 2 Nov 25 12:38:29 2026
+Rule File Pathname: counter_drc.rul
+NW.EA.1: Minimum Nwell enclosed area >= 0.18 um
+NIMP.SP.1
+20 20 2 Nov 25 12:38:29 2026
+Rule File Pathname: counter_drc.rul
+NIMP.SP.1: Minimum N+ Implant space >= 0.12 um
+p 1 4
+146520 127760
+146520 126320
+146680 126320
+146680 127760
+p 2 4
+146520 129440
+146520 129420
+146680 129420
+146680 129440
+p 3 4
+189720 81860
+189720 81840
+189880 81840
+189880 81860
+p 4 4
+189720 84960
+189720 83520
+189880 83520
+189880 84960
+p 5 4
+189720 95540
+189720 95240
+189880 95220
+189880 95540
+p 6 4
+189720 98640
+189720 97200
+189880 97200
+189880 98640
+p 7 4
+196520 107240
+196520 105800
+196680 105800
+196680 107240
+p 8 4
+196520 108920
+196520 108900
+196680 108900
+196680 108920
+p 9 4
+209320 109220
+209320 109200
+209480 109200
+209480 109220
+p 10 4
+209320 112320
+209320 110880
+209480 110880
+209480 112320
+p 11 4
+209720 116060
+209720 116040
+209880 116040
+209880 116060
+p 12 4
+209720 119160
+209720 117720
+209880 117720
+209880 119160
+p 13 4
+211720 122900
+211720 122880
+211880 122880
+211880 122900
+p 14 4
+211720 126000
+211720 124560
+211880 124560
+211880 126000
+p 15 4
+216520 109220
+216520 109200
+216680 109200
+216680 109220
+p 16 4
+216520 112320
+216520 110880
+216680 110880
+216680 112320
+p 17 4
+216520 122900
+216520 122880
+216680 122880
+216680 122900
+p 18 4
+216520 126000
+216520 124560
+216680 124560
+216680 126000
+p 19 4
+216520 184460
+216520 184440
+216680 184440
+216680 184460
+p 20 4
+216520 187560
+216520 186120
+216680 186120
+216680 187560
+OXIDE.A.1
+0 0 2 Nov 25 12:38:29 2026
+Rule File Pathname: counter_drc.rul
+OXIDE.A.1: Minimum area for Active Area >= 0.035 um
+NW.E.2
+0 0 2 Nov 25 12:38:29 2026
+Rule File Pathname: counter_drc.rul
+NW.E.2: Minimum Nwell enclosure of P+ Active Area >= 0.06 um
+NW.SE.2
+0 0 2 Nov 25 12:38:29 2026
+Rule File Pathname: counter_drc.rul
+NW.SE.2: Minimum Nwell spacing to P+ Active Area >= 0.16 um
+PIMP.A.1
+0 0 2 Nov 25 12:38:29 2026
+Rule File Pathname: counter_drc.rul
+PIMP.A.1: Minimum area for P+ Implant >= 0.018 um
+PIMP.E.4
+0 0 2 Nov 25 12:38:29 2026
+Rule File Pathname: counter_drc.rul
+PIMP.E.4: Minimum P+ Implant to gate (endcap) enclosure >= 0.1 um
+PIMP.EA.1
+0 0 2 Nov 25 12:38:29 2026
+Rule File Pathname: counter_drc.rul
+PIMP.EA.1: Minimum P+ Implant ring enclosed area  >= 0.04 um
+OXIDE.X.1
+0 0 2 Nov 25 12:38:29 2026
+Rule File Pathname: counter_drc.rul
+OXIDE.X.1: Oxide must be covered by N+ Implant or Nzvt or Salicide Block
+PIMP.SE.1
+0 0 2 Nov 25 12:38:29 2026
+Rule File Pathname: counter_drc.rul
+PIMP.SE.1: Minimum P+ Implant to N+ Active Area (outside Nwell) spacing >= 0.08 um
+POLY.A.1
+0 0 2 Nov 25 12:38:29 2026
+Rule File Pathname: counter_drc.rul
+POLY.A.1: Minimum area for Poly interconnect >= 0.02 um
+PIMP.SE.2
+0 0 2 Nov 25 12:38:29 2026
+Rule File Pathname: counter_drc.rul
+PIMP.SE.2: Minimum P+ Implant to N+ Active Area (Nwell tie) spacing >= 0.02 um
+PIMP.SE.3
+0 0 2 Nov 25 12:38:29 2026
+Rule File Pathname: counter_drc.rul
+PIMP.SE.3: Minimum P+ Implant to N+ gate side (butted Implant) spacing >= 0.1 um
+OXIDE.L.1_OXIDE.L.2
+0 0 2 Nov 25 12:38:29 2026
+Rule File Pathname: counter_drc.rul
+OXIDE.L.1_OXIDE.L.2: Maximum Oxide length between two contacts (when the Oxide width is <= 0.18um) must be <= 12.0um and Maximum Oxide length between one contact and the end of the Oxide line (when the Oxide width is <= 0.18um) must be <= 6.0um
+POLY.EA.1
+0 0 2 Nov 25 12:38:29 2026
+Rule File Pathname: counter_drc.rul
+POLY.EA.1: Minimum enclosed area for Poly interconnect >= 0.05 um
+VIA1.W.1
+0 0 2 Nov 25 12:38:29 2026
+Rule File Pathname: counter_drc.rul
+VIA1.W.1: Via1 shapes must be 0.07x0.07 rectangles
+VIA1.X.1
+0 0 2 Nov 25 12:38:29 2026
+Rule File Pathname: counter_drc.rul
+VIA1.X.1: Metal1 must connect to Metal2 with >= 2 Via1 spaced < 0.30 um or >= 4 Via1 spaced < 0.60 um
+VIA1.X.2
+0 0 2 Nov 25 12:38:29 2026
+Rule File Pathname: counter_drc.rul
+VIA1.X.2: Metal1 must connect to Metal2 with >= 4 Via1 spaced < 0.30 um or >= 9 Via1 spaced < 0.60 um
+OXIDE.EA.1
+0 0 2 Nov 25 12:38:29 2026
+Rule File Pathname: counter_drc.rul
+OXIDE.EA.1: Minimum Active Area enclosed area >= 0.04 um
+PIMP.SP.1
+20 20 2 Nov 25 12:38:29 2026
+Rule File Pathname: counter_drc.rul
+PIMP.SP.1: Minimum P+ Implant space >= 0.12 um
+p 1 4
+146520 126320
+146520 126300
+146680 126300
+146680 126320
+p 2 4
+146520 129420
+146520 127760
+146680 127760
+146680 129420
+p 3 4
+189720 83520
+189720 81860
+189880 81860
+189880 83520
+p 4 4
+189720 85260
+189720 84960
+189880 84960
+189880 85280
+p 5 4
+189720 97200
+189720 95540
+189880 95540
+189880 97200
+p 6 4
+189720 98940
+189720 98640
+189880 98640
+189880 98960
+p 7 4
+196520 105800
+196520 105780
+196680 105780
+196680 105800
+p 8 4
+196520 108900
+196520 107240
+196680 107240
+196680 108900
+p 9 4
+209320 110880
+209320 109220
+209480 109220
+209480 110880
+p 10 4
+209320 112340
+209320 112320
+209480 112320
+209480 112340
+p 11 4
+209720 117720
+209720 116060
+209880 116060
+209880 117720
+p 12 4
+209720 119180
+209720 119160
+209880 119160
+209880 119180
+p 13 4
+211720 124560
+211720 122900
+211880 122900
+211880 124560
+p 14 4
+211720 126020
+211720 126000
+211880 126000
+211880 126020
+p 15 4
+216520 110880
+216520 109220
+216680 109220
+216680 110880
+p 16 4
+216520 112340
+216520 112320
+216680 112320
+216680 112340
+p 17 4
+216520 124560
+216520 122900
+216680 122900
+216680 124560
+p 18 4
+216520 126020
+216520 126000
+216680 126000
+216680 126020
+p 19 4
+216520 186120
+216520 184460
+216680 184460
+216680 186120
+p 20 4
+216520 187860
+216520 187560
+216680 187560
+216680 187880
+POLY.SE.3
+0 0 2 Nov 25 12:38:29 2026
+Rule File Pathname: counter_drc.rul
+POLY.SE.3: Maximum Poly segment length (width < 0.14) between two contacts >= 12.0 um
+VIA2.W.1
+0 0 2 Nov 25 12:38:29 2026
+Rule File Pathname: counter_drc.rul
+VIA2.W.1: Via2 shapes must be 0.07x0.07 rectangles
+VIA2.X.1
+0 0 2 Nov 25 12:38:29 2026
+Rule File Pathname: counter_drc.rul
+VIA2.X.1: Metal2 must connect to Metal3 with >= 2 Via2 spaced < 0.30 um or >= 4 Via2 spaced < 0.60 um
+VIA2.X.2
+0 0 2 Nov 25 12:38:29 2026
+Rule File Pathname: counter_drc.rul
+VIA2.X.2: Metal2 must connect to Metal3 with >= 4 Via2 spaced < 0.30 um or >= 9 Via2 spaced < 0.60 um
+VIA3.W.1
+0 0 2 Nov 25 12:38:29 2026
+Rule File Pathname: counter_drc.rul
+VIA3.W.1: Via3 shapes must be 0.07x0.07 rectangles
+METAL1.SP.3
+0 0 2 Nov 25 12:38:29 2026
+Rule File Pathname: counter_drc.rul
+METAL1.SP.3: Min End Of Line Spacing >= 0.08
+VIA4.W.1
+0 0 2 Nov 25 12:38:29 2026
+Rule File Pathname: counter_drc.rul
+VIA4.W.1: Via4 shapes must be 0.07x0.07 rectangles
+VIA3.X.1
+0 0 2 Nov 25 12:38:29 2026
+Rule File Pathname: counter_drc.rul
+VIA3.X.1: Metal3 must connect to Metal4 with >= 2 Via3 spaced < 0.30 um or >= 4 Via3 spaced < 0.60 um
+VIA3.X.2
+0 0 2 Nov 25 12:38:29 2026
+Rule File Pathname: counter_drc.rul
+VIA3.X.2: Metal3 must connect to Metal4 with >= 4 Via3 spaced < 0.30 um or >= 9 Via3 spaced < 0.60 um
+VIA4.X.1
+0 0 2 Nov 25 12:38:29 2026
+Rule File Pathname: counter_drc.rul
+VIA4.X.1: Metal4 must connect to Metal5 with >= 2 Via4 spaced < 0.30 um or >= 4 Via4 spaced < 0.60 um
+VIA4.X.2
+0 0 2 Nov 25 12:38:29 2026
+Rule File Pathname: counter_drc.rul
+VIA4.X.2: Metal4 must connect to Metal5 with >= 4 Via4 spaced < 0.30 um or >= 9 Via4 spaced < 0.60 um
+POLY.E.1
+0 0 2 Nov 25 12:38:29 2026
+Rule File Pathname: counter_drc.rul
+POLY.E.1: Minimum N-channel gate extension beyond Active Area >= 0.1 um
+POLY.X.1
+0 0 2 Nov 25 12:38:29 2026
+Rule File Pathname: counter_drc.rul
+POLY.X.1: Poly gate cannot have bends
+POLY.E.2
+0 0 2 Nov 25 12:38:29 2026
+Rule File Pathname: counter_drc.rul
+POLY.E.2: Minimum P-channel gate extension beyond Active Area >= 0.1 um
+VIA5.W.1
+0 0 2 Nov 25 12:38:29 2026
+Rule File Pathname: counter_drc.rul
+VIA5.W.1: Via5 shapes must be 0.07x0.07 rectangles
+VIA5.X.1
+0 0 2 Nov 25 12:38:29 2026
+Rule File Pathname: counter_drc.rul
+VIA5.X.1: Metal5 must connect to Metal6 with >= 2 Via5 spaced < 0.30 um or >= 4 Via5 spaced < 0.60 um
+VIA5.X.2
+0 0 2 Nov 25 12:38:29 2026
+Rule File Pathname: counter_drc.rul
+VIA5.X.2: Metal5 must connect to Metal6 with >= 4 Via5 spaced < 0.30 um or >= 9 Via5 spaced < 0.60 um
+VIA6.W.1
+0 0 2 Nov 25 12:38:29 2026
+Rule File Pathname: counter_drc.rul
+VIA6.W.1: Via6 shapes must be 0.07x0.07 rectangles
+NW.SP.2_3
+0 0 2 Nov 25 12:38:29 2026
+Rule File Pathname: counter_drc.rul
+NW.SP.2: Minimum Nwell spacing to Nwell (different potential) >= 0.6 um
+VIA6.X.1
+0 0 2 Nov 25 12:38:29 2026
+Rule File Pathname: counter_drc.rul
+VIA6.X.1: Metal6 must connect to Metal7 with >= 2 Via6 spaced < 0.30 um or >= 4 Via6 spaced < 0.60 um
+VIA7.W.1
+0 0 2 Nov 25 12:38:29 2026
+Rule File Pathname: counter_drc.rul
+VIA7.W.1: Via7 shapes must be 0.07x0.07 rectangles
+VIA6.X.2
+0 0 2 Nov 25 12:38:29 2026
+Rule File Pathname: counter_drc.rul
+VIA6.X.2: Metal6 must connect to Metal7 with >= 4 Via6 spaced < 0.30 um or >= 9 Via6 spaced < 0.60 um
+VIA7.X.1
+0 0 2 Nov 25 12:38:29 2026
+Rule File Pathname: counter_drc.rul
+VIA7.X.1: Metal7 must connect to Metal8 with >= 2 Via7 spaced < 0.30 um or >= 4 Via7 spaced < 0.60 um
+VIA7.X.2
+0 0 2 Nov 25 12:38:29 2026
+Rule File Pathname: counter_drc.rul
+VIA7.X.2: Metal7 must connect to Metal8 with >= 4 Via7 spaced < 0.30 um or >= 9 Via7 spaced < 0.60 um
+VIA3.E.2
+0 0 2 Nov 25 12:38:29 2026
+Rule File Pathname: counter_drc.rul
+VIA3.E.2: Metal3 to Via3 enclosure on opposite sides must be >= 0.03 um
+VIA8.W.1
+0 0 2 Nov 25 12:38:29 2026
+Rule File Pathname: counter_drc.rul
+VIA8.W.1: Via8 shapes must be 0.07x0.07 rectangles
+VIA8.X.1
+0 0 2 Nov 25 12:38:29 2026
+Rule File Pathname: counter_drc.rul
+VIA8.X.1: Metal8 must connect to Metal9 with >= 2 Via8 spaced < 0.30 um or >= 4 Via8 spaced < 0.60 um
+VIA8.X.2
+0 0 2 Nov 25 12:38:29 2026
+Rule File Pathname: counter_drc.rul
+VIA8.X.2: Metal8 must connect to Metal9 with >= 4 Via8 spaced < 0.30 um or >= 9 Via8 spaced < 0.60 um
+NW.SP.1
+10 10 2 Nov 25 12:38:29 2026
+Rule File Pathname: counter_drc.rul
+NW.SP.1: Minimum Nwell spacing to Nwell (same potential) >= 0.3 um
+p 1 4
+146520 129340
+146520 127800
+146680 127800
+146680 129340
+p 2 4
+189720 83480
+189720 81940
+189880 81940
+189880 83480
+p 3 4
+189720 97160
+189720 95140
+189880 94562
+189880 97160
+p 4 4
+196520 108820
+196520 107280
+196680 107280
+196680 108820
+p 5 4
+209320 110840
+209320 109300
+209480 109300
+209480 110840
+p 6 4
+209720 117680
+209720 116140
+209880 116140
+209880 117680
+p 7 4
+211720 124520
+211720 122980
+211880 122980
+211880 124520
+p 8 4
+216520 110840
+216520 109300
+216680 109300
+216680 110840
+p 9 4
+216520 124520
+216520 122980
+216680 122980
+216680 124520
+p 10 4
+216520 186080
+216520 184540
+216680 184540
+216680 186080
+VIA5.E.2
+0 0 2 Nov 25 12:38:29 2026
+Rule File Pathname: counter_drc.rul
+VIA5.E.2: Metal5 to Via5 enclosure on opposite sides must be >= 0.03 um
+VIA2.E.2
+0 0 2 Nov 25 12:38:29 2026
+Rule File Pathname: counter_drc.rul
+VIA2.E.2: Metal2 to Via2 enclosure on opposite sides must be >= 0.03 um
+VIA1.E.2
+0 0 2 Nov 25 12:38:30 2026
+Rule File Pathname: counter_drc.rul
+VIA1.E.2: Metal1 to Via1 enclosure on opposite sides must be >= 0.03 um
+VIA7.E.2
+0 0 2 Nov 25 12:38:30 2026
+Rule File Pathname: counter_drc.rul
+VIA7.E.2: Metal7 to Via7 enclosure on opposite sides must be >= 0.03 um
+acute_check
+0 0 2 Nov 25 12:38:30 2026
+Rule File Pathname: counter_drc.rul
+Acute angle  violation
+offgrid_check
+0 0 2 Nov 25 12:38:30 2026
+Rule File Pathname: counter_drc.rul
+Grid violation
+ortho_45_check
+0 0 2 Nov 25 12:38:30 2026
+Rule File Pathname: counter_drc.rul
+Orthogonal and 45 degree violation
+VIA8.E.2
+0 0 2 Nov 25 12:38:30 2026
+Rule File Pathname: counter_drc.rul
+VIA8.E.2: Metal8 to Via8 enclosure on opposite sides must be >= 0.03 um
+VIA4.E.2
+0 0 2 Nov 25 12:38:30 2026
+Rule File Pathname: counter_drc.rul
+VIA4.E.2: Metal4 to Via4 enclosure on opposite sides must be >= 0.03 um
+soft_check_1
+0 0 2 Nov 25 12:38:30 2026
+Rule File Pathname: counter_drc.rul
+soft_check_1: pdiff_conn causing multiple stamped connections to ptap
+soft_check_11
+0 0 2 Nov 25 12:38:30 2026
+Rule File Pathname: counter_drc.rul
+soft_check_11: nwell_conn has multiple stamped connections from ntap
+soft_check_12
+0 0 2 Nov 25 12:38:30 2026
+Rule File Pathname: counter_drc.rul
+soft_check_12: nwell_conn missing stamped connections from ntap
+soft_check_2
+0 0 2 Nov 25 12:38:30 2026
+Rule File Pathname: counter_drc.rul
+soft_check_2: ptap has multiple stamped connections from pdiff_conn
+VIA6.E.2
+0 0 2 Nov 25 12:38:30 2026
+Rule File Pathname: counter_drc.rul
+VIA6.E.2: Metal6 to Via6 enclosure on opposite sides must be >= 0.03 um
+soft_check_6
+0 0 2 Nov 25 12:38:30 2026
+Rule File Pathname: counter_drc.rul
+soft_check_6: psubstrate missing stamped connections from ptap
+soft_check_10
+0 0 2 Nov 25 12:38:30 2026
+Rule File Pathname: counter_drc.rul
+soft_check_10: ntap causing multiple stamped connections to nwell_conn
+soft_check_8
+0 0 2 Nov 25 12:38:30 2026
+Rule File Pathname: counter_drc.rul
+soft_check_8: ntap has multiple stamped connections from ndiff_conn
+soft_check_7
+0 0 2 Nov 25 12:38:30 2026
+Rule File Pathname: counter_drc.rul
+soft_check_7: ndiff_conn causing multiple stamped connections to ntap
+soft_check_5
+1 1 2 Nov 25 12:38:30 2026
+Rule File Pathname: counter_drc.rul
+soft_check_5: psubstrate has multiple stamped connections from ptap
+p 1 4
+0 218740
+0 0
+240000 0
+240000 218740
+VIAk.X.3_VIAk.X.4
+0 0 2 Nov 25 12:38:30 2026
+Rule File Pathname: counter_drc.rul
+VIAk.X.3_VIAk.X.4: Metal1 through Metal6 stack must have two or more stacked Vias at all levels
+VIAk.X.3_VIAk.X.4_2
+0 0 2 Nov 25 12:38:30 2026
+Rule File Pathname: counter_drc.rul
+VIAk.X.3_VIAk.X.4: Metal2 through Metal7 stack must have two or more stacked Vias at all levels
+VIAk.X.3_VIAk.X.4_3
+0 0 2 Nov 25 12:38:30 2026
+Rule File Pathname: counter_drc.rul
+VIAk.X.3_VIAk.X.4: Metal3 through Metal8 stack must have two or more stacked Vias at all levels
+soft_check_4
+253 253 2 Nov 25 12:38:30 2026
+Rule File Pathname: counter_drc.rul
+soft_check_4: ptap causing multiple stamped connections to psubstrate
+p 1 8
+29496 43960
+29496 43924
+29254 43924
+29254 43960
+29250 43960
+29250 43920
+29500 43920
+29500 43960
+p 2 8
+32050 98960
+32050 98920
+32054 98920
+32054 98956
+32296 98956
+32296 98920
+32300 98920
+32300 98960
+p 3 8
+24100 167360
+24100 167320
+24104 167320
+24104 167356
+24336 167356
+24336 167320
+24340 167320
+24340 167360
+p 4 8
+20000 44200
+20000 43960
+29250 43960
+29250 43964
+20004 43964
+20004 44196
+38730 44196
+38730 44200
+p 5 8
+38730 44240
+38730 44200
+38734 44200
+38734 44236
+38966 44236
+38966 44200
+38970 44200
+38970 44240
+p 6 8
+35640 57920
+35640 57880
+35644 57880
+35644 57916
+35876 57916
+35876 57880
+35880 57880
+35880 57920
+p 7 8
+39876 91840
+39876 91804
+39644 91804
+39644 91840
+39640 91840
+39640 91800
+39880 91800
+39880 91840
+p 8 4
+33930 126280
+33930 126276
+35310 126276
+35310 126280
+p 9 8
+33680 126320
+33680 126280
+33684 126280
+33684 126316
+33926 126316
+33926 126280
+33930 126280
+33930 126320
+p 10 8
+35310 126320
+35310 126280
+35314 126280
+35314 126316
+35546 126316
+35546 126280
+35550 126280
+35550 126320
+p 11 4
+24340 167320
+24340 167316
+37530 167316
+37530 167320
+p 12 8
+37530 167360
+37530 167320
+37534 167320
+37534 167356
+37766 167356
+37766 167320
+37770 167320
+37770 167360
+p 13 8
+48040 174200
+48040 174160
+48044 174160
+48044 174196
+48276 174196
+48276 174160
+48280 174160
+48280 174200
+p 14 8
+39530 201560
+39530 201520
+39534 201520
+39534 201556
+39766 201556
+39766 201520
+39770 201520
+39770 201560
+p 15 8
+56336 30280
+56336 30244
+56104 30244
+56104 30280
+56100 30280
+56100 30240
+56340 30240
+56340 30280
+p 16 8
+57476 43960
+57476 43924
+57244 43924
+57244 43960
+57240 43960
+57240 43920
+57480 43920
+57480 43960
+p 17 4
+29500 43964
+29500 43960
+57240 43960
+57240 43964
+p 18 8
+65096 57640
+65096 57604
+64854 57604
+64854 57640
+64850 57640
+64850 57600
+65100 57600
+65100 57640
+p 19 8
+20004 57644
+20004 57876
+35640 57876
+35640 57880
+20000 57880
+20000 57640
+64850 57640
+64850 57644
+p 20 8
+57926 64480
+57926 64444
+57684 64444
+57684 64480
+57680 64480
+57680 64440
+57930 64440
+57930 64480
+p 21 8
+59546 64480
+59546 64444
+59314 64444
+59314 64480
+59310 64480
+59310 64440
+59550 64440
+59550 64480
+p 22 4
+57930 64484
+57930 64480
+59310 64480
+59310 64484
+p 23 8
+62330 105800
+62330 105760
+62334 105760
+62334 105796
+62566 105796
+62566 105760
+62570 105760
+62570 105800
+p 24 8
+61700 160520
+61700 160480
+61704 160480
+61704 160516
+61936 160516
+61936 160480
+61940 160480
+61940 160520
+p 25 8
+54050 181040
+54050 181000
+54054 181000
+54054 181036
+54296 181036
+54296 181000
+54300 181000
+54300 181040
+p 26 8
+59250 187880
+59250 187840
+59254 187840
+59254 187876
+59496 187876
+59496 187840
+59500 187840
+59500 187880
+p 27 8
+65076 201280
+65076 201244
+64844 201244
+64844 201280
+64840 201280
+64840 201240
+65080 201240
+65080 201280
+p 28 8
+20004 201284
+20004 201516
+39530 201516
+39530 201520
+20000 201520
+20000 201280
+64840 201280
+64840 201284
+p 29 8
+69136 23440
+69136 23404
+68904 23404
+68904 23440
+68900 23440
+68900 23400
+69140 23400
+69140 23440
+p 30 8
+73130 71600
+73130 71560
+73134 71560
+73134 71596
+73366 71596
+73366 71560
+73370 71560
+73370 71600
+p 31 8
+20000 92080
+20000 91840
+39640 91840
+39640 91844
+20004 91844
+20004 92076
+77930 92076
+77930 92080
+p 32 8
+77930 92120
+77930 92080
+77934 92080
+77934 92116
+78166 92116
+78166 92080
+78170 92080
+78170 92120
+p 33 8
+81096 153400
+81096 153364
+80854 153364
+80854 153400
+80850 153400
+80850 153360
+81100 153360
+81100 153400
+p 34 4
+37770 167320
+37770 167316
+72880 167316
+72880 167320
+p 35 4
+73130 167320
+73130 167316
+74510 167316
+74510 167320
+p 36 8
+72880 167360
+72880 167320
+72884 167320
+72884 167356
+73126 167356
+73126 167320
+73130 167320
+73130 167360
+p 37 8
+74510 167360
+74510 167320
+74514 167320
+74514 167356
+74746 167356
+74746 167320
+74750 167320
+74750 167360
+p 38 10
+20000 37360
+20000 37120
+88800 37120
+88800 37356
+88796 37356
+88796 37124
+20004 37124
+20004 37356
+88800 37356
+88800 37360
+p 39 8
+38970 44200
+38970 44196
+88796 44196
+88796 43964
+57480 43964
+57480 43960
+88800 43960
+88800 44200
+p 40 10
+20000 51040
+20000 50800
+88800 50800
+88800 51036
+88796 51036
+88796 50804
+20004 50804
+20004 51036
+88800 51036
+88800 51040
+p 41 12
+73370 71560
+73370 71556
+88796 71556
+88796 71324
+20004 71324
+20004 71556
+73130 71556
+73130 71560
+20000 71560
+20000 71320
+88800 71320
+88800 71560
+p 42 8
+98040 71600
+98040 71560
+98044 71560
+98044 71596
+98276 71596
+98276 71560
+98280 71560
+98280 71600
+p 43 10
+20000 78400
+20000 78160
+88800 78160
+88800 78396
+88796 78396
+88796 78164
+20004 78164
+20004 78396
+88800 78396
+88800 78400
+p 44 10
+20000 85240
+20000 85000
+88800 85000
+88800 85236
+88796 85236
+88796 85004
+20004 85004
+20004 85236
+88800 85236
+88800 85240
+p 45 8
+78170 92080
+78170 92076
+88796 92076
+88796 91844
+39880 91844
+39880 91840
+88800 91840
+88800 92080
+p 46 8
+86276 98680
+86276 98644
+86044 98644
+86044 98680
+86040 98680
+86040 98640
+86280 98640
+86280 98680
+p 47 8
+20004 98684
+20004 98916
+32050 98916
+32050 98920
+20000 98920
+20000 98680
+86040 98680
+86040 98684
+p 48 8
+32300 98920
+32300 98916
+88796 98916
+88796 98684
+86280 98684
+86280 98680
+88800 98680
+88800 98920
+p 49 10
+20000 119440
+20000 119200
+88800 119200
+88800 119436
+88796 119436
+88796 119204
+20004 119204
+20004 119436
+88800 119436
+88800 119440
+p 50 8
+98296 132880
+98296 132844
+98054 132844
+98054 132880
+98050 132880
+98050 132840
+98300 132840
+98300 132880
+p 51 10
+20000 133120
+20000 132880
+88800 132880
+88800 133116
+88796 133116
+88796 132884
+20004 132884
+20004 133116
+88800 133116
+88800 133120
+p 52 10
+20000 139960
+20000 139720
+88800 139720
+88800 139956
+88796 139956
+88796 139724
+20004 139724
+20004 139956
+88800 139956
+88800 139960
+p 53 10
+20000 146800
+20000 146560
+88800 146560
+88800 146796
+88796 146796
+88796 146564
+20004 146564
+20004 146796
+88800 146796
+88800 146800
+p 54 8
+98276 153400
+98276 153364
+98044 153364
+98044 153400
+98040 153400
+98040 153360
+98280 153360
+98280 153400
+p 55 4
+81100 153404
+81100 153400
+98040 153400
+98040 153404
+p 56 4
+74750 167320
+74750 167316
+98050 167316
+98050 167320
+p 57 8
+98050 167360
+98050 167320
+98054 167320
+98054 167356
+98296 167356
+98296 167320
+98300 167320
+98300 167360
+p 58 12
+54300 181000
+54300 180996
+88796 180996
+88796 180764
+20004 180764
+20004 180996
+54050 180996
+54050 181000
+20000 181000
+20000 180760
+88800 180760
+88800 181000
+p 59 10
+20000 194680
+20000 194440
+88800 194440
+88800 194676
+88796 194676
+88796 194444
+20004 194444
+20004 194676
+88800 194676
+88800 194680
+p 60 8
+97930 208400
+97930 208360
+97934 208360
+97934 208396
+98166 208396
+98166 208360
+98170 208360
+98170 208400
+p 61 10
+20000 215200
+20000 214960
+88800 214960
+88800 215196
+88796 215196
+88796 214964
+20004 214964
+20004 215196
+88800 215196
+88800 215200
+p 62 4
+110730 98920
+110730 98916
+112110 98916
+112110 98920
+p 63 8
+110480 98960
+110480 98920
+110484 98920
+110484 98956
+110726 98956
+110726 98920
+110730 98920
+110730 98960
+p 64 8
+112110 98960
+112110 98920
+112114 98920
+112114 98956
+112346 98956
+112346 98920
+112350 98920
+112350 98960
+p 65 8
+111930 119480
+111930 119440
+111934 119440
+111934 119476
+112166 119476
+112166 119440
+112170 119440
+112170 119480
+p 66 4
+98300 167320
+98300 167316
+100840 167316
+100840 167320
+p 67 8
+100840 167360
+100840 167320
+100844 167320
+100844 167356
+101076 167356
+101076 167320
+101080 167320
+101080 167360
+p 68 8
+20000 30520
+20000 30280
+56100 30280
+56100 30284
+20004 30284
+20004 30516
+119130 30516
+119130 30520
+p 69 8
+119130 30560
+119130 30520
+119134 30520
+119134 30556
+119366 30556
+119366 30520
+119370 30520
+119370 30560
+p 70 4
+123130 44200
+123130 44196
+124510 44196
+124510 44200
+p 71 8
+122880 44240
+122880 44200
+122884 44200
+122884 44236
+123126 44236
+123126 44200
+123130 44200
+123130 44240
+p 72 8
+124510 44240
+124510 44200
+124514 44200
+124514 44236
+124746 44236
+124746 44200
+124750 44200
+124750 44240
+p 73 8
+126696 50800
+126696 50764
+126454 50764
+126454 50800
+126450 50800
+126450 50760
+126700 50760
+126700 50800
+p 74 8
+125766 71320
+125766 71284
+125534 71284
+125534 71320
+125530 71320
+125530 71280
+125770 71280
+125770 71320
+p 75 8
+90004 71324
+90004 71556
+98040 71556
+98040 71560
+90000 71560
+90000 71320
+125530 71320
+125530 71324
+p 76 4
+98280 71560
+98280 71556
+121640 71556
+121640 71560
+p 77 8
+121640 71600
+121640 71560
+121644 71560
+121644 71596
+121876 71596
+121876 71560
+121880 71560
+121880 71600
+p 78 8
+121936 146560
+121936 146524
+121704 146524
+121704 146560
+121700 146560
+121700 146520
+121940 146520
+121940 146560
+p 79 4
+48280 174160
+48280 174156
+126100 174156
+126100 174160
+p 80 8
+126100 174200
+126100 174160
+126104 174160
+126104 174196
+126336 174196
+126336 174160
+126340 174160
+126340 174200
+p 81 8
+124100 181040
+124100 181000
+124104 181000
+124104 181036
+124336 181036
+124336 181000
+124340 181000
+124340 181040
+p 82 4
+39770 201520
+39770 201516
+117640 201516
+117640 201520
+p 83 8
+117640 201560
+117640 201520
+117644 201520
+117644 201556
+117876 201556
+117876 201520
+117880 201520
+117880 201560
+p 84 4
+98170 208360
+98170 208356
+124850 208356
+124850 208360
+p 85 8
+124850 208400
+124850 208360
+124854 208360
+124854 208396
+125096 208396
+125096 208360
+125100 208360
+125100 208400
+p 86 12
+20000 23680
+20000 23440
+68900 23440
+68900 23444
+20004 23444
+20004 23676
+138796 23676
+138796 23444
+69140 23444
+69140 23440
+138800 23440
+138800 23680
+p 87 8
+119370 30520
+119370 30516
+138796 30516
+138796 30284
+56340 30284
+56340 30280
+138800 30280
+138800 30520
+p 88 8
+134336 43960
+134336 43924
+134104 43924
+134104 43960
+134100 43960
+134100 43920
+134340 43920
+134340 43960
+p 89 8
+90004 43964
+90004 44196
+122880 44196
+122880 44200
+90000 44200
+90000 43960
+134100 43960
+134100 43964
+p 90 8
+139136 50800
+139136 50764
+138904 50764
+138904 50800
+138900 50800
+138900 50760
+139140 50760
+139140 50800
+p 91 4
+126700 50804
+126700 50800
+138900 50800
+138900 50804
+p 92 8
+35880 57880
+35880 57876
+138796 57876
+138796 57644
+65100 57644
+65100 57640
+138800 57640
+138800 57880
+p 93 12
+20000 64720
+20000 64480
+57680 64480
+57680 64484
+20004 64484
+20004 64716
+138796 64716
+138796 64484
+59550 64484
+59550 64480
+138800 64480
+138800 64720
+p 94 8
+121880 71560
+121880 71556
+138796 71556
+138796 71324
+125770 71324
+125770 71320
+138800 71320
+138800 71560
+p 95 10
+90000 85240
+90000 85000
+138800 85000
+138800 85236
+138796 85236
+138796 85004
+90004 85004
+90004 85236
+138800 85236
+138800 85240
+p 96 4
+112350 98920
+112350 98916
+139640 98916
+139640 98920
+p 97 8
+139640 98960
+139640 98920
+139644 98920
+139644 98956
+139876 98956
+139876 98920
+139880 98920
+139880 98960
+p 98 12
+35550 126280
+35550 126276
+138796 126276
+138796 126044
+20004 126044
+20004 126276
+33680 126276
+33680 126280
+20000 126280
+20000 126040
+138800 126040
+138800 126280
+p 99 12
+131500 139960
+131500 139956
+138796 139956
+138796 139724
+90004 139724
+90004 139956
+131250 139956
+131250 139960
+90000 139960
+90000 139720
+138800 139720
+138800 139960
+p 100 8
+131250 140000
+131250 139960
+131254 139960
+131254 139996
+131496 139996
+131496 139960
+131500 139960
+131500 140000
+p 101 12
+90000 146800
+90000 146560
+121700 146560
+121700 146564
+90004 146564
+90004 146796
+138796 146796
+138796 146564
+121940 146564
+121940 146560
+138800 146560
+138800 146800
+p 102 12
+101080 167320
+101080 167316
+138796 167316
+138796 167084
+20004 167084
+20004 167316
+24100 167316
+24100 167320
+20000 167320
+20000 167080
+138800 167080
+138800 167320
+p 103 12
+126340 174160
+126340 174156
+138796 174156
+138796 173924
+20004 173924
+20004 174156
+48040 174156
+48040 174160
+20000 174160
+20000 173920
+138800 173920
+138800 174160
+p 104 12
+124340 181000
+124340 180996
+138796 180996
+138796 180764
+90004 180764
+90004 180996
+124100 180996
+124100 181000
+90000 181000
+90000 180760
+138800 180760
+138800 181000
+p 105 12
+59500 187840
+59500 187836
+138796 187836
+138796 187604
+20004 187604
+20004 187836
+59250 187836
+59250 187840
+20000 187840
+20000 187600
+138800 187600
+138800 187840
+p 106 10
+90000 194680
+90000 194440
+138800 194440
+138800 194676
+138796 194676
+138796 194444
+90004 194444
+90004 194676
+138800 194676
+138800 194680
+p 107 8
+117880 201520
+117880 201516
+138796 201516
+138796 201284
+65080 201284
+65080 201280
+138800 201280
+138800 201520
+p 108 4
+125100 208360
+125100 208356
+137280 208356
+137280 208360
+p 109 4
+137530 208360
+137530 208356
+138910 208356
+138910 208360
+p 110 8
+137280 208400
+137280 208360
+137284 208360
+137284 208396
+137526 208396
+137526 208360
+137530 208360
+137530 208400
+p 111 8
+138910 208400
+138910 208360
+138914 208360
+138914 208396
+139146 208396
+139146 208360
+139150 208360
+139150 208400
+p 112 8
+132566 214960
+132566 214924
+132334 214924
+132334 214960
+132330 214960
+132330 214920
+132570 214920
+132570 214960
+p 113 8
+149896 85000
+149896 84964
+149654 84964
+149654 85000
+149650 85000
+149650 84960
+149900 84960
+149900 85000
+p 114 8
+154166 91840
+154166 91804
+153934 91804
+153934 91840
+153930 91840
+153930 91800
+154170 91800
+154170 91840
+p 115 8
+150336 105520
+150336 105484
+150104 105484
+150104 105520
+150100 105520
+150100 105480
+150340 105480
+150340 105520
+p 116 8
+20004 105524
+20004 105756
+62330 105756
+62330 105760
+20000 105760
+20000 105520
+150100 105520
+150100 105524
+p 117 8
+173536 71320
+173536 71284
+173304 71284
+173304 71320
+173300 71320
+173300 71280
+173540 71280
+173540 71320
+p 118 8
+165896 85000
+165896 84964
+165654 84964
+165654 85000
+165650 85000
+165650 84960
+165900 84960
+165900 85000
+p 119 4
+149900 85004
+149900 85000
+165650 85000
+165650 85004
+p 120 8
+175526 105520
+175526 105484
+175284 105484
+175284 105520
+175280 105520
+175280 105480
+175530 105480
+175530 105520
+p 121 8
+177146 105520
+177146 105484
+176914 105484
+176914 105520
+176910 105520
+176910 105480
+177150 105480
+177150 105520
+p 122 4
+150340 105524
+150340 105520
+175280 105520
+175280 105524
+p 123 4
+175530 105524
+175530 105520
+176910 105520
+176910 105524
+p 124 8
+165136 153400
+165136 153364
+164904 153364
+164904 153400
+164900 153400
+164900 153360
+165140 153360
+165140 153400
+p 125 4
+98280 153404
+98280 153400
+164900 153400
+164900 153404
+p 126 8
+167876 180760
+167876 180724
+167644 180724
+167644 180760
+167640 180760
+167640 180720
+167880 180720
+167880 180760
+p 127 10
+140000 23680
+140000 23440
+188800 23440
+188800 23676
+188796 23676
+188796 23444
+140004 23444
+140004 23676
+188800 23676
+188800 23680
+p 128 4
+180730 30520
+180730 30516
+182110 30516
+182110 30520
+p 129 8
+180480 30560
+180480 30520
+180484 30520
+180484 30556
+180726 30556
+180726 30520
+180730 30520
+180730 30560
+p 130 8
+182110 30560
+182110 30520
+182114 30520
+182114 30556
+182346 30556
+182346 30520
+182350 30520
+182350 30560
+p 131 10
+90000 37360
+90000 37120
+188800 37120
+188800 37356
+188796 37356
+188796 37124
+90004 37124
+90004 37356
+188800 37356
+188800 37360
+p 132 12
+90000 51040
+90000 50800
+126450 50800
+126450 50804
+90004 50804
+90004 51036
+188796 51036
+188796 50804
+139140 50804
+139140 50800
+188800 50800
+188800 51040
+p 133 10
+140000 57880
+140000 57640
+188800 57640
+188800 57876
+188796 57876
+188796 57644
+140004 57644
+140004 57876
+188800 57876
+188800 57880
+p 134 10
+140000 64720
+140000 64480
+188800 64480
+188800 64716
+188796 64716
+188796 64484
+140004 64484
+140004 64716
+188800 64716
+188800 64720
+p 135 12
+140000 71560
+140000 71320
+173300 71320
+173300 71324
+140004 71324
+140004 71556
+188796 71556
+188796 71324
+173540 71324
+173540 71320
+188800 71320
+188800 71560
+p 136 12
+140000 85240
+140000 85000
+149650 85000
+149650 85004
+140004 85004
+140004 85236
+189596 85236
+189596 85004
+165900 85004
+165900 85000
+189600 85000
+189600 85240
+p 137 12
+90000 92080
+90000 91840
+153930 91840
+153930 91844
+90004 91844
+90004 92076
+188796 92076
+188796 91844
+154170 91844
+154170 91840
+188800 91840
+188800 92080
+p 138 8
+189366 98680
+189366 98644
+189134 98644
+189134 98680
+189130 98680
+189130 98640
+189370 98640
+189370 98680
+p 139 8
+90004 98684
+90004 98916
+110480 98916
+110480 98920
+90000 98920
+90000 98680
+189130 98680
+189130 98684
+p 140 8
+139880 98920
+139880 98916
+189596 98916
+189596 98684
+189370 98684
+189370 98680
+189600 98680
+189600 98920
+p 141 12
+112170 119440
+112170 119436
+188796 119436
+188796 119204
+90004 119204
+90004 119436
+111930 119436
+111930 119440
+90000 119440
+90000 119200
+188800 119200
+188800 119440
+p 142 4
+184170 126280
+184170 126276
+188040 126276
+188040 126280
+p 143 8
+183930 126320
+183930 126280
+183934 126280
+183934 126316
+184166 126316
+184166 126280
+184170 126280
+184170 126320
+p 144 8
+188040 126320
+188040 126280
+188044 126280
+188044 126316
+188276 126316
+188276 126280
+188280 126280
+188280 126320
+p 145 12
+90000 133120
+90000 132880
+98050 132880
+98050 132884
+90004 132884
+90004 133116
+188796 133116
+188796 132884
+98300 132884
+98300 132880
+188800 132880
+188800 133120
+p 146 8
+181076 139720
+181076 139684
+180844 139684
+180844 139720
+180840 139720
+180840 139680
+181080 139680
+181080 139720
+p 147 10
+140000 146800
+140000 146560
+188800 146560
+188800 146796
+188796 146796
+188796 146564
+140004 146564
+140004 146796
+188800 146796
+188800 146800
+p 148 12
+61940 160480
+61940 160476
+188796 160476
+188796 160244
+20004 160244
+20004 160476
+61700 160476
+61700 160480
+20000 160480
+20000 160240
+188800 160240
+188800 160480
+p 149 8
+189136 167080
+189136 167044
+188904 167044
+188904 167080
+188900 167080
+188900 167040
+189140 167040
+189140 167080
+p 150 8
+140000 167320
+140000 167080
+188900 167080
+188900 167084
+140004 167084
+140004 167316
+189640 167316
+189640 167320
+p 151 8
+189640 167360
+189640 167320
+189644 167320
+189644 167356
+189876 167356
+189876 167320
+189880 167320
+189880 167360
+p 152 8
+185096 173920
+185096 173884
+184854 173884
+184854 173920
+184850 173920
+184850 173880
+185100 173880
+185100 173920
+p 153 12
+140000 181000
+140000 180760
+167640 180760
+167640 180764
+140004 180764
+140004 180996
+188796 180996
+188796 180764
+167880 180764
+167880 180760
+188800 180760
+188800 181000
+p 154 8
+185896 187600
+185896 187564
+185654 187564
+185654 187600
+185650 187600
+185650 187560
+185900 187560
+185900 187600
+p 155 10
+140000 194680
+140000 194440
+188800 194440
+188800 194676
+188796 194676
+188796 194444
+140004 194444
+140004 194676
+188800 194676
+188800 194680
+p 156 10
+140000 201520
+140000 201280
+188800 201280
+188800 201516
+188796 201516
+188796 201284
+140004 201284
+140004 201516
+188800 201516
+188800 201520
+p 157 8
+188166 214960
+188166 214924
+187934 214924
+187934 214960
+187930 214960
+187930 214920
+188170 214920
+188170 214960
+p 158 4
+132570 214964
+132570 214960
+187930 214960
+187930 214964
+p 159 8
+208050 37400
+208050 37360
+208054 37360
+208054 37396
+208296 37396
+208296 37360
+208300 37360
+208300 37400
+p 160 8
+200566 50800
+200566 50764
+200334 50764
+200334 50800
+200330 50800
+200330 50760
+200570 50760
+200570 50800
+p 161 8
+190000 51040
+190000 50800
+200330 50800
+200330 50804
+190004 50804
+190004 51036
+197930 51036
+197930 51040
+p 162 8
+197930 51080
+197930 51040
+197934 51040
+197934 51076
+198166 51076
+198166 51040
+198170 51040
+198170 51080
+p 163 4
+198280 64720
+198280 64716
+212900 64716
+212900 64720
+p 164 8
+198040 64760
+198040 64720
+198044 64720
+198044 64756
+198276 64756
+198276 64720
+198280 64720
+198280 64760
+p 165 8
+210216 105520
+210216 105484
+209904 105484
+209904 105520
+209900 105520
+209900 105480
+210220 105480
+210220 105520
+p 166 4
+177150 105524
+177150 105520
+209900 105520
+209900 105524
+p 167 4
+62570 105760
+62570 105756
+199160 105756
+199160 105760
+p 168 4
+199280 105760
+199280 105756
+200870 105756
+200870 105760
+p 169 4
+201050 105760
+201050 105756
+207560 105756
+207560 105760
+p 170 4
+207680 105760
+207680 105756
+209270 105756
+209270 105760
+p 171 8
+199160 105800
+199160 105760
+199164 105760
+199164 105796
+199276 105796
+199276 105760
+199280 105760
+199280 105800
+p 172 8
+200870 105800
+200870 105760
+200874 105760
+200874 105796
+201046 105796
+201046 105760
+201050 105760
+201050 105800
+p 173 8
+207560 105800
+207560 105760
+207564 105760
+207564 105796
+207676 105796
+207676 105760
+207680 105760
+207680 105800
+p 174 8
+209270 105800
+209270 105760
+209274 105760
+209274 105796
+209446 105796
+209446 105760
+209450 105760
+209450 105800
+p 175 8
+204876 119200
+204876 119164
+204764 119164
+204764 119200
+204760 119200
+204760 119160
+204880 119160
+204880 119200
+p 176 8
+206646 119200
+206646 119164
+206474 119164
+206474 119200
+206470 119200
+206470 119160
+206650 119160
+206650 119200
+p 177 8
+212216 119200
+212216 119164
+211904 119164
+211904 119200
+211900 119200
+211900 119160
+212220 119160
+212220 119200
+p 178 4
+204880 119204
+204880 119200
+206470 119200
+206470 119204
+p 179 4
+206650 119204
+206650 119200
+211900 119200
+211900 119204
+p 180 8
+190000 119440
+190000 119200
+204760 119200
+204760 119204
+190004 119204
+190004 119436
+198950 119436
+198950 119440
+p 181 4
+199190 119440
+199190 119436
+203260 119436
+203260 119440
+p 182 8
+198950 119480
+198950 119440
+198954 119440
+198954 119476
+199186 119476
+199186 119440
+199190 119440
+199190 119480
+p 183 8
+203260 119480
+203260 119440
+203264 119440
+203264 119476
+203506 119476
+203506 119440
+203510 119440
+203510 119480
+p 184 8
+198876 126040
+198876 126004
+198764 126004
+198764 126040
+198760 126040
+198760 126000
+198880 126000
+198880 126040
+p 185 8
+200646 126040
+200646 126004
+200474 126004
+200474 126040
+200470 126040
+200470 126000
+200650 126000
+200650 126040
+p 186 8
+206876 126040
+206876 126004
+206764 126004
+206764 126040
+206760 126040
+206760 126000
+206880 126000
+206880 126040
+p 187 8
+208646 126040
+208646 126004
+208474 126004
+208474 126040
+208470 126040
+208470 126000
+208650 126000
+208650 126040
+p 188 8
+140004 126044
+140004 126276
+183930 126276
+183930 126280
+140000 126280
+140000 126040
+198760 126040
+198760 126044
+p 189 4
+198880 126044
+198880 126040
+200470 126040
+200470 126044
+p 190 4
+200650 126044
+200650 126040
+206760 126040
+206760 126044
+p 191 4
+206880 126044
+206880 126040
+208470 126040
+208470 126044
+p 192 4
+188280 126280
+188280 126276
+211900 126276
+211900 126280
+p 193 8
+211900 126320
+211900 126280
+211904 126280
+211904 126316
+212216 126316
+212216 126280
+212220 126280
+212220 126320
+p 194 8
+205126 201280
+205126 201244
+204884 201244
+204884 201280
+204880 201280
+204880 201240
+205130 201240
+205130 201280
+p 195 8
+206746 201280
+206746 201244
+206514 201244
+206514 201280
+206510 201280
+206510 201240
+206750 201240
+206750 201280
+p 196 8
+207936 201280
+207936 201244
+207704 201244
+207704 201280
+207700 201280
+207700 201240
+207940 201240
+207940 201280
+p 197 4
+205130 201284
+205130 201280
+206510 201280
+206510 201284
+p 198 4
+206750 201284
+206750 201280
+207700 201280
+207700 201284
+p 199 10
+190000 23680
+190000 23440
+215600 23440
+215600 23676
+215596 23676
+215596 23444
+190004 23444
+190004 23676
+215600 23676
+215600 23680
+p 200 10
+216800 23680
+216800 23440
+220000 23440
+220000 23676
+219996 23676
+219996 23444
+216804 23444
+216804 23676
+220000 23676
+220000 23680
+p 201 12
+182350 30520
+182350 30516
+215596 30516
+215596 30284
+140004 30284
+140004 30516
+180480 30516
+180480 30520
+140000 30520
+140000 30280
+215600 30280
+215600 30520
+p 202 10
+216800 30520
+216800 30280
+220000 30280
+220000 30516
+219996 30516
+219996 30284
+216804 30284
+216804 30516
+220000 30516
+220000 30520
+p 203 12
+208300 37360
+208300 37356
+215596 37356
+215596 37124
+190004 37124
+190004 37356
+208050 37356
+208050 37360
+190000 37360
+190000 37120
+215600 37120
+215600 37360
+p 204 10
+216800 37360
+216800 37120
+220000 37120
+220000 37356
+219996 37356
+219996 37124
+216804 37124
+216804 37356
+220000 37356
+220000 37360
+p 205 8
+124750 44200
+124750 44196
+215596 44196
+215596 43964
+134340 43964
+134340 43960
+215600 43960
+215600 44200
+p 206 10
+216800 44200
+216800 43960
+220000 43960
+220000 44196
+219996 44196
+219996 43964
+216804 43964
+216804 44196
+220000 44196
+220000 44200
+p 207 8
+198170 51040
+198170 51036
+219996 51036
+219996 50804
+200570 50804
+200570 50800
+220000 50800
+220000 51040
+p 208 10
+190000 57880
+190000 57640
+215600 57640
+215600 57876
+215596 57876
+215596 57644
+190004 57644
+190004 57876
+215600 57876
+215600 57880
+p 209 10
+216800 57880
+216800 57640
+220000 57640
+220000 57876
+219996 57876
+219996 57644
+216804 57644
+216804 57876
+220000 57876
+220000 57880
+p 210 12
+213140 64720
+213140 64716
+215596 64716
+215596 64484
+190004 64484
+190004 64716
+198040 64716
+198040 64720
+190000 64720
+190000 64480
+215600 64480
+215600 64720
+p 211 10
+216800 64720
+216800 64480
+220000 64480
+220000 64716
+219996 64716
+219996 64484
+216804 64484
+216804 64716
+220000 64716
+220000 64720
+p 212 8
+212900 64760
+212900 64720
+212904 64720
+212904 64756
+213136 64756
+213136 64720
+213140 64720
+213140 64760
+p 213 10
+190000 71560
+190000 71320
+215600 71320
+215600 71556
+215596 71556
+215596 71324
+190004 71324
+190004 71556
+215600 71556
+215600 71560
+p 214 10
+216800 71560
+216800 71320
+220000 71320
+220000 71556
+219996 71556
+219996 71324
+216804 71324
+216804 71556
+220000 71556
+220000 71560
+p 215 12
+214280 78400
+214280 78396
+219996 78396
+219996 78164
+90004 78164
+90004 78396
+214040 78396
+214040 78400
+90000 78400
+90000 78160
+220000 78160
+220000 78400
+p 216 8
+214040 78440
+214040 78400
+214044 78400
+214044 78436
+214276 78436
+214276 78400
+214280 78400
+214280 78440
+p 217 10
+190000 85240
+190000 85000
+215600 85000
+215600 85236
+215596 85236
+215596 85004
+190004 85004
+190004 85236
+215600 85236
+215600 85240
+p 218 10
+216800 85240
+216800 85000
+220000 85000
+220000 85236
+219996 85236
+219996 85004
+216804 85004
+216804 85236
+220000 85236
+220000 85240
+p 219 10
+190000 92080
+190000 91840
+215600 91840
+215600 92076
+215596 92076
+215596 91844
+190004 91844
+190004 92076
+215600 92076
+215600 92080
+p 220 10
+216800 92080
+216800 91840
+220000 91840
+220000 92076
+219996 92076
+219996 91844
+216804 91844
+216804 92076
+220000 92076
+220000 92080
+p 221 10
+190000 98920
+190000 98680
+215600 98680
+215600 98916
+215596 98916
+215596 98684
+190004 98684
+190004 98916
+215600 98916
+215600 98920
+p 222 10
+216800 98920
+216800 98680
+220000 98680
+220000 98916
+219996 98916
+219996 98684
+216804 98684
+216804 98916
+220000 98916
+220000 98920
+p 223 4
+209450 105760
+209450 105756
+215700 105756
+215700 105760
+p 224 8
+215940 105760
+215940 105756
+219996 105756
+219996 105524
+210220 105524
+210220 105520
+220000 105520
+220000 105760
+p 225 8
+215700 105800
+215700 105760
+215704 105760
+215704 105796
+215936 105796
+215936 105760
+215940 105760
+215940 105800
+p 226 8
+203510 119440
+203510 119436
+219996 119436
+219996 119204
+212220 119204
+212220 119200
+220000 119200
+220000 119440
+p 227 8
+214216 126040
+214216 126004
+213904 126004
+213904 126040
+213900 126040
+213900 126000
+214220 126000
+214220 126040
+p 228 4
+208650 126044
+208650 126040
+213900 126040
+213900 126044
+p 229 8
+212220 126280
+212220 126276
+219996 126276
+219996 126044
+214220 126044
+214220 126040
+220000 126040
+220000 126280
+p 230 10
+190000 133120
+190000 132880
+215600 132880
+215600 133116
+215596 133116
+215596 132884
+190004 132884
+190004 133116
+215600 133116
+215600 133120
+p 231 10
+216800 133120
+216800 132880
+220000 132880
+220000 133116
+219996 133116
+219996 132884
+216804 132884
+216804 133116
+220000 133116
+220000 133120
+p 232 12
+140000 139960
+140000 139720
+180840 139720
+180840 139724
+140004 139724
+140004 139956
+215596 139956
+215596 139724
+181080 139724
+181080 139720
+215600 139720
+215600 139960
+p 233 10
+216800 139960
+216800 139720
+220000 139720
+220000 139956
+219996 139956
+219996 139724
+216804 139724
+216804 139956
+220000 139956
+220000 139960
+p 234 10
+190000 146800
+190000 146560
+215600 146560
+215600 146796
+215596 146796
+215596 146564
+190004 146564
+190004 146796
+215600 146796
+215600 146800
+p 235 10
+216800 146800
+216800 146560
+220000 146560
+220000 146796
+219996 146796
+219996 146564
+216804 146564
+216804 146796
+220000 146796
+220000 146800
+p 236 12
+20000 153640
+20000 153400
+80850 153400
+80850 153404
+20004 153404
+20004 153636
+215596 153636
+215596 153404
+165140 153404
+165140 153400
+215600 153400
+215600 153640
+p 237 10
+216800 153640
+216800 153400
+220000 153400
+220000 153636
+219996 153636
+219996 153404
+216804 153404
+216804 153636
+220000 153636
+220000 153640
+p 238 10
+190000 160480
+190000 160240
+220000 160240
+220000 160476
+219996 160476
+219996 160244
+190004 160244
+190004 160476
+220000 160476
+220000 160480
+p 239 8
+189880 167320
+189880 167316
+215596 167316
+215596 167084
+189140 167084
+189140 167080
+215600 167080
+215600 167320
+p 240 10
+216800 167320
+216800 167080
+220000 167080
+220000 167316
+219996 167316
+219996 167084
+216804 167084
+216804 167316
+220000 167316
+220000 167320
+p 241 12
+140000 174160
+140000 173920
+184850 173920
+184850 173924
+140004 173924
+140004 174156
+215596 174156
+215596 173924
+185100 173924
+185100 173920
+215600 173920
+215600 174160
+p 242 10
+216800 174160
+216800 173920
+220000 173920
+220000 174156
+219996 174156
+219996 173924
+216804 173924
+216804 174156
+220000 174156
+220000 174160
+p 243 12
+216570 181000
+216570 180996
+219996 180996
+219996 180764
+190004 180764
+190004 180996
+216330 180996
+216330 181000
+190000 181000
+190000 180760
+220000 180760
+220000 181000
+p 244 8
+216330 181040
+216330 181000
+216334 181000
+216334 181036
+216566 181036
+216566 181000
+216570 181000
+216570 181040
+p 245 12
+140000 187840
+140000 187600
+185650 187600
+185650 187604
+140004 187604
+140004 187836
+216396 187836
+216396 187604
+185900 187604
+185900 187600
+216400 187600
+216400 187840
+p 246 10
+216800 187840
+216800 187600
+220000 187600
+220000 187836
+219996 187836
+219996 187604
+216804 187604
+216804 187836
+220000 187836
+220000 187840
+p 247 10
+190000 194680
+190000 194440
+215600 194440
+215600 194676
+215596 194676
+215596 194444
+190004 194444
+190004 194676
+215600 194676
+215600 194680
+p 248 10
+216800 194680
+216800 194440
+220000 194440
+220000 194676
+219996 194676
+219996 194444
+216804 194444
+216804 194676
+220000 194676
+220000 194680
+p 249 12
+190000 201520
+190000 201280
+204880 201280
+204880 201284
+190004 201284
+190004 201516
+219996 201516
+219996 201284
+207940 201284
+207940 201280
+220000 201280
+220000 201520
+p 250 12
+139150 208360
+139150 208356
+215596 208356
+215596 208124
+20004 208124
+20004 208356
+97930 208356
+97930 208360
+20000 208360
+20000 208120
+215600 208120
+215600 208360
+p 251 10
+216800 208360
+216800 208120
+220000 208120
+220000 208356
+219996 208356
+219996 208124
+216804 208124
+216804 208356
+220000 208356
+220000 208360
+p 252 12
+90000 215200
+90000 214960
+132330 214960
+132330 214964
+90004 214964
+90004 215196
+215596 215196
+215596 214964
+188170 214964
+188170 214960
+215600 214960
+215600 215200
+p 253 10
+216800 215200
+216800 214960
+220000 214960
+220000 215196
+219996 215196
+219996 214964
+216804 214964
+216804 215196
+220000 215196
+220000 215200
+VIAk.X.3_VIAk.X.4_4
+0 0 2 Nov 25 12:38:30 2026
+Rule File Pathname: counter_drc.rul
+VIAk.X.3_VIAk.X.4: Metal4 through Metal9 stack must have two or more stacked Vias at all levels

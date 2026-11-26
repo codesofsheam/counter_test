@@ -1,0 +1,12 @@
+# Port Table (ports) 
+# Layout Primary counter
+clk 49 clk 250 119130 metal7_conn
+rst 43 rst 120200 250 metal6_conn
+count[7] 41 count[7] 239750 83790 metal5_conn
+count[6] 47 count[6] 239750 94050 metal5_conn
+count[5] 52 count[5] 239750 104310 metal5_conn
+count[4] 53 count[4] 239750 114570 metal5_conn
+count[3] 58 count[3] 239750 124830 metal5_conn
+count[2] 42 count[2] 239750 135090 metal5_conn
+count[1] 61 count[1] 239750 145350 metal5_conn
+count[0] 59 count[0] 239750 155610 metal5_conn

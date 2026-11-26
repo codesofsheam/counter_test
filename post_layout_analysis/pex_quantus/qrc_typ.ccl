@@ -1,0 +1,55 @@
+input_db -type def \
+    -design_file "/home/user_50/projects/counter_45/pnr/outputs/counter_final.def" \
+    -lef_file_list_file "/home/user_50/projects/counter_45/post_layout_analysis/pex_quantus/lef.list"
+
+#==============================================================================
+# 2. TECHNOLOGY & PROCESS CORNER CONFIGURATION
+#==============================================================================
+process_technology \
+    -technology_name "gpdk45" \
+    -technology_library_file "/home/user_50/projects/counter_45/post_layout_analysis/pex_quantus/techlib.defs" \
+    -temperature "125.0"
+
+#==============================================================================
+# 3. EXTRACTION & PARASITIC MODE
+#==============================================================================
+extraction_setup \
+    -analysis timing \
+    -technology_layer_map \
+        Metal1 metal1_conn \
+        Metal2 metal2_conn \
+        Metal3 metal3_conn \
+        Metal4 metal4_conn \
+        Metal5 metal5_conn \
+        Metal6 metal6_conn \
+        Metal7 metal7_conn \
+        Metal8 metal8_conn \
+        Via1 Via1 \
+        Via2 Via2 \
+        Via3 Via3 \
+        Via4 Via4 \
+        Via5 Via5 \
+        Via6 Via6 \
+        Via7 Via7 \
+        Metal9 metal9_conn \
+        Metal10 metal10_conn \
+        Metal11 metal11_conn \
+        Via8 Via8 \
+        Via9 Via9 \
+        Via10 Via10
+
+
+extract \
+    -selection all \
+    -type rc_coupled
+
+#==============================================================================
+# 4. OUTPUT DIRECTORY & SPEF GENERATION
+#==============================================================================
+output_setup \
+    -directory_name "/home/user_50/projects/counter_45/post_layout_analysis/pex_quantus/results" \
+    -file_name "counter_typical" \
+    -compressed false
+
+output_db -type spef \
+    -subtype STANDARD

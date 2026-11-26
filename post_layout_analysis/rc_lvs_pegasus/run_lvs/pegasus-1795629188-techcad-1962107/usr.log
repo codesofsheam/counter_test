@@ -1,0 +1,90 @@
+Pegasus 25.12-s007 Vtt0vc/F2C1cc6tbWes3+w 2026-11-25 12:53:08 1962107 techcad
+Copyright 2026 Cadence Design Systems, Inc.
+All rights reserved worldwide.
+
+INFO:    Command Line Options: -lvs counter_lvs.rul -gds /home/user_50/projects/counter_45/pnr/counter_final.gds -layout_top_cell counter -source_verilog /home/user_50/projects/counter_45/pnr/outputs/counter_innovus_final.v -source_cdl /home/user_50/projects/counter_45/cdl/gsclib045_lvt.cdl -source_cdl /home/user_50/projects/counter_45/cdl/gsclib045_hvt.cdl -source_cdl /home/user_50/projects/counter_45/cdl/gsclib045_svt.cdl -source_top_cell counter -run_dir /home/user_50/projects/counter_45/post_layout_analysis/rc_lvs_pegasus/run_lvs -log /home/user_50/projects/counter_45/post_layout_analysis/rc_lvs_pegasus/run_lvs/pegasus_lvs.log
+INFO:    Launch host CPU: Model: Intel(R) Xeon(R) Silver 4310 CPU @ 2.10GHz, OS: Red Hat Enterprise Linux release 8.4 (Ootpa), Logical cores: 48, Physical cores: 24, Cache: 18432 KB, CPU Speed: 2711.52 MHz
+         Launch host Memory: MemTotal: 128110 MB,  MemFree: 6178 MB,  SwapTotal: 262143 MB,  SwapFree: 236025 MB,  VmallocTotal: 13421772799 MB,  VmallocUsed: 0 MB
+INFO:    Current path: /home/user_50/projects/counter_45/post_layout_analysis/rc_lvs_pegasus
+INFO:    Run directory: /home/user_50/projects/counter_45/post_layout_analysis/rc_lvs_pegasus/run_lvs
+INFO:    Log directory: /home/user_50/projects/counter_45/post_layout_analysis/rc_lvs_pegasus/run_lvs/pegasus-1795629188-techcad-1962107
+INFO:    Setting LAYOUT_PATH to /home/user_50/projects/counter_45/pnr/counter_final.gds
+INFO:    Setting LAYOUT_PRIMARY to counter
+INFO:    Setting SCHEMATIC_PATH to /home/user_50/projects/counter_45/cdl/gsclib045_lvt.cdl
+INFO:    Setting SCHEMATIC_PATH to /home/user_50/projects/counter_45/cdl/gsclib045_hvt.cdl
+INFO:    Setting SCHEMATIC_PATH to /home/user_50/projects/counter_45/cdl/gsclib045_svt.cdl
+INFO:    Setting SCHEMATIC_PATH to /home/user_50/projects/counter_45/pnr/outputs/counter_innovus_final.v
+INFO:    Setting SCHEMATIC_PRIMARY to counter
+INFO:    PVL parsing results:
+INFO:    See /home/user_50/projects/counter_45/post_layout_analysis/rc_lvs_pegasus/run_lvs/pegasus-1795629188-techcad-1962107/pvl.log for additional details
+INFO:    Worker 1 started on host techcad with 16 threads
+         CPU: Model: Intel(R) Xeon(R) Silver 4310 CPU @ 2.10GHz, OS: Red Hat Enterprise Linux release 8.4 (Ootpa), Logical cores: 48, Physical cores: 24, Cache: 18432 KB, CPU Speed: 2703.6 MHz
+         Memory: MemTotal: 128110 MB,  MemFree: 6016 MB,  SwapTotal: 262143 MB,  SwapFree: 236025 MB,  VmallocTotal: 13421772799 MB,  VmallocUsed: 0 MB
+INFO:    Checking out 1 license(s) of feature: 'Pegasus_LVS' version 25.1
+INFO:    License checkout successful ... 2026-11-25 12:53:10 (0s) (License)
+INFO:    Checking out 1 license(s) of feature: 'Pegasus_16nm' version 25.1
+INFO:    License checkout successful ... 2026-11-25 12:53:10 (0s) (License)
+INFO:    Gdsii input summary
+         File name: /home/user_50/projects/counter_45/pnr/counter_final.gds
+         File size: 256618
+         Version: 5.0
+         Library name: DesignLib
+         Last modified: 2026-11-25 07:18:11
+         Last accessed: 2026-11-25 07:18:11
+         Database unit in user units: 0.0005
+         Database unit in meters: 5e-10
+         Magnification: 1
+INFO:    CHIP EXTENT: 0 0 240000 218740
+INFO:    Extraction report file: /home/user_50/projects/counter_45/post_layout_analysis/rc_lvs_pegasus/run_lvs/counter.lvsrpt (Worker 1)
+INFO:    Extracted layout netlist: /home/user_50/projects/counter_45/post_layout_analysis/rc_lvs_pegasus/run_lvs/svdb/counter.net (Worker 1)
+INFO:    Comparing netlists using calculon ... (Worker 1)
+INFO:    Reading schematic network
+INFO:     inputting cdl netlist /home/user_50/projects/counter_45/cdl/gsclib045_lvt.cdl...
+INFO:     finished loading cdl netlist /home/user_50/projects/counter_45/cdl/gsclib045_lvt.cdl (0s)
+INFO:     inputting cdl netlist /home/user_50/projects/counter_45/cdl/gsclib045_hvt.cdl... (Worker 1)
+INFO:     finished loading cdl netlist /home/user_50/projects/counter_45/cdl/gsclib045_hvt.cdl (0s)
+INFO:     inputting cdl netlist /home/user_50/projects/counter_45/cdl/gsclib045_svt.cdl...
+INFO:     finished loading cdl netlist /home/user_50/projects/counter_45/cdl/gsclib045_svt.cdl (0s) (Worker 1)
+INFO:    Reading layout network
+INFO:     inputting (fast parser) cdl netlist  /home/user_50/projects/counter_45/post_layout_analysis/rc_lvs_pegasus/run_lvs/svdb/counter.net...
+INFO:     finished loading cdl netlist /home/user_50/projects/counter_45/post_layout_analysis/rc_lvs_pegasus/run_lvs/svdb/counter.net (0s)
+INFO:    Netlists preprocessing ... (Worker 1)
+INFO:    Finished netlists preprocessing ...
+INFO:    Comparing cells ... (Worker 1)
+INFO:    Finished comparing cells ... (Worker 1)
+INFO: #################################################################################
+      #                                                                               #
+      # Comparison Run Result  : MISMATCH                                             #
+      # Comparison Run Summary : [ERROR] Connectivity Mismatches                      #
+      #                        : [ERROR] Instance Subtype Mismatches                  #
+      #                        : [ERROR] Parameter Mismatches                         #
+      #                        : [INFO]  Some Sections Have Been Truncated            #
+      # Comparison Report File : counter.lvsrpt.cls                                   #
+      #                                                                               #
+      #################################################################################
+INFO:    See /home/user_50/projects/counter_45/post_layout_analysis/rc_lvs_pegasus/run_lvs/pegasus-1795629188-techcad-1962107/nvn.log for additional details (Worker 1)
+INFO:    Status: Runset Finished as of 2026-11-25 12:53:34   Elapsed: 00:00:26   CPU time[s]: 17
+INFO:    Resource usage by worker at exit:
+                  CPU      Elapsed  Threads    CPU       Peak Total  Peak Active
+         Worker:  time[s]  time[s]  Allocated  usage[%]  Memory[MB]  Memory[MB]
+              1:       17       24         16      4.43         862           88  Peak ExtMem: 422 MB
+         Worker resource usage  summary: Total CPU[s]: 17  Run duration[s]: 24  Max peak memory[MB]: 862
+         Worker CPU utilization summary: 17 of 384 available CPU seconds (4.43%) with 16 average available CPUs
+INFO:    Extraction result: ERRORS (Reporter)
+INFO:    Generating ERC summary in /home/user_50/projects/counter_45/post_layout_analysis/rc_lvs_pegasus/run_lvs/result.sum
+INFO:    #########################################################################################
+         #                                                                                       #
+         # Extraction Run Summary : [WARN] Extraction Warnings (refer to Extraction Report File) #
+         # Extraction Report File : counter.lvsrpt                                               #
+         # ERC Results            : Empty                                                        #
+         # ERC Summary File       : result.sum                                                   #
+         #                                                                                       #
+         #########################################################################################
+         Total CPU Time                    : 17(s)
+         Total Real Time                   : 24(s)
+         Total Original Geometry           : 2498 (116177)
+         Total ERC RuleChecks              : 0
+         Total ERC Results                 : 0 (0)
+INFO:    Checking in all SoftShare licenses.
+
+Pegasus finished normally. 2026-11-25 12:53:34

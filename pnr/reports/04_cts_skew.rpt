@@ -1,0 +1,209 @@
+Updating ideal nets and annotations...
+Clock tree spec update: Ideal nets, transition and delay annotations were updated to match active timing constraints.
+Updating ideal nets and annotations done. (took cpu=0:00:00.0 real=0:00:00.0)
+No differences between SDC and CTS ideal net status found.
+Clock tree timing engine global stage delay update for slow_worst:setup.early...
+Clock tree timing engine global stage delay update for slow_worst:setup.early done. (took cpu=0:00:00.0 real=0:00:00.0)
+Clock tree timing engine global stage delay update for slow_worst:setup.late...
+Clock tree timing engine global stage delay update for slow_worst:setup.late done. (took cpu=0:00:00.0 real=0:00:00.0)
+Clock tree timing engine global stage delay update for fast_best:hold.early...
+Clock tree timing engine global stage delay update for fast_best:hold.early done. (took cpu=0:00:00.0 real=0:00:00.0)
+Clock tree timing engine global stage delay update for fast_best:hold.late...
+Clock tree timing engine global stage delay update for fast_best:hold.late done. (took cpu=0:00:00.0 real=0:00:00.0)
+
+Skew Group Structure:
+=====================
+
+-------------------------------------------------------------------
+Skew Group      Sources    Constrained Sinks    Unconstrained Sinks
+-------------------------------------------------------------------
+clk/two_nano       1               8                     0
+-------------------------------------------------------------------
+
+Skew Group Summary:
+===================
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Timing Corner             Skew Group      ID Target    Min ID    Max ID    Avg ID    Std.Dev. ID    Skew Target Type    Skew Target    Skew     Skew window occupancy
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+slow_worst:setup.early    clk/two_nano        -        0.000     0.000     0.000        0.000       ignored                  -         0.000              -
+slow_worst:setup.late     clk/two_nano    none         0.000     0.000     0.000        0.000       auto computed        0.058         0.000    100% {0.000, 0.000}
+fast_best:hold.early      clk/two_nano        -        0.000     0.000     0.000        0.000       ignored                  -         0.000              -
+fast_best:hold.late       clk/two_nano        -        0.000     0.000     0.000        0.000       ignored                  -         0.000              -
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+* - indicates that target was not met.
+
+Skew Group Min/Max path pins:
+=============================
+
+------------------------------------------------------------------------------
+Timing Corner             Skew Group      Min ID    PathID    Max ID    PathID
+------------------------------------------------------------------------------
+slow_worst:setup.early    clk/two_nano    0.000       1       0.000       2
+-    min count_reg[0]/CK
+-    max count_reg[7]/CK
+slow_worst:setup.late     clk/two_nano    0.000       3       0.000       4
+-    min count_reg[0]/CK
+-    max count_reg[7]/CK
+fast_best:hold.early      clk/two_nano    0.000       5       0.000       6
+-    min count_reg[0]/CK
+-    max count_reg[7]/CK
+fast_best:hold.late       clk/two_nano    0.000       7       0.000       8
+-    min count_reg[0]/CK
+-    max count_reg[7]/CK
+------------------------------------------------------------------------------
+
+Timing for timing corner slow_worst:setup.early, min clock_path:
+================================================================
+
+PathID    : 1
+Path type : skew group clk/two_nano (path 1 of 1)
+Start     : clk
+End       : count_reg[0]/CK
+Delay     : 0.000
+
+------------------------------------------------------------------------------------------------
+Name  Lib cell   Event  Incr   Arrival  Slew   Cap    Location          Distance  Fanout  Status
+                        (ns)   (ns)     (ns)   (pF)                     (um)              
+-- Clockpath trace -----------------------------------------------------------------------------
+clk
+-     -          rise   -       0.000   0.004  0.011  (0.000,59.565)    -           8     
+count_reg[0]/CK
+-     DFFRX1LVT  rise   0.000   0.000   0.004  -      (100.100,60.515)  101.050   -       
+------------------------------------------------------------------------------------------------
+
+Timing for timing corner slow_worst:setup.early, max clock_path:
+================================================================
+
+PathID    : 2
+Path type : skew group clk/two_nano (path 1 of 1)
+Start     : clk
+End       : count_reg[7]/CK
+Delay     : 0.000
+
+-------------------------------------------------------------------------------------------------
+Name  Lib cell     Event  Incr   Arrival  Slew   Cap    Location         Distance  Fanout  Status
+                          (ns)   (ns)     (ns)   (pF)                    (um)              
+-- Clockpath trace ------------------------------------------------------------------------------
+clk
+-     -            rise   -       0.000   0.004  0.011  (0.000,59.565)   -           8     
+count_reg[7]/CK
+-     DFFRHQX1LVT  rise   0.000   0.000   0.004  -      (98.700,53.675)  104.590   -       
+-------------------------------------------------------------------------------------------------
+
+Timing for timing corner slow_worst:setup.late, min clock_path:
+===============================================================
+
+PathID    : 3
+Path type : skew group clk/two_nano (path 1 of 1)
+Start     : clk
+End       : count_reg[0]/CK
+Delay     : 0.000
+
+------------------------------------------------------------------------------------------------
+Name  Lib cell   Event  Incr   Arrival  Slew   Cap    Location          Distance  Fanout  Status
+                        (ns)   (ns)     (ns)   (pF)                     (um)              
+-- Clockpath trace -----------------------------------------------------------------------------
+clk
+-     -          rise   -       0.000   0.004  0.011  (0.000,59.565)    -           8     
+count_reg[0]/CK
+-     DFFRX1LVT  rise   0.000   0.000   0.004  -      (100.100,60.515)  101.050   -       
+------------------------------------------------------------------------------------------------
+
+Timing for timing corner slow_worst:setup.late, max clock_path:
+===============================================================
+
+PathID    : 4
+Path type : skew group clk/two_nano (path 1 of 1)
+Start     : clk
+End       : count_reg[7]/CK
+Delay     : 0.000
+
+-------------------------------------------------------------------------------------------------
+Name  Lib cell     Event  Incr   Arrival  Slew   Cap    Location         Distance  Fanout  Status
+                          (ns)   (ns)     (ns)   (pF)                    (um)              
+-- Clockpath trace ------------------------------------------------------------------------------
+clk
+-     -            rise   -       0.000   0.004  0.011  (0.000,59.565)   -           8     
+count_reg[7]/CK
+-     DFFRHQX1LVT  rise   0.000   0.000   0.004  -      (98.700,53.675)  104.590   -       
+-------------------------------------------------------------------------------------------------
+
+Timing for timing corner fast_best:hold.early, min clock_path:
+==============================================================
+
+PathID    : 5
+Path type : skew group clk/two_nano (path 1 of 1)
+Start     : clk
+End       : count_reg[0]/CK
+Delay     : 0.000
+
+------------------------------------------------------------------------------------------------
+Name  Lib cell   Event  Incr   Arrival  Slew   Cap    Location          Distance  Fanout  Status
+                        (ns)   (ns)     (ns)   (pF)                     (um)              
+-- Clockpath trace -----------------------------------------------------------------------------
+clk
+-     -          rise   -       0.000   0.004  0.011  (0.000,59.565)    -           8     
+count_reg[0]/CK
+-     DFFRX1LVT  rise   0.000   0.000   0.004  -      (100.100,60.515)  101.050   -       
+------------------------------------------------------------------------------------------------
+
+Timing for timing corner fast_best:hold.early, max clock_path:
+==============================================================
+
+PathID    : 6
+Path type : skew group clk/two_nano (path 1 of 1)
+Start     : clk
+End       : count_reg[7]/CK
+Delay     : 0.000
+
+-------------------------------------------------------------------------------------------------
+Name  Lib cell     Event  Incr   Arrival  Slew   Cap    Location         Distance  Fanout  Status
+                          (ns)   (ns)     (ns)   (pF)                    (um)              
+-- Clockpath trace ------------------------------------------------------------------------------
+clk
+-     -            rise   -       0.000   0.004  0.011  (0.000,59.565)   -           8     
+count_reg[7]/CK
+-     DFFRHQX1LVT  rise   0.000   0.000   0.004  -      (98.700,53.675)  104.590   -       
+-------------------------------------------------------------------------------------------------
+
+Timing for timing corner fast_best:hold.late, min clock_path:
+=============================================================
+
+PathID    : 7
+Path type : skew group clk/two_nano (path 1 of 1)
+Start     : clk
+End       : count_reg[0]/CK
+Delay     : 0.000
+
+------------------------------------------------------------------------------------------------
+Name  Lib cell   Event  Incr   Arrival  Slew   Cap    Location          Distance  Fanout  Status
+                        (ns)   (ns)     (ns)   (pF)                     (um)              
+-- Clockpath trace -----------------------------------------------------------------------------
+clk
+-     -          rise   -       0.000   0.004  0.011  (0.000,59.565)    -           8     
+count_reg[0]/CK
+-     DFFRX1LVT  rise   0.000   0.000   0.004  -      (100.100,60.515)  101.050   -       
+------------------------------------------------------------------------------------------------
+
+Timing for timing corner fast_best:hold.late, max clock_path:
+=============================================================
+
+PathID    : 8
+Path type : skew group clk/two_nano (path 1 of 1)
+Start     : clk
+End       : count_reg[7]/CK
+Delay     : 0.000
+
+-------------------------------------------------------------------------------------------------
+Name  Lib cell     Event  Incr   Arrival  Slew   Cap    Location         Distance  Fanout  Status
+                          (ns)   (ns)     (ns)   (pF)                    (um)              
+-- Clockpath trace ------------------------------------------------------------------------------
+clk
+-     -            rise   -       0.000   0.004  0.011  (0.000,59.565)   -           8     
+count_reg[7]/CK
+-     DFFRHQX1LVT  rise   0.000   0.000   0.004  -      (98.700,53.675)  104.590   -       
+-------------------------------------------------------------------------------------------------
+
+

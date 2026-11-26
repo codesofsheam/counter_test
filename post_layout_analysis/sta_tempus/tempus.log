@@ -1,0 +1,288 @@
+
+Cadence Tempus(TM) Timing Solution.
+Copyright 2025 Cadence Design Systems, Inc. All rights reserved worldwide.
+
+Version:	v25.10-p001_1, built Fri Apr 11 11:58:59 PDT 2025
+Options:	-file tempus.tcl 
+Date:		Wed Nov 25 10:47:06 2026
+Host:		techcad (x86_64 w/Linux 4.18.0-305.el8.x86_64) (12cores*48cpus*Intel(R) Xeon(R) Silver 4310 CPU @ 2.10GHz 18432KB)
+OS:		Red Hat Enterprise Linux 8.4 (Ootpa)
+
+License:
+		[10:47:06.453521] Configured Lic search path (25.01-s002): 5280@techcad
+
+		tpsxl	Tempus Timing Signoff Solution XL	25.1	checkout succeeded
+		16 CPU jobs allowed with the current license(s). Use set_multi_cpu_usage to set your required CPU count.
+The soft stacksize limit is either up to the hard limit or larger than 0.2% of RAM. No change is needed.
+environment variable TMPDIR is '/tmp/ssv_tmpdir_1945444_e08401dc-b229-470e-8757-5fca923cc076_Z8G4Tm'.
+#@ Processing -files option
+Sourcing tcl/tk file 'tempus.tcl' ...
+<CMD> read_lib {/home/user_50/projects/counter_45/lib/slow_vdd1v0_basicCells_hvt.lib /home/user_50/projects/counter_45/lib/slow_vdd1v0_basicCells_lvt.lib /home/user_50/projects/counter_45/lib/slow_vdd1v0_basicCells_svt.lib}
+<CMD> read_lib -lef {/home/user_50/blueprint_gpdk45/lef/gsclib045_tech.lef /home/user_50/blueprint_gpdk45/lef/gsclib045_hvt_macro.lef /home/user_50/blueprint_gpdk45/lef/gsclib045_lvt_macro.lef /home/user_50/blueprint_gpdk45/lef/gsclib045_svt_macro.lef}
+<CMD> read_verilog /home/user_50/projects/counter_45/pnr/outputs/counter_innovus_final.v
+<CMD> set_top_module counter
+#% Begin Load MMMC data ... (date=11/25 10:47:49, mem=1688.9M)
+Number of views requested 1 are allowed with the current licenses... continuing with set_analysis_view.
+#% End Load MMMC data ... (date=11/25 10:47:49, total cpu=0:00:00.0, real=0:00:00.0, peak res=1690.2M, current mem=1690.2M)
+default_emulate_early_rc_corner default_emulate_late_rc_corner default_emulate_rc_corner
+
+Loading LEF file /home/user_50/blueprint_gpdk45/lef/gsclib045_tech.lef ...
+Set DBUPerIGU to M2 pitch 400.
+
+Loading LEF file /home/user_50/blueprint_gpdk45/lef/gsclib045_hvt_macro.lef ...
+
+Loading LEF file /home/user_50/blueprint_gpdk45/lef/gsclib045_lvt_macro.lef ...
+
+Loading LEF file /home/user_50/blueprint_gpdk45/lef/gsclib045_svt_macro.lef ...
+**WARN: (IMPLF-200):	Pin 'A' in macro 'ANTENNA' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (IMPLF-200):	Pin 'A' in macro 'ANTENNALVT' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+**WARN: (IMPLF-200):	Pin 'A' in macro 'ANTENNAHVT' has no ANTENNAGATEAREA value defined. The library data is incomplete and some process antenna rules will not be checked correctly.
+
+##  Check design process and node:  
+##  Both design process and tech node are not set.
+
+Loading view definition file from .ssv_emulate_view_definition_1945444_e08401dc-b229-470e-8757-5fca923cc076.tcl
+Reading default_emulate_libset_max timing library '/home/user_50/projects/counter_45/lib/slow_vdd1v0_basicCells_hvt.lib' ...
+**WARN: (TECHLIB-302):	No function defined for cell 'ANTENNAHVT'. The cell will only be used for analysis. (File /home/user_50/projects/counter_45/lib/slow_vdd1v0_basicCells_hvt.lib)
+Read 480 cells in library 'slow_vdd1v0' 
+Reading default_emulate_libset_max timing library '/home/user_50/projects/counter_45/lib/slow_vdd1v0_basicCells_lvt.lib' ...
+**WARN: (TECHLIB-302):	No function defined for cell 'ANTENNALVT'. The cell will only be used for analysis. (File /home/user_50/projects/counter_45/lib/slow_vdd1v0_basicCells_lvt.lib)
+Read 480 cells in library 'slow_vdd1v0' 
+Reading default_emulate_libset_max timing library '/home/user_50/projects/counter_45/lib/slow_vdd1v0_basicCells_svt.lib' ...
+**WARN: (TECHLIB-302):	No function defined for cell 'DECAP9'. The cell will only be used for analysis. (File /home/user_50/projects/counter_45/lib/slow_vdd1v0_basicCells_svt.lib)
+**WARN: (TECHLIB-302):	No function defined for cell 'DECAP8'. The cell will only be used for analysis. (File /home/user_50/projects/counter_45/lib/slow_vdd1v0_basicCells_svt.lib)
+**WARN: (TECHLIB-302):	No function defined for cell 'DECAP7'. The cell will only be used for analysis. (File /home/user_50/projects/counter_45/lib/slow_vdd1v0_basicCells_svt.lib)
+**WARN: (TECHLIB-302):	No function defined for cell 'DECAP6'. The cell will only be used for analysis. (File /home/user_50/projects/counter_45/lib/slow_vdd1v0_basicCells_svt.lib)
+**WARN: (TECHLIB-302):	No function defined for cell 'DECAP5'. The cell will only be used for analysis. (File /home/user_50/projects/counter_45/lib/slow_vdd1v0_basicCells_svt.lib)
+**WARN: (TECHLIB-302):	No function defined for cell 'DECAP4'. The cell will only be used for analysis. (File /home/user_50/projects/counter_45/lib/slow_vdd1v0_basicCells_svt.lib)
+**WARN: (TECHLIB-302):	No function defined for cell 'DECAP3'. The cell will only be used for analysis. (File /home/user_50/projects/counter_45/lib/slow_vdd1v0_basicCells_svt.lib)
+**WARN: (TECHLIB-302):	No function defined for cell 'DECAP2'. The cell will only be used for analysis. (File /home/user_50/projects/counter_45/lib/slow_vdd1v0_basicCells_svt.lib)
+**WARN: (TECHLIB-302):	No function defined for cell 'DECAP10'. The cell will only be used for analysis. (File /home/user_50/projects/counter_45/lib/slow_vdd1v0_basicCells_svt.lib)
+**WARN: (TECHLIB-302):	No function defined for cell 'ANTENNA'. The cell will only be used for analysis. (File /home/user_50/projects/counter_45/lib/slow_vdd1v0_basicCells_svt.lib)
+Read 489 cells in library 'slow_vdd1v0' 
+*** End library_loading (cpu=0.04min, real=0.05min, mem=11.9M, fe_cpu=0.37min, fe_real=0.77min, fe_mem=1768.8M) ***
+#% Begin Load netlist data ... (date=11/25 10:47:52, mem=1768.8M)
+*** Begin netlist parsing (mem=1768.8M) ***
+Reading verilog netlist '/home/user_50/projects/counter_45/pnr/outputs/counter_innovus_final.v'
+
+*** Memory Usage v#1 (Current mem = 1914.809M, initial mem = 880.629M) ***
+*** End netlist parsing (cpu=0:00:00.1, real=0:00:00.0, mem=1915.0M) ***
+#% End Load netlist data ... (date=11/25 10:47:53, total cpu=0:00:00.6, real=0:00:01.0, peak res=1915.1M, current mem=1907.1M)
+Set top cell to counter.
+Starting consistency checks on late and early library sets of delay corner 'default_emulate_delay_corner'
+late library set: default_emulate_libset_max
+early library set: default_emulate_libset_min
+Completed consistency checks. Status: Successful
+Starting consistency checks on late and early library sets of delay corner 'default_emulate_delay_corner'
+late library set: default_emulate_libset_max
+early library set: default_emulate_libset_min
+Completed consistency checks. Status: Successful
+Building hierarchical netlist for Cell counter ...
+***** UseNewTieNetMode *****.
+*** Netlist is unique.
+** info: there are 1569 modules.
+** info: there are 150 stdCell insts.
+** info: there are 150 stdCell insts with at least one signal pin.
+
+*** Memory Usage v#1 (Current mem = 2491.605M, initial mem = 880.629M) ***
+**WARN: (IMPFP-3961):	The techSite 'CornerSite' has no related standard cells in the LEF/OA library. The calculations for this site type cannot be made unless standard cell models of this type exist in the LEF/OA library. Ignore this warning if the SITE is not used by the library. Alternatively, remove the SITE definition for the LEF/OA library to avoid this message.
+**WARN: (IMPFP-3961):	The techSite 'IOSite' has no related standard cells in the LEF/OA library. The calculations for this site type cannot be made unless standard cell models of this type exist in the LEF/OA library. Ignore this warning if the SITE is not used by the library. Alternatively, remove the SITE definition for the LEF/OA library to avoid this message.
+Start create_tracks
+Set Default Input Pin Transition as 0.1 ps.
+/dev/null
+Extraction setup Started for TopCell counter 
+Summary of Active RC-Corners : 
+ 
+ Analysis View: default_emulate_view
+    RC-Corner Name        : default_emulate_rc_corner
+    RC-Corner Index       : 0
+    RC-Corner Temperature : 25 Celsius
+    RC-Corner Cap Table   : ''
+    RC-Corner PostRoute Res Factor        : 1
+    RC-Corner PostRoute Cap Factor        : 1
+    RC-Corner PostRoute XCap Factor       : 1
+Initializing multi-corner resistance tables ...
+Starting consistency checks on late and early library sets of delay corner 'default_emulate_delay_corner'
+late library set: default_emulate_libset_max
+early library set: default_emulate_libset_min
+Completed consistency checks. Status: Successful
+Reading timing constraints file '/dev/null' ...
+Current (total cpu=0:00:24.5, real=0:00:48.0, peak res=2905.8M, current mem=2905.8M)
+Total number of combinational cells: 954
+Total number of sequential cells: 456
+Total number of tristate cells: 30
+Total number of level shifter cells: 0
+Total number of power gating cells: 0
+Total number of isolation cells: 0
+Total number of power switch cells: 0
+Total number of pulse generator cells: 0
+Total number of always on buffers: 0
+Total number of retention cells: 0
+Total number of physical cells: 9
+List of usable buffers: CLKBUFX2HVT BUFX2HVT CLKBUFX2LVT BUFX2LVT CLKBUFX2 BUFX2 CLKBUFX3HVT BUFX3HVT CLKBUFX3LVT BUFX3LVT CLKBUFX3 BUFX3 CLKBUFX4HVT BUFX4HVT CLKBUFX4LVT BUFX4LVT CLKBUFX4 BUFX4 CLKBUFX6HVT BUFX6HVT DLY1X1LVT CLKBUFX6LVT BUFX6LVT CLKBUFX6 BUFX6 CLKBUFX8HVT BUFX8HVT DLY1X4LVT CLKBUFX8LVT BUFX8LVT CLKBUFX8 BUFX8 CLKBUFX12HVT BUFX12HVT CLKBUFX12LVT BUFX12LVT CLKBUFX12 BUFX12 CLKBUFX16HVT BUFX16HVT CLKBUFX16LVT BUFX16LVT CLKBUFX16 BUFX16 CLKBUFX20HVT BUFX20HVT CLKBUFX20LVT BUFX20LVT CLKBUFX20 BUFX20
+Total number of usable buffers: 50
+List of unusable buffers:
+Total number of unusable buffers: 0
+List of usable inverters: INVXLHVT INVX1HVT INVXLLVT INVX1LVT INVXL INVX1 INVX2HVT CLKINVX1HVT INVX2LVT CLKINVX1LVT INVX2 CLKINVX1 INVX3HVT CLKINVX2HVT INVX3LVT CLKINVX2LVT INVX3 CLKINVX2 INVX4HVT CLKINVX4HVT CLKINVX3HVT INVX4LVT CLKINVX4LVT CLKINVX3LVT INVX4 CLKINVX4 CLKINVX3 INVX6HVT CLKINVX6HVT INVX6LVT CLKINVX6LVT INVX6 CLKINVX6 INVX8HVT CLKINVX8HVT INVX8LVT CLKINVX8LVT INVX8 CLKINVX8 INVX12HVT CLKINVX12HVT INVX12LVT CLKINVX12LVT INVX12 CLKINVX12 INVX16HVT CLKINVX16HVT INVX16LVT CLKINVX16LVT INVX16 CLKINVX16 INVX20HVT CLKINVX20HVT INVX20LVT CLKINVX20LVT INVX20 CLKINVX20
+Total number of usable inverters: 57
+List of unusable inverters:
+Total number of unusable inverters: 0
+List of identified usable delay cells: DLY1X1HVT DLY1X1 DLY1X4HVT DLY1X4 DLY2X1HVT DLY2X1LVT DLY2X1 DLY2X4HVT DLY2X4LVT DLY2X4 DLY3X1HVT DLY3X1LVT DLY3X1 DLY3X4HVT DLY3X4LVT DLY3X4 DLY4X1HVT DLY4X1LVT DLY4X1 DLY4X4HVT DLY4X4LVT DLY4X4
+Total number of identified usable delay cells: 22
+List of identified unusable delay cells:
+Total number of identified unusable delay cells: 0
+default_emulate_constraint_mode
+Extraction setup Started for TopCell counter 
+Summary of Active RC-Corners : 
+ 
+ Analysis View: default_emulate_view
+    RC-Corner Name        : default_emulate_rc_corner
+    RC-Corner Index       : 0
+    RC-Corner Temperature : 125 Celsius
+    RC-Corner Cap Table   : ''
+    RC-Corner PostRoute Res Factor        : 1
+    RC-Corner PostRoute Cap Factor        : 1
+    RC-Corner PostRoute XCap Factor       : 1
+Initializing multi-corner resistance tables ...
+Extraction setup Started for TopCell counter 
+Summary of Active RC-Corners : 
+ 
+ Analysis View: default_emulate_view
+    RC-Corner Name        : default_emulate_rc_corner
+    RC-Corner Index       : 0
+    RC-Corner Temperature : 125 Celsius
+    RC-Corner Cap Table   : ''
+    RC-Corner PostRoute Res Factor        : 1
+    RC-Corner PostRoute Cap Factor        : 1
+    RC-Corner PostRoute XCap Factor       : 1
+Initializing multi-corner resistance tables ...
+Extraction setup Started for TopCell counter 
+Summary of Active RC-Corners : 
+ 
+ Analysis View: default_emulate_view
+    RC-Corner Name        : default_emulate_rc_corner
+    RC-Corner Index       : 0
+    RC-Corner Temperature : 125 Celsius
+    RC-Corner Cap Table   : ''
+    RC-Corner PostRoute Res Factor        : 1
+    RC-Corner PostRoute Cap Factor        : 1
+    RC-Corner PostRoute XCap Factor       : 1
+Initializing multi-corner resistance tables ...
+default_emulate_libset_max default_emulate_libset_min
+<CMD> read_def /home/user_50/projects/counter_45/pnr/outputs/counter_final.def
+Reading DEF file '/home/user_50/projects/counter_45/pnr/outputs/counter_final.def', current time is Wed Nov 25 10:47:55 2026 ...
+--- DIVIDERCHAR '/'
+--- UnitsPerDBU = 1.0000
+**WARN: (IMPFP-3961):	The techSite 'CornerSite' has no related standard cells in the LEF/OA library. The calculations for this site type cannot be made unless standard cell models of this type exist in the LEF/OA library. Ignore this warning if the SITE is not used by the library. Alternatively, remove the SITE definition for the LEF/OA library to avoid this message.
+**WARN: (IMPFP-3961):	The techSite 'IOSite' has no related standard cells in the LEF/OA library. The calculations for this site type cannot be made unless standard cell models of this type exist in the LEF/OA library. Ignore this warning if the SITE is not used by the library. Alternatively, remove the SITE definition for the LEF/OA library to avoid this message.
+Start create_tracks
+--- DIEAREA (0 0) (240000 238640)
+Extracting standard cell pins and blockage ...... 
+Pin and blockage extraction finished
+Extracting macro/IO cell pins and blockage ...... 
+Pin and blockage extraction finished
+DEF file '/home/user_50/projects/counter_45/pnr/outputs/counter_final.def' is parsed, current time is Wed Nov 25 10:47:55 2026.
+Updating the floorplan ...
+**WARN: (IMPFP-3335):	Constraint (10.0000, 80.1800) (45.0000, 109.3600) out of core.
+**WARN: (IMPFP-3335):	Constraint (45.0000, 80.1800) (80.0000, 109.3600) out of core.
+**WARN: (IMPFP-3335):	Constraint (80.0000, 80.1800) (110.0000, 109.3600) out of core.
+<CMD> read_spef /home/user_50/projects/counter_45/post_layout_analysis/pex_quantus/results/counter_typical.spef
+<CMD> read_sdc /home/user_50/projects/counter_45/pnr/outputs/counter_signoff.sdc
+Current (total cpu=0:00:25.4, real=0:00:49.0, peak res=2937.8M, current mem=2912.9M)
+counter
+------------------------------------------------------------------------------------
+CONSTRAINT READING SUMMARY                                                          
+------------------------------------------------------------------------------------
+Constraint                                        | Success        | Fail           
+------------------------------------------------------------------------------------
+set_clock_uncertainty                             | 2              | 0              
+set_output_delay                                  | 16             | 0              
+set_propagated_clock                              | 1              | 0              
+set_input_delay                                   | 2              | 0              
+set_clock_transition                              | 4              | 0              
+get_clocks                                        | 24             | 0              
+set_false_path                                    | 1              | 0              
+create_clock                                      | 1              | 0              
+set_clock_latency                                 | 2              | 0              
+get_ports                                         | 23             | 0              
+set_clock_gating_check                            | 2              | 0              
+current_design                                    | 1              | 0              
+------------------------------------------------------------------------------------
+INFO (CTE): Constraints read successfully.
+Ending "Constraint file reading stats" (total cpu=0:00:00.1, real=0:00:00.0, peak res=2918.9M, current mem=2918.9M)
+Current (total cpu=0:00:25.6, real=0:00:49.0, peak res=2937.8M, current mem=2918.9M)
+<CMD> set_analysis_mode -analysisType onChipVariation -cppr both
+default_emulate_constraint_mode
+<CMD> set_delay_cal_mode -SIAware false
+<CMD> set_propagated_clock [all_clocks]
+<CMD> update_timing -full
+AAE_INFO: opIsDesignInPostRouteState() is 1
+AAE_INFO: deleting AAE DB in update_timing -full ...
+AAE DB initialization (MEM=2934.875000 CPU=0:00:00.0 REAL=0:00:00.0) 
+#################################################################################
+# Design Name: counter
+# Design Mode: 65nm
+# Analysis Mode: MMMC OCV 
+# Parasitics Mode: SPEF/RCDB 
+# Signoff Settings: SI Off 
+#################################################################################
+Current (total cpu=0:00:26.7, real=0:00:50.0, peak res=2937.8M, current mem=2935.4M)
+SPEF file /home/user_50/projects/counter_45/post_layout_analysis/pex_quantus/results/counter_typical.spef.
+Number of Resistors     : 567
+Number of Ground Caps   : 519
+Number of Coupling Caps : 0
+
+End spef parsing (MEM=2924.8 CPU=0:00:00.1 REAL=0:00:00.0).
+Current (total cpu=0:00:26.7, real=0:00:50.0, peak res=2937.8M, current mem=2925.8M)
+Start delay calculation (fullDC) (1 T). (MEM=2907.55)
+/dev/null
+End delay calculation. (MEM=2964.38 CPU=0:00:00.1 REAL=0:00:00.0)
+Begin loading slews from CTE ...
+Loading slews from CTE completed...
+End delay calculation (fullDC). (MEM=2962.12 CPU=0:00:00.1 REAL=0:00:00.0)
+<CMD> check_timing -verbose > check_timing.rpt
+<CMD> setDistributeHost -local
+The timeout for a remote job to respond is 3600 seconds.
+Submit command for task runs will be: local
+<CMD> check_design -type timing -out_file check_design.rpt
+Begin: Design checking
+        No issues found during checks.
+		(Real time: 0:00:00.0, Memory: 2969.3M)
+
+**INFO: Identified 0 error(s) and 0 warning(s) during 'check_design -type {timing}'.
+        The details of the error(s) and warning(s) can be found in report 'check_design.rpt'
+End: Design checking
+<CMD> report_timing -late  -max_paths 20 -nworst 3 -path_type full_clock > tempus_setup_max.rpt
+<CMD> report_timing -early -max_paths 20 -nworst 3 -path_type full_clock > tempus_hold_min.rpt
+<CMD> report_clocks -skew > tempus_clock_skew.rpt
+<CMD> report_constraint -all_violators > all_violations.rpt
+<CMD> report_constraint -all_violators -drv_violation_type max_transition > tempus_max_tran.rpt
+<CMD> report_constraint -all_violators -drv_violation_type max_capacitance > tempus_max_cap.rpt
+<CMD> write_sdf -version 3.0 -recompute_delay_calc counter_signoff_tempus.sdf
+*Info: outputing delay to SDF file "counter_signoff_tempus.sdf".
+AAE_INFO: opIsDesignInPostRouteState() is 1
+#################################################################################
+# Design Name: counter
+# Design Mode: 65nm
+# Analysis Mode: MMMC OCV 
+# Parasitics Mode: SPEF/RCDB 
+# Signoff Settings: SI Off 
+#################################################################################
+Start delay calculation (fullDC) (1 T). (MEM=2982.87)
+End delay calculation. (MEM=3114.28 CPU=0:00:07.4 REAL=0:00:00.0)
+Begin loading slews from CTE ...
+Loading slews from CTE completed...
+End delay calculation (fullDC). (MEM=3114.28 CPU=0:00:07.4 REAL=0:00:00.0)
+<CMD> exit
+
+*** Memory Usage v#1 (Current mem = 2937.305M, initial mem = 880.629M) ***
+
+*** Summary of all messages that are not suppressed in this session:
+Severity  ID               Count  Summary                                  
+WARNING   IMPLF-200            3  Pin '%s' in macro '%s' has no ANTENNAGAT...
+WARNING   IMPFP-3335           3  Constraint (%.4f, %.4f) (%.4f, %.4f) out...
+WARNING   IMPFP-3961           4  The techSite '%s' has no related standar...
+WARNING   TECHLIB-302         12  No function defined for cell '%s'. The c...
+*** Message Summary: 22 warning(s), 0 error(s)
+
+--- Ending "Tempus Timing Solution" (totcpu=0:00:55.1, real=0:18:14, mem=2937.3M) ---

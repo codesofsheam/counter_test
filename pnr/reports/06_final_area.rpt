@@ -1,0 +1,12 @@
+    Hinst Name       Module Name          Inst Count           Total Area
+----------------------------------------------------------------------
+counter                                          150              352.260
+  spr_1              SPARE_MODULE_1               15               30.780
+  spr_2              SPARE_MODULE_2               15               30.780
+  spr_3              SPARE_MODULE_3               15               30.780
+  spr_4              SPARE_MODULE_4               15               30.780
+  spr_5              SPARE_MODULE_5               15               30.780
+  spr_6              SPARE_MODULE_6               15               30.780
+  spr_7              SPARE_MODULE_7               15               30.780
+  spr_8              SPARE_MODULE_8               15               30.780
+  spr_9              SPARE_MODULE_9               15               30.780

@@ -1,0 +1,1891 @@
+(DELAYFILE
+  (SDFVERSION "3.0")
+  (DESIGN "counter")
+  (DATE "Wed Nov 25 10:47:59 2026")
+  (VENDOR "Cadence Design Systems, Inc.")
+  (PROGRAM "Tempus Timing Solution")
+  (VERSION "v25.10-p001_1 ((64bit) 04/11/2025 11:58 (Linux 4.18.0-305.el8.x86_64))")
+  (DIVIDER /)
+  (VOLTAGE 0.900000::0.900000)
+  (PROCESS "1.000000::1.000000")
+  (TEMPERATURE 125.000000::125.000000)
+  (TIMESCALE 1.0 ns)
+
+  (CELL
+    (CELLTYPE  "counter")
+    (INSTANCE)
+      (DELAY
+	(ABSOLUTE
+	(INTERCONNECT clk count_reg\[7\]/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT clk count_reg\[6\]/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT clk count_reg\[5\]/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT clk count_reg\[4\]/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT clk count_reg\[3\]/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT clk count_reg\[2\]/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT clk count_reg\[1\]/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT clk count_reg\[0\]/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT rst count_reg\[7\]/RN  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT rst count_reg\[6\]/RN  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT rst count_reg\[5\]/RN  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT rst count_reg\[4\]/RN  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT rst count_reg\[3\]/RN  (0.001::0.001) (0.001::0.001))
+	(INTERCONNECT rst count_reg\[2\]/RN  (0.001::0.001) (0.001::0.001))
+	(INTERCONNECT rst count_reg\[1\]/RN  (0.001::0.001) (0.001::0.001))
+	(INTERCONNECT rst count_reg\[0\]/RN  (0.001::0.001) (0.001::0.001))
+	(INTERCONNECT count_reg\[7\]/Q g416__2398/A  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT count_reg\[7\]/Q count[7]  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT count_reg\[6\]/Q g418__5107/A  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT count_reg\[6\]/Q count[6]  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT count_reg\[5\]/Q g420__6260/A  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT count_reg\[5\]/Q count[5]  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT count_reg\[4\]/Q g422__4319/A  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT count_reg\[4\]/Q count[4]  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT count_reg\[3\]/Q g424__8428/A  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT count_reg\[3\]/Q count[3]  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT count_reg\[2\]/Q g426__5526/A  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT count_reg\[2\]/Q count[2]  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT count_reg\[1\]/Q g428__6783/A  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT count_reg\[1\]/Q count[1]  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT count_reg\[0\]/Q g428__6783/B  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT count_reg\[0\]/Q count[0]  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT count_reg\[0\]/QN count_reg\[0\]/D  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT g428__6783/CO g426__5526/B  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT g428__6783/S count_reg\[1\]/D  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT g426__5526/CO g424__8428/B  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT g426__5526/S count_reg\[2\]/D  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT g424__8428/CO g422__4319/B  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT g424__8428/S count_reg\[3\]/D  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT g422__4319/CO g420__6260/B  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT g422__4319/S count_reg\[4\]/D  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT g420__6260/CO g418__5107/B  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT g420__6260/S count_reg\[5\]/D  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT g418__5107/CO g416__2398/B  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT g418__5107/S count_reg\[6\]/D  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT g416__2398/Y count_reg\[7\]/D  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_9/spr_gate0/Y spr_9/spr_gate14/A  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_9/spr_gate0/Y spr_9/spr_gate13/A  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_9/spr_gate0/Y spr_9/spr_gate12/A  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_9/spr_gate0/Y spr_9/spr_gate11/A  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_9/spr_gate0/Y spr_9/spr_gate10/A  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_9/spr_gate0/Y spr_9/spr_gate9/A  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_9/spr_gate0/Y spr_9/spr_gate8/A  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_9/spr_gate0/Y spr_9/spr_gate7/A  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_9/spr_gate0/Y spr_9/spr_gate6/A  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_9/spr_gate0/Y spr_9/spr_gate6/B  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_9/spr_gate0/Y spr_9/spr_gate5/A  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_9/spr_gate0/Y spr_9/spr_gate5/B  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_9/spr_gate0/Y spr_9/spr_gate4/A  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_9/spr_gate0/Y spr_9/spr_gate4/B  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_9/spr_gate0/Y spr_9/spr_gate3/A  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_9/spr_gate0/Y spr_9/spr_gate3/B  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_9/spr_gate0/Y spr_9/spr_gate2/A  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_9/spr_gate0/Y spr_9/spr_gate2/B  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_9/spr_gate0/Y spr_9/spr_gate2/S0  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_9/spr_gate0/Y spr_9/spr_gate1/D  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_9/spr_gate0/Y spr_9/spr_gate1/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_8/spr_gate0/Y spr_8/spr_gate14/A  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_8/spr_gate0/Y spr_8/spr_gate13/A  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_8/spr_gate0/Y spr_8/spr_gate12/A  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_8/spr_gate0/Y spr_8/spr_gate11/A  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_8/spr_gate0/Y spr_8/spr_gate10/A  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_8/spr_gate0/Y spr_8/spr_gate9/A  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_8/spr_gate0/Y spr_8/spr_gate8/A  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_8/spr_gate0/Y spr_8/spr_gate7/A  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_8/spr_gate0/Y spr_8/spr_gate6/A  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_8/spr_gate0/Y spr_8/spr_gate6/B  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_8/spr_gate0/Y spr_8/spr_gate5/A  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_8/spr_gate0/Y spr_8/spr_gate5/B  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_8/spr_gate0/Y spr_8/spr_gate4/A  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_8/spr_gate0/Y spr_8/spr_gate4/B  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_8/spr_gate0/Y spr_8/spr_gate3/A  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_8/spr_gate0/Y spr_8/spr_gate3/B  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_8/spr_gate0/Y spr_8/spr_gate2/A  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_8/spr_gate0/Y spr_8/spr_gate2/B  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_8/spr_gate0/Y spr_8/spr_gate2/S0  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_8/spr_gate0/Y spr_8/spr_gate1/D  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_8/spr_gate0/Y spr_8/spr_gate1/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_7/spr_gate0/Y spr_7/spr_gate14/A  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_7/spr_gate0/Y spr_7/spr_gate13/A  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_7/spr_gate0/Y spr_7/spr_gate12/A  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_7/spr_gate0/Y spr_7/spr_gate11/A  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_7/spr_gate0/Y spr_7/spr_gate10/A  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_7/spr_gate0/Y spr_7/spr_gate9/A  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_7/spr_gate0/Y spr_7/spr_gate8/A  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_7/spr_gate0/Y spr_7/spr_gate7/A  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_7/spr_gate0/Y spr_7/spr_gate6/A  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_7/spr_gate0/Y spr_7/spr_gate6/B  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_7/spr_gate0/Y spr_7/spr_gate5/A  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_7/spr_gate0/Y spr_7/spr_gate5/B  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_7/spr_gate0/Y spr_7/spr_gate4/A  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_7/spr_gate0/Y spr_7/spr_gate4/B  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_7/spr_gate0/Y spr_7/spr_gate3/A  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_7/spr_gate0/Y spr_7/spr_gate3/B  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_7/spr_gate0/Y spr_7/spr_gate2/A  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_7/spr_gate0/Y spr_7/spr_gate2/B  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_7/spr_gate0/Y spr_7/spr_gate2/S0  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_7/spr_gate0/Y spr_7/spr_gate1/D  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_7/spr_gate0/Y spr_7/spr_gate1/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_6/spr_gate0/Y spr_6/spr_gate14/A  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_6/spr_gate0/Y spr_6/spr_gate13/A  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_6/spr_gate0/Y spr_6/spr_gate12/A  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_6/spr_gate0/Y spr_6/spr_gate11/A  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_6/spr_gate0/Y spr_6/spr_gate10/A  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_6/spr_gate0/Y spr_6/spr_gate9/A  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_6/spr_gate0/Y spr_6/spr_gate8/A  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_6/spr_gate0/Y spr_6/spr_gate7/A  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_6/spr_gate0/Y spr_6/spr_gate6/A  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_6/spr_gate0/Y spr_6/spr_gate6/B  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_6/spr_gate0/Y spr_6/spr_gate5/A  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_6/spr_gate0/Y spr_6/spr_gate5/B  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_6/spr_gate0/Y spr_6/spr_gate4/A  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_6/spr_gate0/Y spr_6/spr_gate4/B  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_6/spr_gate0/Y spr_6/spr_gate3/A  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_6/spr_gate0/Y spr_6/spr_gate3/B  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_6/spr_gate0/Y spr_6/spr_gate2/A  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_6/spr_gate0/Y spr_6/spr_gate2/B  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_6/spr_gate0/Y spr_6/spr_gate2/S0  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_6/spr_gate0/Y spr_6/spr_gate1/D  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_6/spr_gate0/Y spr_6/spr_gate1/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_5/spr_gate0/Y spr_5/spr_gate14/A  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_5/spr_gate0/Y spr_5/spr_gate13/A  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_5/spr_gate0/Y spr_5/spr_gate12/A  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_5/spr_gate0/Y spr_5/spr_gate11/A  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_5/spr_gate0/Y spr_5/spr_gate10/A  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_5/spr_gate0/Y spr_5/spr_gate9/A  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_5/spr_gate0/Y spr_5/spr_gate8/A  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_5/spr_gate0/Y spr_5/spr_gate7/A  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_5/spr_gate0/Y spr_5/spr_gate6/A  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_5/spr_gate0/Y spr_5/spr_gate6/B  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_5/spr_gate0/Y spr_5/spr_gate5/A  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_5/spr_gate0/Y spr_5/spr_gate5/B  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_5/spr_gate0/Y spr_5/spr_gate4/A  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_5/spr_gate0/Y spr_5/spr_gate4/B  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_5/spr_gate0/Y spr_5/spr_gate3/A  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_5/spr_gate0/Y spr_5/spr_gate3/B  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_5/spr_gate0/Y spr_5/spr_gate2/A  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_5/spr_gate0/Y spr_5/spr_gate2/B  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_5/spr_gate0/Y spr_5/spr_gate2/S0  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_5/spr_gate0/Y spr_5/spr_gate1/D  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_5/spr_gate0/Y spr_5/spr_gate1/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_4/spr_gate0/Y spr_4/spr_gate14/A  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_4/spr_gate0/Y spr_4/spr_gate13/A  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_4/spr_gate0/Y spr_4/spr_gate12/A  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_4/spr_gate0/Y spr_4/spr_gate11/A  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_4/spr_gate0/Y spr_4/spr_gate10/A  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_4/spr_gate0/Y spr_4/spr_gate9/A  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_4/spr_gate0/Y spr_4/spr_gate8/A  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_4/spr_gate0/Y spr_4/spr_gate7/A  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_4/spr_gate0/Y spr_4/spr_gate6/A  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_4/spr_gate0/Y spr_4/spr_gate6/B  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_4/spr_gate0/Y spr_4/spr_gate5/A  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_4/spr_gate0/Y spr_4/spr_gate5/B  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_4/spr_gate0/Y spr_4/spr_gate4/A  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_4/spr_gate0/Y spr_4/spr_gate4/B  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_4/spr_gate0/Y spr_4/spr_gate3/A  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_4/spr_gate0/Y spr_4/spr_gate3/B  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_4/spr_gate0/Y spr_4/spr_gate2/A  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_4/spr_gate0/Y spr_4/spr_gate2/B  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_4/spr_gate0/Y spr_4/spr_gate2/S0  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_4/spr_gate0/Y spr_4/spr_gate1/D  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_4/spr_gate0/Y spr_4/spr_gate1/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_3/spr_gate0/Y spr_3/spr_gate14/A  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_3/spr_gate0/Y spr_3/spr_gate13/A  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_3/spr_gate0/Y spr_3/spr_gate12/A  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_3/spr_gate0/Y spr_3/spr_gate11/A  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_3/spr_gate0/Y spr_3/spr_gate10/A  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_3/spr_gate0/Y spr_3/spr_gate9/A  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_3/spr_gate0/Y spr_3/spr_gate8/A  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_3/spr_gate0/Y spr_3/spr_gate7/A  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_3/spr_gate0/Y spr_3/spr_gate6/A  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_3/spr_gate0/Y spr_3/spr_gate6/B  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_3/spr_gate0/Y spr_3/spr_gate5/A  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_3/spr_gate0/Y spr_3/spr_gate5/B  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_3/spr_gate0/Y spr_3/spr_gate4/A  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_3/spr_gate0/Y spr_3/spr_gate4/B  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_3/spr_gate0/Y spr_3/spr_gate3/A  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_3/spr_gate0/Y spr_3/spr_gate3/B  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_3/spr_gate0/Y spr_3/spr_gate2/A  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_3/spr_gate0/Y spr_3/spr_gate2/B  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_3/spr_gate0/Y spr_3/spr_gate2/S0  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_3/spr_gate0/Y spr_3/spr_gate1/D  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_3/spr_gate0/Y spr_3/spr_gate1/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_2/spr_gate0/Y spr_2/spr_gate14/A  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_2/spr_gate0/Y spr_2/spr_gate13/A  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_2/spr_gate0/Y spr_2/spr_gate12/A  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_2/spr_gate0/Y spr_2/spr_gate11/A  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_2/spr_gate0/Y spr_2/spr_gate10/A  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_2/spr_gate0/Y spr_2/spr_gate9/A  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_2/spr_gate0/Y spr_2/spr_gate8/A  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_2/spr_gate0/Y spr_2/spr_gate7/A  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_2/spr_gate0/Y spr_2/spr_gate6/A  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_2/spr_gate0/Y spr_2/spr_gate6/B  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_2/spr_gate0/Y spr_2/spr_gate5/A  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_2/spr_gate0/Y spr_2/spr_gate5/B  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_2/spr_gate0/Y spr_2/spr_gate4/A  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_2/spr_gate0/Y spr_2/spr_gate4/B  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_2/spr_gate0/Y spr_2/spr_gate3/A  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_2/spr_gate0/Y spr_2/spr_gate3/B  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_2/spr_gate0/Y spr_2/spr_gate2/A  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_2/spr_gate0/Y spr_2/spr_gate2/B  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_2/spr_gate0/Y spr_2/spr_gate2/S0  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_2/spr_gate0/Y spr_2/spr_gate1/D  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_2/spr_gate0/Y spr_2/spr_gate1/CK  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_1/spr_gate0/Y spr_1/spr_gate14/A  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_1/spr_gate0/Y spr_1/spr_gate13/A  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_1/spr_gate0/Y spr_1/spr_gate12/A  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_1/spr_gate0/Y spr_1/spr_gate11/A  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_1/spr_gate0/Y spr_1/spr_gate10/A  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_1/spr_gate0/Y spr_1/spr_gate9/A  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_1/spr_gate0/Y spr_1/spr_gate8/A  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_1/spr_gate0/Y spr_1/spr_gate7/A  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_1/spr_gate0/Y spr_1/spr_gate6/A  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_1/spr_gate0/Y spr_1/spr_gate6/B  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_1/spr_gate0/Y spr_1/spr_gate5/A  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_1/spr_gate0/Y spr_1/spr_gate5/B  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_1/spr_gate0/Y spr_1/spr_gate4/A  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_1/spr_gate0/Y spr_1/spr_gate4/B  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_1/spr_gate0/Y spr_1/spr_gate3/A  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_1/spr_gate0/Y spr_1/spr_gate3/B  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_1/spr_gate0/Y spr_1/spr_gate2/A  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_1/spr_gate0/Y spr_1/spr_gate2/B  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_1/spr_gate0/Y spr_1/spr_gate2/S0  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_1/spr_gate0/Y spr_1/spr_gate1/D  (0.000::0.000) (0.000::0.000))
+	(INTERCONNECT spr_1/spr_gate0/Y spr_1/spr_gate1/CK  (0.000::0.000) (0.000::0.000))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "BUFX3")
+    (INSTANCE  spr_9/spr_gate14)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Y  (0.061::0.061) (0.058::0.058))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "BUFX3")
+    (INSTANCE  spr_9/spr_gate13)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Y  (0.061::0.061) (0.058::0.058))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "BUFX4")
+    (INSTANCE  spr_9/spr_gate12)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Y  (0.071::0.071) (0.067::0.067))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "BUFX4")
+    (INSTANCE  spr_9/spr_gate11)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Y  (0.071::0.071) (0.067::0.067))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "INVX2")
+    (INSTANCE  spr_9/spr_gate10)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Y  (0.012::0.012) (0.015::0.015))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "INVX2")
+    (INSTANCE  spr_9/spr_gate9)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Y  (0.012::0.012) (0.015::0.015))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "INVX4")
+    (INSTANCE  spr_9/spr_gate8)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Y  (0.013::0.013) (0.015::0.015))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "INVX4")
+    (INSTANCE  spr_9/spr_gate7)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Y  (0.013::0.013) (0.015::0.015))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "NAND2X2")
+    (INSTANCE  spr_9/spr_gate6)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Y  (0.018::0.018) (0.041::0.041))
+	(IOPATH B Y  (0.015::0.015) (0.033::0.033))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "NAND2X2")
+    (INSTANCE  spr_9/spr_gate5)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Y  (0.018::0.018) (0.041::0.041))
+	(IOPATH B Y  (0.015::0.015) (0.033::0.033))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "NOR2X2")
+    (INSTANCE  spr_9/spr_gate4)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Y  (0.034::0.034) (0.023::0.023))
+	(IOPATH B Y  (0.024::0.024) (0.017::0.017))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "NOR2X2")
+    (INSTANCE  spr_9/spr_gate3)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Y  (0.034::0.034) (0.023::0.023))
+	(IOPATH B Y  (0.024::0.024) (0.017::0.017))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "MX2X2")
+    (INSTANCE  spr_9/spr_gate2)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Y  (0.189::0.189) (0.156::0.156))
+	(IOPATH B Y  (0.187::0.187) (0.159::0.159))
+	(IOPATH (posedge S0) Y  (0.164::0.164) (0.166::0.166))
+	(IOPATH (negedge S0) Y  (0.190::0.190) (0.137::0.137))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFHQX1")
+    (INSTANCE  spr_9/spr_gate1)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH (posedge CK) Q  (0.172::0.172) (0.195::0.195))
+	)
+      )
+      (TIMINGCHECK
+	(SETUPHOLD (posedge D) (posedge CK) (0.106::0.106) (-0.062::-0.062))
+	(SETUPHOLD (negedge D) (posedge CK) (0.052::0.052) (0.018::0.018))
+	(WIDTH (posedge CK) (0.089::0.089))
+	(WIDTH (negedge CK) (0.109::0.109))
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "BUFX3")
+    (INSTANCE  spr_8/spr_gate14)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Y  (0.061::0.061) (0.058::0.058))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "BUFX3")
+    (INSTANCE  spr_8/spr_gate13)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Y  (0.061::0.061) (0.058::0.058))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "BUFX4")
+    (INSTANCE  spr_8/spr_gate12)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Y  (0.071::0.071) (0.067::0.067))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "BUFX4")
+    (INSTANCE  spr_8/spr_gate11)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Y  (0.071::0.071) (0.067::0.067))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "INVX2")
+    (INSTANCE  spr_8/spr_gate10)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Y  (0.012::0.012) (0.015::0.015))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "INVX2")
+    (INSTANCE  spr_8/spr_gate9)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Y  (0.012::0.012) (0.015::0.015))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "INVX4")
+    (INSTANCE  spr_8/spr_gate8)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Y  (0.013::0.013) (0.015::0.015))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "INVX4")
+    (INSTANCE  spr_8/spr_gate7)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Y  (0.013::0.013) (0.015::0.015))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "NAND2X2")
+    (INSTANCE  spr_8/spr_gate6)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Y  (0.018::0.018) (0.041::0.041))
+	(IOPATH B Y  (0.015::0.015) (0.033::0.033))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "NAND2X2")
+    (INSTANCE  spr_8/spr_gate5)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Y  (0.018::0.018) (0.041::0.041))
+	(IOPATH B Y  (0.015::0.015) (0.033::0.033))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "NOR2X2")
+    (INSTANCE  spr_8/spr_gate4)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Y  (0.034::0.034) (0.023::0.023))
+	(IOPATH B Y  (0.024::0.024) (0.017::0.017))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "NOR2X2")
+    (INSTANCE  spr_8/spr_gate3)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Y  (0.034::0.034) (0.023::0.023))
+	(IOPATH B Y  (0.024::0.024) (0.017::0.017))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "MX2X2")
+    (INSTANCE  spr_8/spr_gate2)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Y  (0.189::0.189) (0.156::0.156))
+	(IOPATH B Y  (0.187::0.187) (0.159::0.159))
+	(IOPATH (posedge S0) Y  (0.164::0.164) (0.166::0.166))
+	(IOPATH (negedge S0) Y  (0.190::0.190) (0.137::0.137))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFHQX1")
+    (INSTANCE  spr_8/spr_gate1)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH (posedge CK) Q  (0.172::0.172) (0.195::0.195))
+	)
+      )
+      (TIMINGCHECK
+	(SETUPHOLD (posedge D) (posedge CK) (0.106::0.106) (-0.062::-0.062))
+	(SETUPHOLD (negedge D) (posedge CK) (0.052::0.052) (0.018::0.018))
+	(WIDTH (posedge CK) (0.089::0.089))
+	(WIDTH (negedge CK) (0.109::0.109))
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "BUFX3")
+    (INSTANCE  spr_7/spr_gate14)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Y  (0.061::0.061) (0.058::0.058))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "BUFX3")
+    (INSTANCE  spr_7/spr_gate13)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Y  (0.061::0.061) (0.058::0.058))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "BUFX4")
+    (INSTANCE  spr_7/spr_gate12)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Y  (0.071::0.071) (0.067::0.067))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "BUFX4")
+    (INSTANCE  spr_7/spr_gate11)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Y  (0.071::0.071) (0.067::0.067))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "INVX2")
+    (INSTANCE  spr_7/spr_gate10)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Y  (0.012::0.012) (0.015::0.015))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "INVX2")
+    (INSTANCE  spr_7/spr_gate9)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Y  (0.012::0.012) (0.015::0.015))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "INVX4")
+    (INSTANCE  spr_7/spr_gate8)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Y  (0.013::0.013) (0.015::0.015))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "INVX4")
+    (INSTANCE  spr_7/spr_gate7)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Y  (0.013::0.013) (0.015::0.015))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "NAND2X2")
+    (INSTANCE  spr_7/spr_gate6)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Y  (0.018::0.018) (0.041::0.041))
+	(IOPATH B Y  (0.015::0.015) (0.033::0.033))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "NAND2X2")
+    (INSTANCE  spr_7/spr_gate5)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Y  (0.018::0.018) (0.041::0.041))
+	(IOPATH B Y  (0.015::0.015) (0.033::0.033))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "NOR2X2")
+    (INSTANCE  spr_7/spr_gate4)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Y  (0.034::0.034) (0.023::0.023))
+	(IOPATH B Y  (0.024::0.024) (0.017::0.017))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "NOR2X2")
+    (INSTANCE  spr_7/spr_gate3)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Y  (0.034::0.034) (0.023::0.023))
+	(IOPATH B Y  (0.024::0.024) (0.017::0.017))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "MX2X2")
+    (INSTANCE  spr_7/spr_gate2)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Y  (0.189::0.189) (0.156::0.156))
+	(IOPATH B Y  (0.187::0.187) (0.159::0.159))
+	(IOPATH (posedge S0) Y  (0.164::0.164) (0.166::0.166))
+	(IOPATH (negedge S0) Y  (0.190::0.190) (0.137::0.137))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFHQX1")
+    (INSTANCE  spr_7/spr_gate1)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH (posedge CK) Q  (0.172::0.172) (0.195::0.195))
+	)
+      )
+      (TIMINGCHECK
+	(SETUPHOLD (posedge D) (posedge CK) (0.106::0.106) (-0.062::-0.062))
+	(SETUPHOLD (negedge D) (posedge CK) (0.052::0.052) (0.018::0.018))
+	(WIDTH (posedge CK) (0.089::0.089))
+	(WIDTH (negedge CK) (0.109::0.109))
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "BUFX3")
+    (INSTANCE  spr_6/spr_gate14)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Y  (0.061::0.061) (0.058::0.058))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "BUFX3")
+    (INSTANCE  spr_6/spr_gate13)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Y  (0.061::0.061) (0.058::0.058))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "BUFX4")
+    (INSTANCE  spr_6/spr_gate12)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Y  (0.071::0.071) (0.067::0.067))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "BUFX4")
+    (INSTANCE  spr_6/spr_gate11)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Y  (0.071::0.071) (0.067::0.067))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "INVX2")
+    (INSTANCE  spr_6/spr_gate10)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Y  (0.012::0.012) (0.015::0.015))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "INVX2")
+    (INSTANCE  spr_6/spr_gate9)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Y  (0.012::0.012) (0.015::0.015))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "INVX4")
+    (INSTANCE  spr_6/spr_gate8)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Y  (0.013::0.013) (0.015::0.015))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "INVX4")
+    (INSTANCE  spr_6/spr_gate7)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Y  (0.013::0.013) (0.015::0.015))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "NAND2X2")
+    (INSTANCE  spr_6/spr_gate6)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Y  (0.018::0.018) (0.041::0.041))
+	(IOPATH B Y  (0.015::0.015) (0.033::0.033))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "NAND2X2")
+    (INSTANCE  spr_6/spr_gate5)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Y  (0.018::0.018) (0.041::0.041))
+	(IOPATH B Y  (0.015::0.015) (0.033::0.033))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "NOR2X2")
+    (INSTANCE  spr_6/spr_gate4)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Y  (0.034::0.034) (0.023::0.023))
+	(IOPATH B Y  (0.024::0.024) (0.017::0.017))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "NOR2X2")
+    (INSTANCE  spr_6/spr_gate3)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Y  (0.034::0.034) (0.023::0.023))
+	(IOPATH B Y  (0.024::0.024) (0.017::0.017))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "MX2X2")
+    (INSTANCE  spr_6/spr_gate2)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Y  (0.189::0.189) (0.156::0.156))
+	(IOPATH B Y  (0.187::0.187) (0.159::0.159))
+	(IOPATH (posedge S0) Y  (0.164::0.164) (0.166::0.166))
+	(IOPATH (negedge S0) Y  (0.190::0.190) (0.137::0.137))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFHQX1")
+    (INSTANCE  spr_6/spr_gate1)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH (posedge CK) Q  (0.172::0.172) (0.195::0.195))
+	)
+      )
+      (TIMINGCHECK
+	(SETUPHOLD (posedge D) (posedge CK) (0.106::0.106) (-0.062::-0.062))
+	(SETUPHOLD (negedge D) (posedge CK) (0.052::0.052) (0.018::0.018))
+	(WIDTH (posedge CK) (0.089::0.089))
+	(WIDTH (negedge CK) (0.109::0.109))
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "BUFX3")
+    (INSTANCE  spr_5/spr_gate14)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Y  (0.061::0.061) (0.058::0.058))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "BUFX3")
+    (INSTANCE  spr_5/spr_gate13)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Y  (0.061::0.061) (0.058::0.058))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "BUFX4")
+    (INSTANCE  spr_5/spr_gate12)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Y  (0.071::0.071) (0.067::0.067))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "BUFX4")
+    (INSTANCE  spr_5/spr_gate11)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Y  (0.071::0.071) (0.067::0.067))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "INVX2")
+    (INSTANCE  spr_5/spr_gate10)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Y  (0.012::0.012) (0.015::0.015))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "INVX2")
+    (INSTANCE  spr_5/spr_gate9)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Y  (0.012::0.012) (0.015::0.015))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "INVX4")
+    (INSTANCE  spr_5/spr_gate8)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Y  (0.013::0.013) (0.015::0.015))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "INVX4")
+    (INSTANCE  spr_5/spr_gate7)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Y  (0.013::0.013) (0.015::0.015))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "NAND2X2")
+    (INSTANCE  spr_5/spr_gate6)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Y  (0.018::0.018) (0.041::0.041))
+	(IOPATH B Y  (0.015::0.015) (0.033::0.033))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "NAND2X2")
+    (INSTANCE  spr_5/spr_gate5)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Y  (0.018::0.018) (0.041::0.041))
+	(IOPATH B Y  (0.015::0.015) (0.033::0.033))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "NOR2X2")
+    (INSTANCE  spr_5/spr_gate4)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Y  (0.034::0.034) (0.023::0.023))
+	(IOPATH B Y  (0.024::0.024) (0.017::0.017))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "NOR2X2")
+    (INSTANCE  spr_5/spr_gate3)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Y  (0.034::0.034) (0.023::0.023))
+	(IOPATH B Y  (0.024::0.024) (0.017::0.017))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "MX2X2")
+    (INSTANCE  spr_5/spr_gate2)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Y  (0.189::0.189) (0.156::0.156))
+	(IOPATH B Y  (0.187::0.187) (0.159::0.159))
+	(IOPATH (posedge S0) Y  (0.164::0.164) (0.166::0.166))
+	(IOPATH (negedge S0) Y  (0.190::0.190) (0.137::0.137))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFHQX1")
+    (INSTANCE  spr_5/spr_gate1)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH (posedge CK) Q  (0.172::0.172) (0.195::0.195))
+	)
+      )
+      (TIMINGCHECK
+	(SETUPHOLD (posedge D) (posedge CK) (0.106::0.106) (-0.062::-0.062))
+	(SETUPHOLD (negedge D) (posedge CK) (0.052::0.052) (0.018::0.018))
+	(WIDTH (posedge CK) (0.089::0.089))
+	(WIDTH (negedge CK) (0.109::0.109))
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "BUFX3")
+    (INSTANCE  spr_4/spr_gate14)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Y  (0.061::0.061) (0.058::0.058))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "BUFX3")
+    (INSTANCE  spr_4/spr_gate13)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Y  (0.061::0.061) (0.058::0.058))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "BUFX4")
+    (INSTANCE  spr_4/spr_gate12)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Y  (0.071::0.071) (0.067::0.067))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "BUFX4")
+    (INSTANCE  spr_4/spr_gate11)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Y  (0.071::0.071) (0.067::0.067))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "INVX2")
+    (INSTANCE  spr_4/spr_gate10)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Y  (0.012::0.012) (0.015::0.015))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "INVX2")
+    (INSTANCE  spr_4/spr_gate9)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Y  (0.012::0.012) (0.015::0.015))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "INVX4")
+    (INSTANCE  spr_4/spr_gate8)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Y  (0.013::0.013) (0.015::0.015))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "INVX4")
+    (INSTANCE  spr_4/spr_gate7)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Y  (0.013::0.013) (0.015::0.015))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "NAND2X2")
+    (INSTANCE  spr_4/spr_gate6)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Y  (0.018::0.018) (0.041::0.041))
+	(IOPATH B Y  (0.015::0.015) (0.033::0.033))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "NAND2X2")
+    (INSTANCE  spr_4/spr_gate5)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Y  (0.018::0.018) (0.041::0.041))
+	(IOPATH B Y  (0.015::0.015) (0.033::0.033))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "NOR2X2")
+    (INSTANCE  spr_4/spr_gate4)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Y  (0.034::0.034) (0.023::0.023))
+	(IOPATH B Y  (0.024::0.024) (0.017::0.017))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "NOR2X2")
+    (INSTANCE  spr_4/spr_gate3)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Y  (0.034::0.034) (0.023::0.023))
+	(IOPATH B Y  (0.024::0.024) (0.017::0.017))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "MX2X2")
+    (INSTANCE  spr_4/spr_gate2)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Y  (0.189::0.189) (0.156::0.156))
+	(IOPATH B Y  (0.187::0.187) (0.159::0.159))
+	(IOPATH (posedge S0) Y  (0.164::0.164) (0.166::0.166))
+	(IOPATH (negedge S0) Y  (0.190::0.190) (0.137::0.137))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFHQX1")
+    (INSTANCE  spr_4/spr_gate1)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH (posedge CK) Q  (0.172::0.172) (0.195::0.195))
+	)
+      )
+      (TIMINGCHECK
+	(SETUPHOLD (posedge D) (posedge CK) (0.106::0.106) (-0.062::-0.062))
+	(SETUPHOLD (negedge D) (posedge CK) (0.052::0.052) (0.018::0.018))
+	(WIDTH (posedge CK) (0.089::0.089))
+	(WIDTH (negedge CK) (0.109::0.109))
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "BUFX3")
+    (INSTANCE  spr_3/spr_gate14)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Y  (0.061::0.061) (0.058::0.058))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "BUFX3")
+    (INSTANCE  spr_3/spr_gate13)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Y  (0.061::0.061) (0.058::0.058))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "BUFX4")
+    (INSTANCE  spr_3/spr_gate12)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Y  (0.071::0.071) (0.067::0.067))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "BUFX4")
+    (INSTANCE  spr_3/spr_gate11)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Y  (0.071::0.071) (0.067::0.067))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "INVX2")
+    (INSTANCE  spr_3/spr_gate10)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Y  (0.012::0.012) (0.015::0.015))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "INVX2")
+    (INSTANCE  spr_3/spr_gate9)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Y  (0.012::0.012) (0.015::0.015))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "INVX4")
+    (INSTANCE  spr_3/spr_gate8)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Y  (0.013::0.013) (0.015::0.015))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "INVX4")
+    (INSTANCE  spr_3/spr_gate7)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Y  (0.013::0.013) (0.015::0.015))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "NAND2X2")
+    (INSTANCE  spr_3/spr_gate6)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Y  (0.018::0.018) (0.041::0.041))
+	(IOPATH B Y  (0.015::0.015) (0.033::0.033))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "NAND2X2")
+    (INSTANCE  spr_3/spr_gate5)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Y  (0.018::0.018) (0.041::0.041))
+	(IOPATH B Y  (0.015::0.015) (0.033::0.033))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "NOR2X2")
+    (INSTANCE  spr_3/spr_gate4)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Y  (0.034::0.034) (0.023::0.023))
+	(IOPATH B Y  (0.024::0.024) (0.017::0.017))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "NOR2X2")
+    (INSTANCE  spr_3/spr_gate3)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Y  (0.034::0.034) (0.023::0.023))
+	(IOPATH B Y  (0.024::0.024) (0.017::0.017))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "MX2X2")
+    (INSTANCE  spr_3/spr_gate2)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Y  (0.189::0.189) (0.156::0.156))
+	(IOPATH B Y  (0.187::0.187) (0.159::0.159))
+	(IOPATH (posedge S0) Y  (0.164::0.164) (0.166::0.166))
+	(IOPATH (negedge S0) Y  (0.190::0.190) (0.137::0.137))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFHQX1")
+    (INSTANCE  spr_3/spr_gate1)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH (posedge CK) Q  (0.172::0.172) (0.195::0.195))
+	)
+      )
+      (TIMINGCHECK
+	(SETUPHOLD (posedge D) (posedge CK) (0.106::0.106) (-0.062::-0.062))
+	(SETUPHOLD (negedge D) (posedge CK) (0.052::0.052) (0.018::0.018))
+	(WIDTH (posedge CK) (0.089::0.089))
+	(WIDTH (negedge CK) (0.109::0.109))
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "BUFX3")
+    (INSTANCE  spr_2/spr_gate14)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Y  (0.061::0.061) (0.058::0.058))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "BUFX3")
+    (INSTANCE  spr_2/spr_gate13)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Y  (0.061::0.061) (0.058::0.058))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "BUFX4")
+    (INSTANCE  spr_2/spr_gate12)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Y  (0.071::0.071) (0.067::0.067))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "BUFX4")
+    (INSTANCE  spr_2/spr_gate11)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Y  (0.071::0.071) (0.067::0.067))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "INVX2")
+    (INSTANCE  spr_2/spr_gate10)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Y  (0.012::0.012) (0.015::0.015))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "INVX2")
+    (INSTANCE  spr_2/spr_gate9)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Y  (0.012::0.012) (0.015::0.015))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "INVX4")
+    (INSTANCE  spr_2/spr_gate8)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Y  (0.013::0.013) (0.015::0.015))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "INVX4")
+    (INSTANCE  spr_2/spr_gate7)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Y  (0.013::0.013) (0.015::0.015))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "NAND2X2")
+    (INSTANCE  spr_2/spr_gate6)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Y  (0.018::0.018) (0.041::0.041))
+	(IOPATH B Y  (0.015::0.015) (0.033::0.033))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "NAND2X2")
+    (INSTANCE  spr_2/spr_gate5)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Y  (0.018::0.018) (0.041::0.041))
+	(IOPATH B Y  (0.015::0.015) (0.033::0.033))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "NOR2X2")
+    (INSTANCE  spr_2/spr_gate4)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Y  (0.034::0.034) (0.023::0.023))
+	(IOPATH B Y  (0.024::0.024) (0.017::0.017))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "NOR2X2")
+    (INSTANCE  spr_2/spr_gate3)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Y  (0.034::0.034) (0.023::0.023))
+	(IOPATH B Y  (0.024::0.024) (0.017::0.017))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "MX2X2")
+    (INSTANCE  spr_2/spr_gate2)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Y  (0.189::0.189) (0.156::0.156))
+	(IOPATH B Y  (0.187::0.187) (0.159::0.159))
+	(IOPATH (posedge S0) Y  (0.164::0.164) (0.166::0.166))
+	(IOPATH (negedge S0) Y  (0.190::0.190) (0.137::0.137))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFHQX1")
+    (INSTANCE  spr_2/spr_gate1)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH (posedge CK) Q  (0.172::0.172) (0.195::0.195))
+	)
+      )
+      (TIMINGCHECK
+	(SETUPHOLD (posedge D) (posedge CK) (0.106::0.106) (-0.062::-0.062))
+	(SETUPHOLD (negedge D) (posedge CK) (0.052::0.052) (0.018::0.018))
+	(WIDTH (posedge CK) (0.089::0.089))
+	(WIDTH (negedge CK) (0.109::0.109))
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "BUFX3")
+    (INSTANCE  spr_1/spr_gate14)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Y  (0.061::0.061) (0.058::0.058))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "BUFX3")
+    (INSTANCE  spr_1/spr_gate13)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Y  (0.061::0.061) (0.058::0.058))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "BUFX4")
+    (INSTANCE  spr_1/spr_gate12)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Y  (0.071::0.071) (0.067::0.067))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "BUFX4")
+    (INSTANCE  spr_1/spr_gate11)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Y  (0.071::0.071) (0.067::0.067))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "INVX2")
+    (INSTANCE  spr_1/spr_gate10)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Y  (0.012::0.012) (0.015::0.015))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "INVX2")
+    (INSTANCE  spr_1/spr_gate9)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Y  (0.012::0.012) (0.015::0.015))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "INVX4")
+    (INSTANCE  spr_1/spr_gate8)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Y  (0.013::0.013) (0.015::0.015))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "INVX4")
+    (INSTANCE  spr_1/spr_gate7)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Y  (0.013::0.013) (0.015::0.015))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "NAND2X2")
+    (INSTANCE  spr_1/spr_gate6)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Y  (0.018::0.018) (0.041::0.041))
+	(IOPATH B Y  (0.015::0.015) (0.033::0.033))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "NAND2X2")
+    (INSTANCE  spr_1/spr_gate5)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Y  (0.018::0.018) (0.041::0.041))
+	(IOPATH B Y  (0.015::0.015) (0.033::0.033))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "NOR2X2")
+    (INSTANCE  spr_1/spr_gate4)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Y  (0.034::0.034) (0.023::0.023))
+	(IOPATH B Y  (0.024::0.024) (0.017::0.017))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "NOR2X2")
+    (INSTANCE  spr_1/spr_gate3)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Y  (0.034::0.034) (0.023::0.023))
+	(IOPATH B Y  (0.024::0.024) (0.017::0.017))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "MX2X2")
+    (INSTANCE  spr_1/spr_gate2)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH A Y  (0.189::0.189) (0.156::0.156))
+	(IOPATH B Y  (0.187::0.187) (0.159::0.159))
+	(IOPATH (posedge S0) Y  (0.164::0.164) (0.166::0.166))
+	(IOPATH (negedge S0) Y  (0.190::0.190) (0.137::0.137))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFHQX1")
+    (INSTANCE  spr_1/spr_gate1)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH (posedge CK) Q  (0.172::0.172) (0.195::0.195))
+	)
+      )
+      (TIMINGCHECK
+	(SETUPHOLD (posedge D) (posedge CK) (0.106::0.106) (-0.062::-0.062))
+	(SETUPHOLD (negedge D) (posedge CK) (0.052::0.052) (0.018::0.018))
+	(WIDTH (posedge CK) (0.089::0.089))
+	(WIDTH (negedge CK) (0.109::0.109))
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFRHQX1LVT")
+    (INSTANCE  count_reg\[7\])
+      (DELAY
+	(ABSOLUTE
+	(IOPATH RN Q  () (0.059::0.059))
+	(IOPATH (posedge CK) Q  (0.160::0.160) (0.145::0.145))
+	)
+      )
+      (TIMINGCHECK
+	(WIDTH (negedge RN) (0.055::0.055))
+	(RECREM (posedge RN) (posedge CK) (-0.047::-0.047) (0.066::0.066))
+	(SETUPHOLD (posedge D) (posedge CK) (0.068::0.068) (-0.044::-0.044))
+	(SETUPHOLD (negedge D) (posedge CK) (0.031::0.031) (0.006::0.006))
+	(WIDTH (posedge CK) (0.060::0.060))
+	(WIDTH (negedge CK) (0.070::0.070))
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "CLKXOR2X1LVT")
+    (INSTANCE  g416__2398)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH (posedge A) Y  (0.104::0.104) (0.119::0.119))
+	(IOPATH (negedge A) Y  (0.126::0.126) (0.094::0.094))
+	(IOPATH (posedge B) Y  (0.084::0.085) (0.092::0.092))
+	(IOPATH (negedge B) Y  (0.080::0.080) (0.068::0.069))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFRHQX1LVT")
+    (INSTANCE  count_reg\[6\])
+      (DELAY
+	(ABSOLUTE
+	(IOPATH RN Q  () (0.058::0.058))
+	(IOPATH (posedge CK) Q  (0.159::0.159) (0.144::0.144))
+	)
+      )
+      (TIMINGCHECK
+	(WIDTH (negedge RN) (0.055::0.055))
+	(RECREM (posedge RN) (posedge CK) (-0.047::-0.047) (0.066::0.066))
+	(SETUPHOLD (posedge D) (posedge CK) (0.068::0.068) (-0.044::-0.044))
+	(SETUPHOLD (negedge D) (posedge CK) (0.031::0.031) (0.006::0.006))
+	(WIDTH (posedge CK) (0.060::0.060))
+	(WIDTH (negedge CK) (0.070::0.070))
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "ADDHX1LVT")
+    (INSTANCE  g418__5107)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH (posedge A) S  (0.103::0.104) (0.118::0.118))
+	(IOPATH (negedge A) S  (0.125::0.125) (0.093::0.093))
+	(IOPATH A CO  (0.087::0.088) (0.052::0.053))
+	(IOPATH (posedge B) S  (0.087::0.087) (0.093::0.094))
+	(IOPATH (negedge B) S  (0.082::0.082) (0.070::0.070))
+	(IOPATH B CO  (0.077::0.079) (0.044::0.045))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFRHQX1LVT")
+    (INSTANCE  count_reg\[5\])
+      (DELAY
+	(ABSOLUTE
+	(IOPATH RN Q  () (0.058::0.058))
+	(IOPATH (posedge CK) Q  (0.159::0.160) (0.144::0.144))
+	)
+      )
+      (TIMINGCHECK
+	(WIDTH (negedge RN) (0.055::0.055))
+	(RECREM (posedge RN) (posedge CK) (-0.047::-0.047) (0.066::0.066))
+	(SETUPHOLD (posedge D) (posedge CK) (0.069::0.069) (-0.045::-0.045))
+	(SETUPHOLD (negedge D) (posedge CK) (0.032::0.032) (0.005::0.005))
+	(WIDTH (posedge CK) (0.060::0.060))
+	(WIDTH (negedge CK) (0.070::0.070))
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "ADDHX1LVT")
+    (INSTANCE  g420__6260)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH (posedge A) S  (0.105::0.105) (0.120::0.120))
+	(IOPATH (negedge A) S  (0.126::0.126) (0.094::0.095))
+	(IOPATH A CO  (0.090::0.091) (0.056::0.056))
+	(IOPATH (posedge B) S  (0.088::0.088) (0.094::0.095))
+	(IOPATH (negedge B) S  (0.083::0.083) (0.071::0.071))
+	(IOPATH B CO  (0.080::0.082) (0.047::0.048))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFRHQX1LVT")
+    (INSTANCE  count_reg\[4\])
+      (DELAY
+	(ABSOLUTE
+	(IOPATH RN Q  () (0.057::0.057))
+	(IOPATH (posedge CK) Q  (0.158::0.158) (0.143::0.143))
+	)
+      )
+      (TIMINGCHECK
+	(WIDTH (negedge RN) (0.055::0.055))
+	(RECREM (posedge RN) (posedge CK) (-0.047::-0.047) (0.066::0.066))
+	(SETUPHOLD (posedge D) (posedge CK) (0.069::0.069) (-0.045::-0.045))
+	(SETUPHOLD (negedge D) (posedge CK) (0.032::0.032) (0.005::0.005))
+	(WIDTH (posedge CK) (0.060::0.060))
+	(WIDTH (negedge CK) (0.070::0.070))
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "ADDHX1LVT")
+    (INSTANCE  g422__4319)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH (posedge A) S  (0.104::0.104) (0.119::0.119))
+	(IOPATH (negedge A) S  (0.125::0.126) (0.093::0.094))
+	(IOPATH A CO  (0.089::0.090) (0.055::0.055))
+	(IOPATH (posedge B) S  (0.087::0.088) (0.094::0.094))
+	(IOPATH (negedge B) S  (0.082::0.082) (0.070::0.071))
+	(IOPATH B CO  (0.079::0.080) (0.046::0.047))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFRHQX1LVT")
+    (INSTANCE  count_reg\[3\])
+      (DELAY
+	(ABSOLUTE
+	(IOPATH RN Q  () (0.058::0.058))
+	(IOPATH (posedge CK) Q  (0.160::0.160) (0.144::0.145))
+	)
+      )
+      (TIMINGCHECK
+	(WIDTH (negedge RN) (0.055::0.055))
+	(RECREM (posedge RN) (posedge CK) (-0.047::-0.047) (0.066::0.066))
+	(SETUPHOLD (posedge D) (posedge CK) (0.069::0.069) (-0.045::-0.045))
+	(SETUPHOLD (negedge D) (posedge CK) (0.032::0.032) (0.005::0.005))
+	(WIDTH (posedge CK) (0.060::0.060))
+	(WIDTH (negedge CK) (0.070::0.070))
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "ADDHX1LVT")
+    (INSTANCE  g424__8428)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH (posedge A) S  (0.105::0.105) (0.119::0.120))
+	(IOPATH (negedge A) S  (0.126::0.126) (0.094::0.094))
+	(IOPATH A CO  (0.089::0.090) (0.054::0.055))
+	(IOPATH (posedge B) S  (0.088::0.088) (0.094::0.095))
+	(IOPATH (negedge B) S  (0.083::0.083) (0.071::0.071))
+	(IOPATH B CO  (0.079::0.080) (0.046::0.046))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFRHQX1LVT")
+    (INSTANCE  count_reg\[2\])
+      (DELAY
+	(ABSOLUTE
+	(IOPATH RN Q  () (0.061::0.061))
+	(IOPATH (posedge CK) Q  (0.162::0.162) (0.147::0.147))
+	)
+      )
+      (TIMINGCHECK
+	(WIDTH (negedge RN) (0.055::0.055))
+	(RECREM (posedge RN) (posedge CK) (-0.047::-0.047) (0.066::0.066))
+	(SETUPHOLD (posedge D) (posedge CK) (0.071::0.071) (-0.046::-0.046))
+	(SETUPHOLD (negedge D) (posedge CK) (0.034::0.034) (0.004::0.004))
+	(WIDTH (posedge CK) (0.060::0.060))
+	(WIDTH (negedge CK) (0.070::0.070))
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "ADDHX1LVT")
+    (INSTANCE  g426__5526)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH (posedge A) S  (0.109::0.109) (0.124::0.124))
+	(IOPATH (negedge A) S  (0.130::0.130) (0.099::0.099))
+	(IOPATH A CO  (0.093::0.093) (0.058::0.058))
+	(IOPATH (posedge B) S  (0.091::0.092) (0.098::0.098))
+	(IOPATH (negedge B) S  (0.086::0.086) (0.074::0.075))
+	(IOPATH B CO  (0.081::0.083) (0.048::0.049))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFRHQX1LVT")
+    (INSTANCE  count_reg\[1\])
+      (DELAY
+	(ABSOLUTE
+	(IOPATH RN Q  () (0.062::0.062))
+	(IOPATH (posedge CK) Q  (0.163::0.163) (0.148::0.148))
+	)
+      )
+      (TIMINGCHECK
+	(WIDTH (negedge RN) (0.055::0.055))
+	(RECREM (posedge RN) (posedge CK) (-0.047::-0.047) (0.066::0.066))
+	(SETUPHOLD (posedge D) (posedge CK) (0.069::0.069) (-0.045::-0.045))
+	(SETUPHOLD (negedge D) (posedge CK) (0.032::0.032) (0.005::0.005))
+	(WIDTH (posedge CK) (0.060::0.060))
+	(WIDTH (negedge CK) (0.070::0.070))
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "ADDHX1LVT")
+    (INSTANCE  g428__6783)
+      (DELAY
+	(ABSOLUTE
+	(IOPATH (posedge A) S  (0.107::0.107) (0.122::0.122))
+	(IOPATH (negedge A) S  (0.128::0.129) (0.097::0.098))
+	(IOPATH A CO  (0.094::0.095) (0.059::0.060))
+	(IOPATH (posedge B) S  (0.100::0.101) (0.105::0.106))
+	(IOPATH (negedge B) S  (0.093::0.093) (0.083::0.083))
+	(IOPATH B CO  (0.093::0.095) (0.060::0.060))
+	)
+      )
+  )
+
+  (CELL
+    (CELLTYPE  "DFFRX1LVT")
+    (INSTANCE  count_reg\[0\])
+      (DELAY
+	(ABSOLUTE
+	(IOPATH RN QN  (0.078::0.078) ())
+	(IOPATH RN Q  () (0.080::0.080))
+	(IOPATH (posedge CK) QN  (0.159::0.159) (0.185::0.185))
+	(IOPATH (posedge CK) Q  (0.192::0.193) (0.159::0.160))
+	)
+      )
+      (TIMINGCHECK
+	(WIDTH (negedge RN) (0.055::0.055))
+	(RECREM (posedge RN) (posedge CK) (-0.039::-0.039) (0.061::0.061))
+	(SETUPHOLD (posedge D) (posedge CK) (0.071::0.071) (-0.045::-0.045))
+	(SETUPHOLD (negedge D) (posedge CK) (0.040::0.040) (0.002::0.002))
+	(WIDTH (posedge CK) (0.065::0.065))
+	(WIDTH (negedge CK) (0.065::0.065))
+      )
+  )
+)

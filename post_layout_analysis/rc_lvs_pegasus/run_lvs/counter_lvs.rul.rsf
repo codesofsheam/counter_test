@@ -1,0 +1,852 @@
+avCompareRules(
+commandLineOptions((-lvs))
+commandLineOptions((schematic_format "CDL" "-source_verilog /home/user_50/projects/counter_45/pnr/outputs/counter_innovus_final.v"))
+commandLineOptions((schematic_path "/home/user_50/projects/counter_45/cdl/gsclib045_lvt.cdl" "-source_verilog /home/user_50/projects/counter_45/pnr/outputs/counter_innovus_final.v"))
+commandLineOptions((schematic_format "CDL" "-source_verilog /home/user_50/projects/counter_45/pnr/outputs/counter_innovus_final.v"))
+commandLineOptions((schematic_path "/home/user_50/projects/counter_45/cdl/gsclib045_hvt.cdl" "-source_verilog /home/user_50/projects/counter_45/pnr/outputs/counter_innovus_final.v"))
+commandLineOptions((schematic_format "CDL" "-source_verilog /home/user_50/projects/counter_45/pnr/outputs/counter_innovus_final.v"))
+commandLineOptions((schematic_path "/home/user_50/projects/counter_45/cdl/gsclib045_svt.cdl" "-source_verilog /home/user_50/projects/counter_45/pnr/outputs/counter_innovus_final.v"))
+commandLineOptions((schematic_format "VERILOG" "-source_verilog /home/user_50/projects/counter_45/pnr/outputs/counter_innovus_final.v"))
+commandLineOptions((schematic_path "/home/user_50/projects/counter_45/pnr/outputs/counter_innovus_final.v" "-source_verilog /home/user_50/projects/counter_45/pnr/outputs/counter_innovus_final.v"))
+commandLineOptions((schematic_primary "counter" "-source_top_cell counter"))
+commandLineOptions((layout_format "GDSII" "-gds /home/user_50/projects/counter_45/pnr/counter_final.gds"))
+commandLineOptions((layout_path "/home/user_50/projects/counter_45/pnr/counter_final.gds" "-gds /home/user_50/projects/counter_45/pnr/counter_final.gds"))
+commandLineOptions((layout_primary "counter" "-layout_top_cell counter"))
+( pvsLvsRules ( lvs_netlist "yes" "-allow_inconsistent_model" ))
+( pvsLvsRules ( lvs_filter_option "AG" "RC" "RE" "RG" ))
+layout( filterOptions( "AG RC RE RG "))
+schematic( filterOptions( "AG RC RE RG "))
+( pvsLvsRules ( variable "R_metal1" "0.0736" ))
+( pvsLvsRules ( variable "R_metal2_7" "0.0604" ))
+( pvsLvsRules ( variable "R_metal8_10" "0.0214" ))
+( pvsLvsRules ( variable "R_metal11" "0.021" ))
+( pvsLvsRules ( variable "R_snpoly" "15" ))
+( pvsLvsRules ( variable "R_sppoly" "15" ))
+( pvsLvsRules ( variable "R_nsnpoly" "200" ))
+( pvsLvsRules ( variable "R_nsppoly" "650" ))
+( pvsLvsRules ( variable "R_snactive" "18" ))
+( pvsLvsRules ( variable "R_spactive" "15" ))
+( pvsLvsRules ( variable "R_nsnactive" "100" ))
+( pvsLvsRules ( variable "R_nspactive" "200" ))
+( pvsLvsRules ( variable "R_nwell" "450" ))
+( pvsLvsRules ( variable "R_pwell" "1000" ))
+( pvsLvsRules ( variable "resTol" "5" ))
+( pvsLvsRules ( text_depth "-primary" ))
+rcxDataDir("/home/user_50/projects/counter_45/post_layout_analysis/rc_lvs_pegasus/run_lvs/svdb")
+( pvsLvsRules ( port "-text_layer" "text" ))
+( pvsLvsRules ( port "-text_layer" "ind10_text" ))
+( pvsLvsRules ( port "-text_layer" "ind11_text" ))
+( pvsLvsRules ( port "-text_layer" "nwell_conn_text" ))
+( pvsLvsRules ( port "-text_layer" "metal1_conn_text" ))
+( pvsLvsRules ( port "-text_layer" "metal2_conn_text" ))
+( pvsLvsRules ( port "-text_layer" "metal3_conn_text" ))
+( pvsLvsRules ( port "-text_layer" "metal4_conn_text" ))
+( pvsLvsRules ( port "-text_layer" "metal5_conn_text" ))
+( pvsLvsRules ( port "-text_layer" "metal6_conn_text" ))
+( pvsLvsRules ( port "-text_layer" "metal7_conn_text" ))
+( pvsLvsRules ( port "-text_layer" "metal8_conn_text" ))
+( pvsLvsRules ( port "-text_layer" "metal9_conn_text" ))
+( pvsLvsRules ( port "-text_layer" "metal10_conn_text" ))
+( pvsLvsRules ( port "-text_layer" "metal11_conn_text" ))
+( pvsLvsRules ( port "-text_layer" "nwell_label" ))
+( pvsLvsRules ( port "-text_layer" "m1_label" ))
+( pvsLvsRules ( port "-text_layer" "m2_label" ))
+( pvsLvsRules ( port "-text_layer" "m3_label" ))
+( pvsLvsRules ( port "-text_layer" "m4_label" ))
+( pvsLvsRules ( port "-text_layer" "m5_label" ))
+( pvsLvsRules ( port "-text_layer" "m6_label" ))
+( pvsLvsRules ( port "-text_layer" "m7_label" ))
+( pvsLvsRules ( port "-text_layer" "m8_label" ))
+( pvsLvsRules ( port "-text_layer" "m9_label" ))
+( pvsLvsRules ( port "-text_layer" "m10_label" ))
+( pvsLvsRules ( port "-text_layer" "m11_label" ))
+( pvsLvsRules ( port "-text_layer" "nwell_pin" ))
+( pvsLvsRules ( port "-text_layer" "m1_pin" ))
+( pvsLvsRules ( port "-text_layer" "m2_pin" ))
+( pvsLvsRules ( port "-text_layer" "m3_pin" ))
+( pvsLvsRules ( port "-text_layer" "m4_pin" ))
+( pvsLvsRules ( port "-text_layer" "m5_pin" ))
+( pvsLvsRules ( port "-text_layer" "m6_pin" ))
+( pvsLvsRules ( port "-text_layer" "m7_pin" ))
+( pvsLvsRules ( port "-text_layer" "m8_pin" ))
+( pvsLvsRules ( port "-text_layer" "m9_pin" ))
+( pvsLvsRules ( port "-text_layer" "m10_pin" ))
+( pvsLvsRules ( port "-text_layer" "m11_pin" ))
+( pvsLvsRules ( device "MN" "(" "g45n1svt" ")" "_nmos1v" "poly_conn" "(" "G" ")" "ndiff_conn" "(" "S" ")" "ndiff_conn" "(" "D" ")" "psubstrate" "(" "B" ")" "(" "S" "D" ")" "-model" "g45n1svt" "<" "_nmos1v_sti" ">" "<" "_nmos1v_wpe" ">" ))
+( pvsLvsRules ( lvs_check_property "MN" "(" "g45n1svt" ")" "l" "l" "-tolerance" "0" ))
+( pvsLvsRules ( lvs_check_property "MN" "(" "g45n1svt" ")" "w" "w" "-tolerance" "0" ))
+( pvsLvsRules ( lvs_map_device "M" "(" "g45n1svt" ")" "MN" "(" "g45n1svt" ")" ))
+( pvsLvsRules ( device "MN" "(" "g45n1hvt" ")" "_nmos1v_hvt" "poly_conn" "(" "G" ")" "ndiff_conn" "(" "S" ")" "ndiff_conn" "(" "D" ")" "psubstrate" "(" "B" ")" "(" "S" "D" ")" "-model" "g45n1hvt" "<" "_nmos1v_hvt_sti" ">" "<" "_nmos1v_hvt_wpe" ">" ))
+( pvsLvsRules ( lvs_check_property "MN" "(" "g45n1hvt" ")" "l" "l" "-tolerance" "0" ))
+( pvsLvsRules ( lvs_check_property "MN" "(" "g45n1hvt" ")" "w" "w" "-tolerance" "0" ))
+( pvsLvsRules ( lvs_map_device "M" "(" "g45n1hvt" ")" "MN" "(" "g45n1hvt" ")" ))
+( pvsLvsRules ( device "MN" "(" "g45n1lvt" ")" "_nmos1v_lvt" "poly_conn" "(" "G" ")" "ndiff_conn" "(" "S" ")" "ndiff_conn" "(" "D" ")" "psubstrate" "(" "B" ")" "(" "S" "D" ")" "-model" "g45n1lvt" "<" "_nmos1v_lvt_sti" ">" "<" "_nmos1v_lvt_wpe" ">" ))
+( pvsLvsRules ( lvs_check_property "MN" "(" "g45n1lvt" ")" "l" "l" "-tolerance" "0" ))
+( pvsLvsRules ( lvs_check_property "MN" "(" "g45n1lvt" ")" "w" "w" "-tolerance" "0" ))
+( pvsLvsRules ( lvs_map_device "M" "(" "g45n1lvt" ")" "MN" "(" "g45n1lvt" ")" ))
+( pvsLvsRules ( device "MN" "(" "g45n1nvt" ")" "_nmos_12_native" "poly_conn" "(" "G" ")" "ndiff_conn" "(" "S" ")" "ndiff_conn" "(" "D" ")" "psubstrate" "(" "B" ")" "(" "S" "D" ")" "-model" "g45n1nvt" "<" "_nmos_12_native_sti" ">" "<" "_nmos_12_native_wpe" ">" ))
+( pvsLvsRules ( lvs_check_property "MN" "(" "g45n1nvt" ")" "l" "l" "-tolerance" "0" ))
+( pvsLvsRules ( lvs_check_property "MN" "(" "g45n1nvt" ")" "w" "w" "-tolerance" "0" ))
+( pvsLvsRules ( lvs_map_device "M" "(" "g45n1nvt" ")" "MN" "(" "g45n1nvt" ")" ))
+( pvsLvsRules ( device "MN" "(" "g45n2svt" ")" "_nmos_25" "poly_conn" "(" "G" ")" "ndiff_conn" "(" "S" ")" "ndiff_conn" "(" "D" ")" "psubstrate" "(" "B" ")" "(" "S" "D" ")" "-model" "g45n2svt" "<" "_nmos_25_sti" ">" "<" "_nmos_25_wpe" ">" ))
+( pvsLvsRules ( lvs_check_property "MN" "(" "g45n2svt" ")" "l" "l" "-tolerance" "0" ))
+( pvsLvsRules ( lvs_check_property "MN" "(" "g45n2svt" ")" "w" "w" "-tolerance" "0" ))
+( pvsLvsRules ( lvs_map_device "M" "(" "g45n2svt" ")" "MN" "(" "g45n2svt" ")" ))
+( pvsLvsRules ( device "MN" "(" "g45n2nvt" ")" "_nmos_25_native" "poly_conn" "(" "G" ")" "ndiff_conn" "(" "S" ")" "ndiff_conn" "(" "D" ")" "psubstrate" "(" "B" ")" "(" "S" "D" ")" "-model" "g45n2nvt" "<" "_nmos_25_native_sti" ">" "<" "_nmos_25_native_wpe" ">" ))
+( pvsLvsRules ( lvs_check_property "MN" "(" "g45n2nvt" ")" "l" "l" "-tolerance" "0" ))
+( pvsLvsRules ( lvs_check_property "MN" "(" "g45n2nvt" ")" "w" "w" "-tolerance" "0" ))
+( pvsLvsRules ( lvs_map_device "M" "(" "g45n2nvt" ")" "MN" "(" "g45n2nvt" ")" ))
+( pvsLvsRules ( device "MN" "(" "g45ncap1" ")" "_nmoscap1v" "poly_conn" "(" "G" ")" "ndiff_conn" "(" "S" ")" "ndiff_conn" "(" "D" ")" "psubstrate" "(" "B" ")" "(" "S" "D" ")" "-model" "g45ncap1" ))
+( pvsLvsRules ( lvs_check_property "MN" "(" "g45ncap1" ")" "l" "l" "-tolerance" "0" ))
+( pvsLvsRules ( lvs_check_property "MN" "(" "g45ncap1" ")" "w" "w" "-tolerance" "0" ))
+( pvsLvsRules ( device "MN" "(" "g45ncap2" ")" "_nmoscap2v" "poly_conn" "(" "G" ")" "ndiff_conn" "(" "S" ")" "ndiff_conn" "(" "D" ")" "psubstrate" "(" "B" ")" "(" "S" "D" ")" "-model" "g45ncap2" ))
+( pvsLvsRules ( lvs_check_property "MN" "(" "g45ncap2" ")" "l" "l" "-tolerance" "0" ))
+( pvsLvsRules ( lvs_check_property "MN" "(" "g45ncap2" ")" "w" "w" "-tolerance" "0" ))
+( pvsLvsRules ( device "MP" "(" "g45p1svt" ")" "_pmos1v" "poly_conn" "(" "G" ")" "pdiff_conn" "(" "S" ")" "pdiff_conn" "(" "D" ")" "nwell_conn" "(" "B" ")" "(" "S" "D" ")" "-model" "g45p1svt" "<" "pactive" ">" ))
+( pvsLvsRules ( lvs_check_property "MP" "(" "g45p1svt" ")" "l" "l" "-tolerance" "0" ))
+( pvsLvsRules ( lvs_check_property "MP" "(" "g45p1svt" ")" "w" "w" "-tolerance" "0" ))
+( pvsLvsRules ( lvs_map_device "M" "(" "g45p1svt" ")" "MP" "(" "g45p1svt" ")" ))
+( pvsLvsRules ( device "MP" "(" "g45p1hvt" ")" "_pmos1v_hvt" "poly_conn" "(" "G" ")" "pdiff_conn" "(" "S" ")" "pdiff_conn" "(" "D" ")" "nwell_conn" "(" "B" ")" "(" "S" "D" ")" "-model" "g45p1hvt" "<" "pactive" ">" ))
+( pvsLvsRules ( lvs_check_property "MP" "(" "g45p1hvt" ")" "l" "l" "-tolerance" "0" ))
+( pvsLvsRules ( lvs_check_property "MP" "(" "g45p1hvt" ")" "w" "w" "-tolerance" "0" ))
+( pvsLvsRules ( lvs_map_device "M" "(" "g45p1hvt" ")" "MP" "(" "g45p1hvt" ")" ))
+( pvsLvsRules ( device "MP" "(" "g45p1lvt" ")" "_pmos1v_lvt" "poly_conn" "(" "G" ")" "pdiff_conn" "(" "S" ")" "pdiff_conn" "(" "D" ")" "nwell_conn" "(" "B" ")" "(" "S" "D" ")" "-model" "g45p1lvt" "<" "pactive" ">" ))
+( pvsLvsRules ( lvs_check_property "MP" "(" "g45p1lvt" ")" "l" "l" "-tolerance" "0" ))
+( pvsLvsRules ( lvs_check_property "MP" "(" "g45p1lvt" ")" "w" "w" "-tolerance" "0" ))
+( pvsLvsRules ( lvs_map_device "M" "(" "g45p1lvt" ")" "MP" "(" "g45p1lvt" ")" ))
+( pvsLvsRules ( device "MP" "(" "g45p2svt" ")" "_pmos2v" "poly_conn" "(" "G" ")" "pdiff_conn" "(" "S" ")" "pdiff_conn" "(" "D" ")" "nwell_conn" "(" "B" ")" "(" "S" "D" ")" "-model" "g45p2svt" "<" "pactive" ">" ))
+( pvsLvsRules ( lvs_check_property "MP" "(" "g45p2svt" ")" "l" "l" "-tolerance" "0" ))
+( pvsLvsRules ( lvs_check_property "MP" "(" "g45p2svt" ")" "w" "w" "-tolerance" "0" ))
+( pvsLvsRules ( lvs_map_device "M" "(" "g45p2svt" ")" "MP" "(" "g45p2svt" ")" ))
+( pvsLvsRules ( device "MP" "(" "g45pcap1" ")" "_pmoscap1v" "poly_conn" "(" "G" ")" "pdiff_conn" "(" "S" ")" "pdiff_conn" "(" "D" ")" "nwell_conn" "(" "B" ")" "(" "S" "D" ")" "-model" "g45pcap1" ))
+( pvsLvsRules ( lvs_check_property "MP" "(" "g45pcap1" ")" "l" "l" "-tolerance" "0" ))
+( pvsLvsRules ( lvs_check_property "MP" "(" "g45pcap1" ")" "w" "w" "-tolerance" "0" ))
+( pvsLvsRules ( device "MP" "(" "g45pcap2" ")" "_pmoscap2v" "poly_conn" "(" "G" ")" "pdiff_conn" "(" "S" ")" "pdiff_conn" "(" "D" ")" "nwell_conn" "(" "B" ")" "(" "S" "D" ")" "-model" "g45pcap2" ))
+( pvsLvsRules ( lvs_check_property "MP" "(" "g45pcap2" ")" "l" "l" "-tolerance" "0" ))
+( pvsLvsRules ( lvs_check_property "MP" "(" "g45pcap2" ")" "w" "w" "-tolerance" "0" ))
+( pvsLvsRules ( device "R" "(" "g45rm1" ")" "_resm1" "metal1_conn" "(" "PLUS" ")" "metal1_conn" "(" "MINUS" ")" "(" "PLUS" "MINUS" ")" "-model" "g45rm1" ))
+( pvsLvsRules ( lvs_check_property "R" "(" "g45rm1" ")" "w" "w" "-tolerance" "0" ))
+( pvsLvsRules ( lvs_check_property "R" "(" "g45rm1" ")" "l" "l" "-tolerance" "0" ))
+( pvsLvsRules ( device "R" "(" "g45rm2" ")" "_resm2" "metal2_conn" "(" "PLUS" ")" "metal2_conn" "(" "MINUS" ")" "(" "PLUS" "MINUS" ")" "-model" "g45rm2" ))
+( pvsLvsRules ( lvs_check_property "R" "(" "g45rm2" ")" "w" "w" "-tolerance" "0" ))
+( pvsLvsRules ( lvs_check_property "R" "(" "g45rm2" ")" "l" "l" "-tolerance" "0" ))
+( pvsLvsRules ( device "R" "(" "g45rm3" ")" "_resm3" "metal3_conn" "(" "PLUS" ")" "metal3_conn" "(" "MINUS" ")" "(" "PLUS" "MINUS" ")" "-model" "g45rm3" ))
+( pvsLvsRules ( lvs_check_property "R" "(" "g45rm3" ")" "w" "w" "-tolerance" "0" ))
+( pvsLvsRules ( lvs_check_property "R" "(" "g45rm3" ")" "l" "l" "-tolerance" "0" ))
+( pvsLvsRules ( device "R" "(" "g45rm4" ")" "_resm4" "metal4_conn" "(" "PLUS" ")" "metal4_conn" "(" "MINUS" ")" "(" "PLUS" "MINUS" ")" "-model" "g45rm4" ))
+( pvsLvsRules ( lvs_check_property "R" "(" "g45rm4" ")" "w" "w" "-tolerance" "0" ))
+( pvsLvsRules ( lvs_check_property "R" "(" "g45rm4" ")" "l" "l" "-tolerance" "0" ))
+( pvsLvsRules ( device "R" "(" "g45rm5" ")" "_resm5" "metal5_conn" "(" "PLUS" ")" "metal5_conn" "(" "MINUS" ")" "(" "PLUS" "MINUS" ")" "-model" "g45rm5" ))
+( pvsLvsRules ( lvs_check_property "R" "(" "g45rm5" ")" "w" "w" "-tolerance" "0" ))
+( pvsLvsRules ( lvs_check_property "R" "(" "g45rm5" ")" "l" "l" "-tolerance" "0" ))
+( pvsLvsRules ( device "R" "(" "g45rm6" ")" "_resm6" "metal6_conn" "(" "PLUS" ")" "metal6_conn" "(" "MINUS" ")" "(" "PLUS" "MINUS" ")" "-model" "g45rm6" ))
+( pvsLvsRules ( lvs_check_property "R" "(" "g45rm6" ")" "w" "w" "-tolerance" "0" ))
+( pvsLvsRules ( lvs_check_property "R" "(" "g45rm6" ")" "l" "l" "-tolerance" "0" ))
+( pvsLvsRules ( device "R" "(" "g45rm7" ")" "_resm7" "metal7_conn" "(" "PLUS" ")" "metal7_conn" "(" "MINUS" ")" "(" "PLUS" "MINUS" ")" "-model" "g45rm7" ))
+( pvsLvsRules ( lvs_check_property "R" "(" "g45rm7" ")" "w" "w" "-tolerance" "0" ))
+( pvsLvsRules ( lvs_check_property "R" "(" "g45rm7" ")" "l" "l" "-tolerance" "0" ))
+( pvsLvsRules ( device "R" "(" "g45rm8" ")" "_resm8" "metal8_conn" "(" "PLUS" ")" "metal8_conn" "(" "MINUS" ")" "(" "PLUS" "MINUS" ")" "-model" "g45rm8" ))
+( pvsLvsRules ( lvs_check_property "R" "(" "g45rm8" ")" "w" "w" "-tolerance" "0" ))
+( pvsLvsRules ( lvs_check_property "R" "(" "g45rm8" ")" "l" "l" "-tolerance" "0" ))
+( pvsLvsRules ( device "R" "(" "g45rm9" ")" "_resm9" "metal9_conn" "(" "PLUS" ")" "metal9_conn" "(" "MINUS" ")" "(" "PLUS" "MINUS" ")" "-model" "g45rm9" ))
+( pvsLvsRules ( lvs_check_property "R" "(" "g45rm9" ")" "w" "w" "-tolerance" "0" ))
+( pvsLvsRules ( lvs_check_property "R" "(" "g45rm9" ")" "l" "l" "-tolerance" "0" ))
+( pvsLvsRules ( device "R" "(" "g45rm10" ")" "_resm10" "metal10_conn" "(" "PLUS" ")" "metal10_conn" "(" "MINUS" ")" "(" "PLUS" "MINUS" ")" "-model" "g45rm10" ))
+( pvsLvsRules ( lvs_check_property "R" "(" "g45rm10" ")" "w" "w" "-tolerance" "0" ))
+( pvsLvsRules ( lvs_check_property "R" "(" "g45rm10" ")" "l" "l" "-tolerance" "0" ))
+( pvsLvsRules ( device "R" "(" "g45rm11" ")" "_resm11" "metal11_conn" "(" "PLUS" ")" "metal11_conn" "(" "MINUS" ")" "(" "PLUS" "MINUS" ")" "-model" "g45rm11" ))
+( pvsLvsRules ( lvs_check_property "R" "(" "g45rm11" ")" "w" "w" "-tolerance" "0" ))
+( pvsLvsRules ( lvs_check_property "R" "(" "g45rm11" ")" "l" "l" "-tolerance" "0" ))
+( pvsLvsRules ( device "R" "(" "g45rsnd" ")" "_ressndiff" "ndiff_conn" "(" "PLUS" ")" "ndiff_conn" "(" "MINUS" ")" "psubstrate" "(" "B" ")" "(" "PLUS" "MINUS" ")" "-model" "g45rsnd" ))
+( pvsLvsRules ( lvs_check_property "R" "(" "g45rsnd" ")" "w" "w" "-tolerance" "0" ))
+( pvsLvsRules ( lvs_check_property "R" "(" "g45rsnd" ")" "l" "l" "-tolerance" "0" ))
+( pvsLvsRules ( device "R" "(" "g45rnsnd" ")" "_resnsndiff" "ndiff_conn" "(" "PLUS" ")" "ndiff_conn" "(" "MINUS" ")" "psubstrate" "(" "B" ")" "(" "PLUS" "MINUS" ")" "-model" "g45rnsnd" ))
+( pvsLvsRules ( lvs_check_property "R" "(" "g45rnsnd" ")" "w" "w" "-tolerance" "0" ))
+( pvsLvsRules ( lvs_check_property "R" "(" "g45rnsnd" ")" "l" "l" "-tolerance" "0" ))
+( pvsLvsRules ( device "R" "(" "g45rsnp" ")" "_ressnpoly" "poly_conn" "(" "PLUS" ")" "poly_conn" "(" "MINUS" ")" "psubstrate" "(" "B" ")" "(" "PLUS" "MINUS" ")" "-model" "g45rsnp" ))
+( pvsLvsRules ( lvs_check_property "R" "(" "g45rsnp" ")" "w" "w" "-tolerance" "0" ))
+( pvsLvsRules ( lvs_check_property "R" "(" "g45rsnp" ")" "l" "l" "-tolerance" "0" ))
+( pvsLvsRules ( device "R" "(" "g45rsnp" ")" "_ressnpoly_nw" "poly_conn" "(" "PLUS" ")" "poly_conn" "(" "MINUS" ")" "nwell_conn" "(" "B" ")" "(" "PLUS" "MINUS" ")" "-model" "g45rsnp" ))
+( pvsLvsRules ( lvs_check_property "R" "(" "g45rsnp" ")" "w" "w" "-tolerance" "0" ))
+( pvsLvsRules ( lvs_check_property "R" "(" "g45rsnp" ")" "l" "l" "-tolerance" "0" ))
+( pvsLvsRules ( device "R" "(" "g45rnsnp" ")" "_resnsnpoly" "poly_conn" "(" "PLUS" ")" "poly_conn" "(" "MINUS" ")" "psubstrate" "(" "B" ")" "(" "PLUS" "MINUS" ")" "-model" "g45rnsnp" ))
+( pvsLvsRules ( lvs_check_property "R" "(" "g45rnsnp" ")" "w" "w" "-tolerance" "0" ))
+( pvsLvsRules ( lvs_check_property "R" "(" "g45rnsnp" ")" "l" "l" "-tolerance" "0" ))
+( pvsLvsRules ( device "R" "(" "g45rnsnp" ")" "_resnsnpoly_nw" "poly_conn" "(" "PLUS" ")" "poly_conn" "(" "MINUS" ")" "nwell_conn" "(" "B" ")" "(" "PLUS" "MINUS" ")" "-model" "g45rnsnp" ))
+( pvsLvsRules ( lvs_check_property "R" "(" "g45rnsnp" ")" "w" "w" "-tolerance" "0" ))
+( pvsLvsRules ( lvs_check_property "R" "(" "g45rnsnp" ")" "l" "l" "-tolerance" "0" ))
+( pvsLvsRules ( device "R" "(" "g45rspd" ")" "_resspdiff" "pdiff_conn" "(" "PLUS" ")" "pdiff_conn" "(" "MINUS" ")" "nwell_conn" "(" "B" ")" "(" "PLUS" "MINUS" ")" "-model" "g45rspd" ))
+( pvsLvsRules ( lvs_check_property "R" "(" "g45rspd" ")" "w" "w" "-tolerance" "0" ))
+( pvsLvsRules ( lvs_check_property "R" "(" "g45rspd" ")" "l" "l" "-tolerance" "0" ))
+( pvsLvsRules ( device "R" "(" "g45rnspd" ")" "_resnspdiff" "pdiff_conn" "(" "PLUS" ")" "pdiff_conn" "(" "MINUS" ")" "nwell_conn" "(" "B" ")" "(" "PLUS" "MINUS" ")" "-model" "g45rnspd" ))
+( pvsLvsRules ( lvs_check_property "R" "(" "g45rnspd" ")" "w" "w" "-tolerance" "0" ))
+( pvsLvsRules ( lvs_check_property "R" "(" "g45rnspd" ")" "l" "l" "-tolerance" "0" ))
+( pvsLvsRules ( device "R" "(" "g45rspp" ")" "_ressppoly" "poly_conn" "(" "PLUS" ")" "poly_conn" "(" "MINUS" ")" "psubstrate" "(" "B" ")" "(" "PLUS" "MINUS" ")" "-model" "g45rspp" ))
+( pvsLvsRules ( lvs_check_property "R" "(" "g45rspp" ")" "w" "w" "-tolerance" "0" ))
+( pvsLvsRules ( lvs_check_property "R" "(" "g45rspp" ")" "l" "l" "-tolerance" "0" ))
+( pvsLvsRules ( device "R" "(" "g45rspp" ")" "_ressppoly_nw" "poly_conn" "(" "PLUS" ")" "poly_conn" "(" "MINUS" ")" "nwell_conn" "(" "B" ")" "(" "PLUS" "MINUS" ")" "-model" "g45rspp" ))
+( pvsLvsRules ( lvs_check_property "R" "(" "g45rspp" ")" "w" "w" "-tolerance" "0" ))
+( pvsLvsRules ( lvs_check_property "R" "(" "g45rspp" ")" "l" "l" "-tolerance" "0" ))
+( pvsLvsRules ( device "R" "(" "g45rnspp" ")" "_resnsppoly" "poly_conn" "(" "PLUS" ")" "poly_conn" "(" "MINUS" ")" "psubstrate" "(" "B" ")" "(" "PLUS" "MINUS" ")" "-model" "g45rnspp" ))
+( pvsLvsRules ( lvs_check_property "R" "(" "g45rnspp" ")" "w" "w" "-tolerance" "0" ))
+( pvsLvsRules ( lvs_check_property "R" "(" "g45rnspp" ")" "l" "l" "-tolerance" "0" ))
+( pvsLvsRules ( device "R" "(" "g45rnspp" ")" "_resnsppoly_nw" "poly_conn" "(" "PLUS" ")" "poly_conn" "(" "MINUS" ")" "nwell_conn" "(" "B" ")" "(" "PLUS" "MINUS" ")" "-model" "g45rnspp" ))
+( pvsLvsRules ( lvs_check_property "R" "(" "g45rnspp" ")" "w" "w" "-tolerance" "0" ))
+( pvsLvsRules ( lvs_check_property "R" "(" "g45rnspp" ")" "l" "l" "-tolerance" "0" ))
+( pvsLvsRules ( device "R" "(" "g45rnws" ")" "_resnwsti" "nwell_conn" "(" "PLUS" ")" "nwell_conn" "(" "MINUS" ")" "psubstrate" "(" "B" ")" "(" "PLUS" "MINUS" ")" "-model" "g45rnws" ))
+( pvsLvsRules ( lvs_check_property "R" "(" "g45rnws" ")" "w" "w" "-tolerance" "0" ))
+( pvsLvsRules ( lvs_check_property "R" "(" "g45rnws" ")" "l" "l" "-tolerance" "0" ))
+( pvsLvsRules ( device "R" "(" "g45rnwo" ")" "_resnwoxide" "nwell_conn" "(" "PLUS" ")" "nwell_conn" "(" "MINUS" ")" "psubstrate" "(" "B" ")" "(" "PLUS" "MINUS" ")" "-model" "g45rnwo" ))
+( pvsLvsRules ( lvs_check_property "R" "(" "g45rnwo" ")" "w" "w" "-tolerance" "0" ))
+( pvsLvsRules ( lvs_check_property "R" "(" "g45rnwo" ")" "l" "l" "-tolerance" "0" ))
+( pvsLvsRules ( device "D" "(" "g45nd1svt" ")" "_ndio" "psubstrate" "(" "PLUS" ")" "ndiff_conn" "(" "MINUS" ")" "-model" "g45nd1svt" ))
+( pvsLvsRules ( lvs_check_property "D" "(" "g45nd1svt" ")" "A" "A" "-tolerance" "0" ))
+( pvsLvsRules ( lvs_check_property "D" "(" "g45nd1svt" ")" "P" "P" "-tolerance" "0" ))
+( pvsLvsRules ( device "D" "(" "g45nd1lvt" ")" "_ndio_lvt" "psubstrate" "(" "PLUS" ")" "ndiff_conn" "(" "MINUS" ")" "-model" "g45nd1lvt" ))
+( pvsLvsRules ( lvs_check_property "D" "(" "g45nd1lvt" ")" "A" "A" "-tolerance" "0" ))
+( pvsLvsRules ( lvs_check_property "D" "(" "g45nd1lvt" ")" "P" "P" "-tolerance" "0" ))
+( pvsLvsRules ( device "D" "(" "g45nd1hvt" ")" "_ndio_hvt" "psubstrate" "(" "PLUS" ")" "ndiff_conn" "(" "MINUS" ")" "-model" "g45nd1hvt" ))
+( pvsLvsRules ( lvs_check_property "D" "(" "g45nd1hvt" ")" "A" "A" "-tolerance" "0" ))
+( pvsLvsRules ( lvs_check_property "D" "(" "g45nd1hvt" ")" "P" "P" "-tolerance" "0" ))
+( pvsLvsRules ( device "D" "(" "g45nd1nvt" ")" "_ndio_nvt" "psubstrate" "(" "PLUS" ")" "ndiff_conn" "(" "MINUS" ")" "-model" "g45nd1nvt" ))
+( pvsLvsRules ( lvs_check_property "D" "(" "g45nd1nvt" ")" "A" "A" "-tolerance" "0" ))
+( pvsLvsRules ( lvs_check_property "D" "(" "g45nd1nvt" ")" "P" "P" "-tolerance" "0" ))
+( pvsLvsRules ( device "D" "(" "g45nd2svt" ")" "_ndio_2v" "psubstrate" "(" "PLUS" ")" "ndiff_conn" "(" "MINUS" ")" "-model" "g45nd2svt" ))
+( pvsLvsRules ( lvs_check_property "D" "(" "g45nd2svt" ")" "A" "A" "-tolerance" "0" ))
+( pvsLvsRules ( lvs_check_property "D" "(" "g45nd2svt" ")" "P" "P" "-tolerance" "0" ))
+( pvsLvsRules ( device "D" "(" "g45nd2nvt" ")" "_ndio_2v_nvt" "psubstrate" "(" "PLUS" ")" "ndiff_conn" "(" "MINUS" ")" "-model" "g45nd2nvt" ))
+( pvsLvsRules ( lvs_check_property "D" "(" "g45nd2nvt" ")" "A" "A" "-tolerance" "0" ))
+( pvsLvsRules ( lvs_check_property "D" "(" "g45nd2nvt" ")" "P" "P" "-tolerance" "0" ))
+( pvsLvsRules ( device "D" "(" "g45pd1svt" ")" "_pdio" "pdiff_conn" "(" "PLUS" ")" "nwell_conn" "(" "MINUS" ")" "-model" "g45pd1svt" ))
+( pvsLvsRules ( lvs_check_property "D" "(" "g45pd1svt" ")" "A" "A" "-tolerance" "0" ))
+( pvsLvsRules ( lvs_check_property "D" "(" "g45pd1svt" ")" "P" "P" "-tolerance" "0" ))
+( pvsLvsRules ( device "D" "(" "g45pd1lvt" ")" "_pdio_lvt" "pdiff_conn" "(" "PLUS" ")" "nwell_conn" "(" "MINUS" ")" "-model" "g45pd1lvt" ))
+( pvsLvsRules ( lvs_check_property "D" "(" "g45pd1lvt" ")" "A" "A" "-tolerance" "0" ))
+( pvsLvsRules ( lvs_check_property "D" "(" "g45pd1lvt" ")" "P" "P" "-tolerance" "0" ))
+( pvsLvsRules ( device "D" "(" "g45pd1hvt" ")" "_pdio_hvt" "pdiff_conn" "(" "PLUS" ")" "nwell_conn" "(" "MINUS" ")" "-model" "g45pd1hvt" ))
+( pvsLvsRules ( lvs_check_property "D" "(" "g45pd1hvt" ")" "A" "A" "-tolerance" "0" ))
+( pvsLvsRules ( lvs_check_property "D" "(" "g45pd1hvt" ")" "P" "P" "-tolerance" "0" ))
+( pvsLvsRules ( device "D" "(" "g45pd2svt" ")" "_pdio_2v" "pdiff_conn" "(" "PLUS" ")" "nwell_conn" "(" "MINUS" ")" "-model" "g45pd2svt" ))
+( pvsLvsRules ( lvs_check_property "D" "(" "g45pd2svt" ")" "A" "A" "-tolerance" "0" ))
+( pvsLvsRules ( lvs_check_property "D" "(" "g45pd2svt" ")" "P" "P" "-tolerance" "0" ))
+( pvsLvsRules ( device "Q" "(" "g45vpnp2" ")" "_vpnp2" "psubstrate" "(" "C" ")" "nwell_conn" "(" "B" ")" "pdiff_conn" "(" "E" ")" "-model" "g45vpnp2" ))
+( pvsLvsRules ( lvs_check_property "Q" "(" "g45vpnp2" ")" "A" "A" "-tolerance" "0" ))
+( pvsLvsRules ( device "Q" "(" "g45vpnp5" ")" "_vpnp5" "psubstrate" "(" "C" ")" "nwell_conn" "(" "B" ")" "pdiff_conn" "(" "E" ")" "-model" "g45vpnp5" ))
+( pvsLvsRules ( lvs_check_property "Q" "(" "g45vpnp5" ")" "A" "A" "-tolerance" "0" ))
+( pvsLvsRules ( device "Q" "(" "g45vpnp10" ")" "_vpnp10" "psubstrate" "(" "C" ")" "nwell_conn" "(" "B" ")" "pdiff_conn" "(" "E" ")" "-model" "g45vpnp10" ))
+( pvsLvsRules ( lvs_check_property "Q" "(" "g45vpnp10" ")" "A" "A" "-tolerance" "0" ))
+( pvsLvsRules ( device "Q" "(" "g45vnpn2" ")" "_npn2" "nwell_conn" "(" "C" ")" "psubstrate" "(" "B" ")" "npn_emit" "(" "E" ")" "-model" "g45vnpn2" ))
+( pvsLvsRules ( lvs_check_property "Q" "(" "g45vnpn2" ")" "A" "A" "-tolerance" "0" ))
+( pvsLvsRules ( device "Q" "(" "g45vnpn5" ")" "_npn5" "nwell_conn" "(" "C" ")" "psubstrate" "(" "B" ")" "npn_emit" "(" "E" ")" "-model" "g45vnpn5" ))
+( pvsLvsRules ( lvs_check_property "Q" "(" "g45vnpn5" ")" "A" "A" "-tolerance" "0" ))
+( pvsLvsRules ( device "Q" "(" "g45vnpn10" ")" "_npn10" "nwell_conn" "(" "C" ")" "psubstrate" "(" "B" ")" "npn_emit" "(" "E" ")" "-model" "g45vnpn10" ))
+( pvsLvsRules ( lvs_check_property "Q" "(" "g45vnpn10" ")" "A" "A" "-tolerance" "0" ))
+( pvsLvsRules ( device "C" "(" "g45cmim" ")" "_mimcap" "CapMetal" "(" "PLUS" ")" "metal10_conn" "(" "MINUS" ")" "psubstrate" "(" "B" ")" "-model" "g45cmim" ))
+( pvsLvsRules ( lvs_check_property "C" "(" "g45cmim" ")" "l" "l" "-tolerance" "0" ))
+( pvsLvsRules ( lvs_check_property "C" "(" "g45cmim" ")" "w" "w" "-tolerance" "0" ))
+( pvsLvsRules ( lvs_reduce_device "C" "(" "g45cmim" ")" "-parallel" "yes" "[" "tolerance" "l" "0" "w" "0" "
+" "effective" "l" "," "w" "
+" "l" "=" "sum" "(" "l" ")" "/" "count" "(" ")" "
+" "w" "=" "sum" "(" "w" ")" "
+" "]" ))
+( pvsLvsRules ( device "L" "(" "g45inda" ")" "_ind_a" "ind10" "(" "PLUS" ")" "ind11" "(" "MINUS" ")" "psubstrate" "(" "B" ")" "(" "PLUS" "MINUS" ")" "<" "inda_width" ">" "<" "ind2_space" ">" "<" "inda_rad" ">" "<" "ind_nr" ">" "-model" "g45inda" ))
+( pvsLvsRules ( lvs_check_property "L" "(" "g45inda" ")" "width" "width" "-tolerance" "0" ))
+( pvsLvsRules ( lvs_check_property "L" "(" "g45inda" ")" "space" "space" "-tolerance" "0" ))
+( pvsLvsRules ( lvs_check_property "L" "(" "g45inda" ")" "nr" "nr" "-tolerance" "0" ))
+( pvsLvsRules ( lvs_check_property "L" "(" "g45inda" ")" "rad" "rad" "-tolerance" "0" ))
+( pvsLvsRules ( device "L" "(" "g45inds" ")" "_ind_s" "ind11" "(" "PLUS" ")" "ind11" "(" "MINUS" ")" "psubstrate" "(" "B" ")" "(" "PLUS" "MINUS" ")" "-model" "g45inds" "<" "inds_width" ">" "<" "ind2_sp1" ">" "<" "ind_rad" ">" "<" "_ind_s_enc" ">" ))
+( pvsLvsRules ( lvs_check_property "L" "(" "g45inds" ")" "width" "width" "-tolerance" "0" ))
+( pvsLvsRules ( lvs_check_property "L" "(" "g45inds" ")" "space" "space" "-tolerance" "0" ))
+( pvsLvsRules ( lvs_check_property "L" "(" "g45inds" ")" "nr" "nr" "-tolerance" "0" ))
+( pvsLvsRules ( lvs_check_property "L" "(" "g45inds" ")" "rad" "rad" "-tolerance" "0" ))
+tvf_function( name("wpe_procedure") tcl("00000d404fdbfa072c5a36a717546e1ab32c68c268ff20b8ba43b6652293609e203df7424ecf81e9735d15daab703aa70beb9633e783b0b6ad79ab2c93c409ec5d9fa6c71a2f2c6099f22b44612cae7afdb53e0bb3b501290fe087ba84e2f97fac649e3d0065d5cb9eb97ee78701ac43e5f5142c067b83b4309e7629ddb11bb0d4eaf0d41ed8e7c278994395cb3c100efb54888c93d9d2ee782408a51b33ccf22a122a3c63aee4275591986615adff687a909fd1a2f328a73211eb581c648aad54e06ac7671df0d9019ec568c83884c7f3dc48911826baa08c0bfee5c6b86be7e662bf747717993935eb1a9325c22fc66106deac8b519ee12d2f51b3e339651461eedbe5c36a1d1217ef1a47297754b7e261008103d248568018c473f4af1af3f05cc63761508cba6ea058069ff7e582e44de443061c6efcdde836285e4096c3f35a590e04fd67dc4f4fd59b1a3c780e790da03e8dddcffcd7a3c2261eeed82205556d0f0728a43599ac0e8d3401efb838aa1d1dbfa60555b95344a6ae8f5238705e8e3dc54a77f7a458afa31a67e7e65cd0ef1d2cb6a94dfbc93be840d482d42bf54f624fbabe5a97cbbdf1065640cf421788aa0e9602ba50f651ab6de5c5474a07b4d9671df0d9019ec568c83884c7f3dc4891f7922e4371b37deaf2a19dc3fcb1af4b7717993935eb1a9325c22fc66106deac1872ce8342e17f78ab2abfb1cb9f713fb3e14e5d8c3e4934b904de011f6512fc24b7b51503de9b7b20fe30f862850c0c61508cba6ea058069ff7e582e44de443b4ad859f26f8905a6d95e1e3852fa30404fd67dc4f4fd59b1a3c780e790da03ec83ae1d3c426ccb5d5a0de47b2585f5083bc905ac961293e295b855fa0bfc81cedb8fafce5c7f48026cfc28301055cfbc54a77f7a458afa31a67e7e65cd0ef1d08bde0c58fb762148342336a3ff77755160b2ff1aef340df236ab4fec49d4f69816a557e04713d67cc4a85589f9c8e10d5424d180ca9a1d7cd893a537ac2c6bc7b2ea3ab3125f686186932543a30de5c8ab5471a5b3560edf0e62ac881655d4aee1173a327124105009f767191fe072c11587b2c53491370c4362a6e9f070bf33ef0df2bba3d108fb5456f8bc33715e3f171088bea8e4d96e620165177f65a50a287fdd71bd08f3652d7119cc6202f7cb3b501290fe087ba84e2f97fac649e3d8df4c6077726fc472c24f0d83ce007a9cdf4c22544d9b36eac9ec8e23926ded706da34e418b1fb859974a4f4d6d138b4b01a9fd2290df684563e8b0e93ebd4b812e9e0526d9bed0d5bd05678b12b2afc450af1d4f5d8ec5b4ada83401eec945745c9ebd7e2b3f923659b0b47fd65ada35ff8c509eb9cd5ab5d24f0fee26cf670d24cb57cad511301ce5d8a68c1208aca8707cdf44120ceca59ff9c08c732fc9a31f31f589405b8181f7566a6bfe66e6adfb046a29894108ec74bd949d7d6aa9b12aaac5d78d934f074364e4e254e22a0ec27ce07bc9f1460eba1168f16eb9d53f3e4c43fc1bb524a0d0856de7c7eac4023b4a79842a5eceffc6ece6cf9d2c5a0d8d02acb616469d3ccae93e303d8259e5b114fc1e6a59e074ec586ad800ec2cf06e1e54e5efb7c4655f041a6079586bb0924714ba1d44fc7266feb0ae43bcf4f3a74d2840a22b4b4b1b5477a446d659de355b7549335cbc3c46e3060a471be51121ecd1b682c6200422be2773daf03727a29559379b31fa4c7a3229668751a6a01012bd69432d1286f8c8316ba2665585fd9c3861c401f89132543bcf0dabb39be2b46f1f7351150bc6240222e41c49e33d3d39958426c72e17c8c762b1c099d44282ae3e58433d142e61d73d6235e7e6179ad78ef86276e593a73e22ef49719deafd63630730d253a911c4a1353fbfb94a04ab4bc4cd4738541d65f54d592717f699c1866cdcaf78b6193ec8f7c113cfa3b812c0dab4f89f435a48695a6d7c547d39ab34cc4475602424e34b4385809421db29326332024d045837a60bd94bd61399cd87b9d94376e1cb5aed3934d7d44282ae3e58433d142e61d73d6235e7ec7613ac2b68755d2a790a46e78c0627e5d3466ac3071e3cd9b943823f7284e906985b9d4111f32b681e4f756572c4bb3a81d55aaaa54a45a59371ec3f584c553a579b34fb5abd6857ad6b745be94bdced22dc54845591f2b5fb63bccbe33fc9f067f21237c64f8a1da77f56f7b6a6decc1812371ff7f2d1fec40af91b370dc3306dd290c2f31e53906e89f6cae63d6a80d369daf5e5fcb7dd164333b42868bd03b7272a7440f5c177915ffa8637d3e4da506d1416c76f55da98d9ffe204c538d3323652d6837e93bb5ff324024bf379a03384a914482e23cfe14d8906440eac6834fa02f85a362d5e957df344971a87c9b7e8f7ff3ef9cf282151dbd092ee5dc4b4f9d3758a111a1f0bff4c7f5c9d95baa8e07ab14b66dde562427417b4f8eb0f2376acfbbf0cfe1d858b8650a447bdd161dadcc6bc402986860138311311d9138b1c6de5d8ca28229c546a0dcc69dcf13c4cc410799053c965c4af37827964e366b2dd13d0a9c066a147280e15cfc472d5cbb8674e16dcf589e38d487fc8625e6d3cc795166cc36fc141db2f86aeb65e8fd8f3da435c27b06ba99b90e147fd25c5ebe0e5a3179ac4325db5c24f96a2460b8db2c5f8fd7a71349801b2ecb03ced55ac31ed8edce58f9b3261051f2acaa7728b8d255b908de03c2857fe9437c76de46bd6a7d05f6b193dc679826c5d14814b677c172187cef7b6f9fe4f398e8034ca2ac269f4c32a3f87bb4479e13e62ec3759a04ba541dbb8ffd80ab308cb014648ba90426f6683ef052281c1855a9126b46748c7236f107d3ce307b0a345dab6d7f85835242e9a47218a293d3cb9def1f2156d5656ed46dd2704f1c669610584a75a9f34c257c94997fd37a0e34a09968ff20b8ba43b6652293609e203df7424b0bd89f4e23a8720eb3f5ed39bea16b20f447f879194c599ed79db042b3fc3e6327c68ed372a7398e433276b581a9db8a40c655d44d0efbe6266cd996eeaf65c32cd8949d14af5d83535b0ee5d840934a23014b0beeff020bb602e236fb3a81e7c8957b7966d13bc5bf19acf8feba2c3be8b8f601d5e6223ffa6add988cc734d1d9851291c7b3053403bcc2f1a08e932ba1b4f6372ed9fa35317aa558c2e1849bd4c505fbdf551fc695562a0539fcfb6637ec37a50d6abbb0f02c010b2995de6eb4f9dd23760bd93cdb9906582fe0feff18cb337262e98f532debb90359392b8296723cda12ca4590800cf112a26e9a0e5b7228f8d813981402804d0a45ab1dc03889cdff6cbb326f262182a35dfa939f4a2270a86cb71a3e08faabfd1d12042b0a3010ad8c2146f79ddccfab02de47d2a69a58cc9921d383df48e4d0e8d6cd0416116e4d5b4ae78cabf4999fc962443eb30e536228737f195c7ef251d555916546b2fdb9020ebcdf04d3e180f0128e7a72fad2afb70635e0b0012b0a2f70877c420a9464dff071bb72d58865635ad069cb6c79bbf7bf449622aa76ebf3544a2c92ae3443029e45b44e5acdfec4727a86194f4261fb5c8234260a202f6f8804afbc3d5933c95fad142a58e74e4d0cca67eaaf8346c31d7f748ee34e5854ad29121a992dadb2e32b4910f8d5dc5b8aeaad8f2523b4cc42baa9d7c7383e5f456c4fc774be71799aabf49f5b4297cbd94b164b090a19d8c94f16d9e1012143ca6827cc46542812d2b3098336b6aa0953a9961e578381e9fd55de2ceb2cbbc68ce0d947f819fed0b115c3e4d3bd1138172de2775edbd10f263c0baee9ca531b07ed84093245da33a370ae94f550586768000a1cedab97547a5c2087ad3a6d30224d15ecf7f1f79006115b22f4d0f4cc2f004fc774be71799aabf49f5b4297cbd94b1451b80192224fd212a145fbf52205c36e23e8a8a0e1875f929166131ca934eab95de917511444e2582af5a6e4b539ff74d7a109fe46abb486d1eda1945d09625bc3b669b20bcb1d7dc40cf87b1427fb73388e5575046ad1d266409095ddba81e6fc7023a91e73faa72fa1c6be9b2b22d93faf3f385ab2d875ea169792c12d716aaa33754b0bb5af1d00217935db9b1ffc7a3fdfe853c59d70cf5fe7d60f3c4cb5b38022293b2bb26d51f44b13f42cfa8e2892f10ffc3284f4b603b6638a2aaf198a3ce507ab65b5e4454ee3968400bee8dc05f503fe2757fb6bcba5e728ab0ae206261d83c5bb104529a2e480635fd012aaac5d78d934f074364e4e254e22a0306ce7d3f634bcf580ff57ed2df98814207aafc3051f0b60ad19fa4529ee1505ba8be434188307e80f20023882928bc2d8d02acb616469d3ccae93e303d8259ed11ba30129057662732a03f41ff47261286540747f749f8f06de9459ef521d2c5b33cdd19d0ebc150f9e80628d5316b34ec4a623909f9d311107a1287cc0a30463079c9c53e2fbf7600ec73b776cd7a777ee6ab712160c1962162799ff81d8d4d895ba9207a2760cf894b30c56b72245ddb3fb4cf980b0b700d08e725760552e333417653c81bd2ec72fedfb242d85c11eabc08d0da1133b88f90d0cb22d6a027cc151f600a8ac5b85e4d97a4442a6e938eec3aa4d808a83af21ced4ea00cbe849851086c34b968a8aeb23c9a3688e73fb9cc81db39ecac790f588356bb06b112cb09ecc7646a46c371d95f37fdb6f8287ff0a1f7d2c6bd8d32836c2c86dc9cc6792ed21b8af2f1f745fe81f8912b612234eaf9c59000ede93663ea8c1aecbaf3ba7bd97d0c808f9aba2838a4b1d90a6") )
+( pvsLvsRules ( flow_data "lvs_flow" ))
+( pvsLvsRules ( lvs_report_file "counter.lvsrpt" ))
+runName("counter.lvsrpt")
+)
+avCompareRules(
+)
+avCompareRules(
+autoPinSwap(unboundPinsOnly 10000)
+builtinDevicePinSwap(t)
+breakAmbiguityThreshold(32)
+highShortsThreshold(10000000)
+mergeSplitGate(M  mergeAll 
+    language("
+             effective W,L       \n
+             checkForZeroW = prod ( W )       \n
+             checkForZeroL = prod ( L )       \n
+             if(checkForZeroW && checkForZeroL) {      \n
+               P = sum(W*L)        \n
+               Q = sum(W/L)        \n
+               W = sqrt(P*Q)        \n
+               L = sqrt(P/Q) }       \n
+             "
+             )
+)
+mergeSplitGate(MP  mergeAll 
+    language("
+             effective W,L       \n
+             checkForZeroW = prod ( W )       \n
+             checkForZeroL = prod ( L )       \n
+             if(checkForZeroW && checkForZeroL) {      \n
+               P = sum(W*L)        \n
+               Q = sum(W/L)        \n
+               W = sqrt(P*Q)        \n
+               L = sqrt(P/Q) }       \n
+             "
+             )
+)
+mergeSplitGate(MN  mergeAll 
+    language("
+             effective W,L       \n
+             checkForZeroW = prod ( W )       \n
+             checkForZeroL = prod ( L )       \n
+             if(checkForZeroW && checkForZeroL) {      \n
+               P = sum(W*L)        \n
+               Q = sum(W/L)        \n
+               W = sqrt(P*Q)        \n
+               L = sqrt(P/Q) }       \n
+             "
+             )
+)
+mergeSplitGate(MD  mergeAll 
+    language("
+             effective W,L       \n
+             checkForZeroW = prod ( W )       \n
+             checkForZeroL = prod ( L )       \n
+             if(checkForZeroW && checkForZeroL) {      \n
+               P = sum(W*L)        \n
+               Q = sum(W/L)        \n
+               W = sqrt(P*Q)        \n
+               L = sqrt(P/Q) }       \n
+             "
+             )
+)
+mergeSplitGate(ME  mergeAll 
+    language("
+             effective W,L       \n
+             checkForZeroW = prod ( W )       \n
+             checkForZeroL = prod ( L )       \n
+             if(checkForZeroW && checkForZeroL) {      \n
+               P = sum(W*L)        \n
+               Q = sum(W/L)        \n
+               W = sqrt(P*Q)        \n
+               L = sqrt(P/Q) }       \n
+             "
+             )
+)
+mergeSplitGate(LDD  mergeAll 
+    language("
+             effective W,L       \n
+             checkForZeroW = prod ( W )       \n
+             checkForZeroL = prod ( L )       \n
+             if(checkForZeroW && checkForZeroL) {      \n
+               P = sum(W*L)        \n
+               Q = sum(W/L)        \n
+               W = sqrt(P*Q)        \n
+               L = sqrt(P/Q) }       \n
+             "
+             )
+)
+mergeSplitGate(LDDP  mergeAll 
+    language("
+             effective W,L       \n
+             checkForZeroW = prod ( W )       \n
+             checkForZeroL = prod ( L )       \n
+             if(checkForZeroW && checkForZeroL) {      \n
+               P = sum(W*L)        \n
+               Q = sum(W/L)        \n
+               W = sqrt(P*Q)        \n
+               L = sqrt(P/Q) }       \n
+             "
+             )
+)
+mergeSplitGate(LDDN  mergeAll 
+    language("
+             effective W,L       \n
+             checkForZeroW = prod ( W )       \n
+             checkForZeroL = prod ( L )       \n
+             if(checkForZeroW && checkForZeroL) {      \n
+               P = sum(W*L)        \n
+               Q = sum(W/L)        \n
+               W = sqrt(P*Q)        \n
+               L = sqrt(P/Q) }       \n
+             "
+             )
+)
+mergeSplitGate(LDDD  mergeAll 
+    language("
+             effective W,L       \n
+             checkForZeroW = prod ( W )       \n
+             checkForZeroL = prod ( L )       \n
+             if(checkForZeroW && checkForZeroL) {      \n
+               P = sum(W*L)        \n
+               Q = sum(W/L)        \n
+               W = sqrt(P*Q)        \n
+               L = sqrt(P/Q) }       \n
+             "
+             )
+)
+mergeSplitGate(LDDE  mergeAll 
+    language("
+             effective W,L       \n
+             checkForZeroW = prod ( W )       \n
+             checkForZeroL = prod ( L )       \n
+             if(checkForZeroW && checkForZeroL) {      \n
+               P = sum(W*L)        \n
+               Q = sum(W/L)        \n
+               W = sqrt(P*Q)        \n
+               L = sqrt(P/Q) }       \n
+             "
+             )
+)
+layout(swapPins(C nil))
+schematic(swapPins(C nil))
+layout(cdlGlobalMode(ignore))
+schematic(cdlGlobalMode(ignore))
+schematic(lvsIgnorePorts(nil))
+layout(   lvsIgnorePorts(nil))
+schematic(lvsCheckPortNames(nil))
+layout(   lvsCheckPortNames(nil))
+schematic(lvsGlobalsArePorts(t))
+layout(   lvsGlobalsArePorts(t))
+compareCase( nil )
+ignoreCaseWhenBinding( (cell t)(pin t)(instance t)(net t) )
+layout(spiceSlashIsSpace(t))
+schematic(spiceSlashIsSpace(t))
+layout(spiceConditionalLDD(nil))
+schematic(spiceConditionalLDD(nil))
+spiceIgnoreBlackBoxConnect(nil)
+spiceCompareEmptyCell(nil)
+spiceUseLastSubcktDef(nil)
+spiceRedefineParam(nil)
+spiceAllowUnquotedStrings(nil)
+spiceCalculateMosArea(nil)
+cullPrimitiveSubckts(nil)
+layout(genericDevice(emptySubckt))
+schematic(genericDevice(emptySubckt))
+verilogBusNameDiffIEEE(nil)
+verilogBusMapIEEE(nil)
+rootCell("counter")
+schematic(netlist(cdl "/home/user_50/projects/counter_45/cdl/gsclib045_lvt.cdl"))
+schematic(netlist(cdl "/home/user_50/projects/counter_45/cdl/gsclib045_hvt.cdl"))
+schematic(netlist(cdl "/home/user_50/projects/counter_45/cdl/gsclib045_svt.cdl"))
+schematic(netlist(verilog "/home/user_50/projects/counter_45/pnr/outputs/counter_innovus_final.v"))
+layout(netlist(cdl "/home/user_50/projects/counter_45/post_layout_analysis/rc_lvs_pegasus/run_lvs/svdb/counter.net"))
+lvsKeepData(no)
+schematic(ignoreCase(t))
+layout(ignoreCase(t))
+shortEquivNodes(no)
+formGate(logic)
+sramReduce(t)
+dramReduce(nil)
+romReduce(nil)
+nameBinding((cell nil)(pin "^[0-9]+$")(net "^[0-9]+$")(instance nil))
+expandOnError((swap t)(reduce nil)(pins nil)(swapThres nil)(instCount t)(skipMatchOnReduceError t)(ambiguousPinAssignment nil)(parameter nil)(preserveHcell nil))
+abortOnUnboundDevices( nil )
+allowFloatingInstancePorts(t)
+compareParameter("g45cmim(C)" percent("l" 0))
+compareParameter("g45cmim(C)" percent("w" 0))
+compareParameter("g45nd1hvt(D)" percent("a" 0))
+compareParameter("g45nd1hvt(D)" percent("p" 0))
+compareParameter("g45nd1lvt(D)" percent("a" 0))
+compareParameter("g45nd1lvt(D)" percent("p" 0))
+compareParameter("g45nd1nvt(D)" percent("a" 0))
+compareParameter("g45nd1nvt(D)" percent("p" 0))
+compareParameter("g45nd1svt(D)" percent("a" 0))
+compareParameter("g45nd1svt(D)" percent("p" 0))
+compareParameter("g45nd2nvt(D)" percent("a" 0))
+compareParameter("g45nd2nvt(D)" percent("p" 0))
+compareParameter("g45nd2svt(D)" percent("a" 0))
+compareParameter("g45nd2svt(D)" percent("p" 0))
+compareParameter("g45pd1hvt(D)" percent("a" 0))
+compareParameter("g45pd1hvt(D)" percent("p" 0))
+compareParameter("g45pd1lvt(D)" percent("a" 0))
+compareParameter("g45pd1lvt(D)" percent("p" 0))
+compareParameter("g45pd1svt(D)" percent("a" 0))
+compareParameter("g45pd1svt(D)" percent("p" 0))
+compareParameter("g45pd2svt(D)" percent("a" 0))
+compareParameter("g45pd2svt(D)" percent("p" 0))
+compareParameter("g45inda(L)" percent("width" 0))
+compareParameter("g45inda(L)" percent("space" 0))
+compareParameter("g45inda(L)" percent("nr" 0))
+compareParameter("g45inda(L)" percent("rad" 0))
+compareParameter("g45inds(L)" percent("width" 0))
+compareParameter("g45inds(L)" percent("space" 0))
+compareParameter("g45inds(L)" percent("nr" 0))
+compareParameter("g45inds(L)" percent("rad" 0))
+compareParameter("g45n1hvt(MN)" percent("l" 0))
+compareParameter("g45n1hvt(MN)" percent("w" 0))
+compareParameter("g45n1lvt(MN)" percent("l" 0))
+compareParameter("g45n1lvt(MN)" percent("w" 0))
+compareParameter("g45n1nvt(MN)" percent("l" 0))
+compareParameter("g45n1nvt(MN)" percent("w" 0))
+compareParameter("g45n1svt(MN)" percent("l" 0))
+compareParameter("g45n1svt(MN)" percent("w" 0))
+compareParameter("g45n2nvt(MN)" percent("l" 0))
+compareParameter("g45n2nvt(MN)" percent("w" 0))
+compareParameter("g45n2svt(MN)" percent("l" 0))
+compareParameter("g45n2svt(MN)" percent("w" 0))
+compareParameter("g45ncap1(MN)" percent("l" 0))
+compareParameter("g45ncap1(MN)" percent("w" 0))
+compareParameter("g45ncap2(MN)" percent("l" 0))
+compareParameter("g45ncap2(MN)" percent("w" 0))
+compareParameter("g45p1hvt(MP)" percent("l" 0))
+compareParameter("g45p1hvt(MP)" percent("w" 0))
+compareParameter("g45p1lvt(MP)" percent("l" 0))
+compareParameter("g45p1lvt(MP)" percent("w" 0))
+compareParameter("g45p1svt(MP)" percent("l" 0))
+compareParameter("g45p1svt(MP)" percent("w" 0))
+compareParameter("g45p2svt(MP)" percent("l" 0))
+compareParameter("g45p2svt(MP)" percent("w" 0))
+compareParameter("g45pcap1(MP)" percent("l" 0))
+compareParameter("g45pcap1(MP)" percent("w" 0))
+compareParameter("g45pcap2(MP)" percent("l" 0))
+compareParameter("g45pcap2(MP)" percent("w" 0))
+compareParameter("g45vnpn10(Q)" percent("a" 0))
+compareParameter("g45vnpn2(Q)" percent("a" 0))
+compareParameter("g45vnpn5(Q)" percent("a" 0))
+compareParameter("g45vpnp10(Q)" percent("a" 0))
+compareParameter("g45vpnp2(Q)" percent("a" 0))
+compareParameter("g45vpnp5(Q)" percent("a" 0))
+compareParameter("g45rm1(R)" percent("w" 0))
+compareParameter("g45rm1(R)" percent("l" 0))
+compareParameter("g45rm10(R)" percent("w" 0))
+compareParameter("g45rm10(R)" percent("l" 0))
+compareParameter("g45rm11(R)" percent("w" 0))
+compareParameter("g45rm11(R)" percent("l" 0))
+compareParameter("g45rm2(R)" percent("w" 0))
+compareParameter("g45rm2(R)" percent("l" 0))
+compareParameter("g45rm3(R)" percent("w" 0))
+compareParameter("g45rm3(R)" percent("l" 0))
+compareParameter("g45rm4(R)" percent("w" 0))
+compareParameter("g45rm4(R)" percent("l" 0))
+compareParameter("g45rm5(R)" percent("w" 0))
+compareParameter("g45rm5(R)" percent("l" 0))
+compareParameter("g45rm6(R)" percent("w" 0))
+compareParameter("g45rm6(R)" percent("l" 0))
+compareParameter("g45rm7(R)" percent("w" 0))
+compareParameter("g45rm7(R)" percent("l" 0))
+compareParameter("g45rm8(R)" percent("w" 0))
+compareParameter("g45rm8(R)" percent("l" 0))
+compareParameter("g45rm9(R)" percent("w" 0))
+compareParameter("g45rm9(R)" percent("l" 0))
+compareParameter("g45rnsnd(R)" percent("w" 0))
+compareParameter("g45rnsnd(R)" percent("l" 0))
+compareParameter("g45rnsnp(R)" percent("w" 0))
+compareParameter("g45rnsnp(R)" percent("l" 0))
+compareParameter("g45rnsnp(R)" percent("w" 0))
+compareParameter("g45rnsnp(R)" percent("l" 0))
+compareParameter("g45rnspd(R)" percent("w" 0))
+compareParameter("g45rnspd(R)" percent("l" 0))
+compareParameter("g45rnspp(R)" percent("w" 0))
+compareParameter("g45rnspp(R)" percent("l" 0))
+compareParameter("g45rnspp(R)" percent("w" 0))
+compareParameter("g45rnspp(R)" percent("l" 0))
+compareParameter("g45rnwo(R)" percent("w" 0))
+compareParameter("g45rnwo(R)" percent("l" 0))
+compareParameter("g45rnws(R)" percent("w" 0))
+compareParameter("g45rnws(R)" percent("l" 0))
+compareParameter("g45rsnd(R)" percent("w" 0))
+compareParameter("g45rsnd(R)" percent("l" 0))
+compareParameter("g45rsnp(R)" percent("w" 0))
+compareParameter("g45rsnp(R)" percent("l" 0))
+compareParameter("g45rsnp(R)" percent("w" 0))
+compareParameter("g45rsnp(R)" percent("l" 0))
+compareParameter("g45rspd(R)" percent("w" 0))
+compareParameter("g45rspd(R)" percent("l" 0))
+compareParameter("g45rspp(R)" percent("w" 0))
+compareParameter("g45rspp(R)" percent("l" 0))
+compareParameter("g45rspp(R)" percent("w" 0))
+compareParameter("g45rspp(R)" percent("l" 0))
+mergeParallel("g45cmim(C)" merge
+    tolerance("Tolerance l 0 w 0 ")
+    language("
+             /* File: counter_lvs.rul 1842 */
+             effective l,w        \n
+             l = (sum(l) / count())       \n
+             w = sum(w)       \n
+             "
+            )
+    )
+combineTolerance("g45cmim(C)" parallel "l" 0 0 "w" 0 0)
+layout(swapPins("g45n1svt(MN)" "(p S D)"))
+layout(swapPins("g45n1hvt(MN)" "(p S D)"))
+layout(swapPins("g45n1lvt(MN)" "(p S D)"))
+layout(swapPins("g45n1nvt(MN)" "(p S D)"))
+layout(swapPins("g45n2svt(MN)" "(p S D)"))
+layout(swapPins("g45n2nvt(MN)" "(p S D)"))
+layout(swapPins("g45ncap1(MN)" "(p S D)"))
+layout(swapPins("g45ncap2(MN)" "(p S D)"))
+layout(swapPins("g45p1svt(MP)" "(p S D)"))
+layout(swapPins("g45p1hvt(MP)" "(p S D)"))
+layout(swapPins("g45p1lvt(MP)" "(p S D)"))
+layout(swapPins("g45p2svt(MP)" "(p S D)"))
+layout(swapPins("g45pcap1(MP)" "(p S D)"))
+layout(swapPins("g45pcap2(MP)" "(p S D)"))
+layout(swapPins("g45rm1(R)" "(p PLUS MINUS)"))
+layout(swapPins("g45rm2(R)" "(p PLUS MINUS)"))
+layout(swapPins("g45rm3(R)" "(p PLUS MINUS)"))
+layout(swapPins("g45rm4(R)" "(p PLUS MINUS)"))
+layout(swapPins("g45rm5(R)" "(p PLUS MINUS)"))
+layout(swapPins("g45rm6(R)" "(p PLUS MINUS)"))
+layout(swapPins("g45rm7(R)" "(p PLUS MINUS)"))
+layout(swapPins("g45rm8(R)" "(p PLUS MINUS)"))
+layout(swapPins("g45rm9(R)" "(p PLUS MINUS)"))
+layout(swapPins("g45rm10(R)" "(p PLUS MINUS)"))
+layout(swapPins("g45rm11(R)" "(p PLUS MINUS)"))
+layout(swapPins("g45rsnd(R)" "(p PLUS MINUS)"))
+layout(swapPins("g45rnsnd(R)" "(p PLUS MINUS)"))
+layout(swapPins("g45rsnp(R)" "(p PLUS MINUS)"))
+layout(swapPins("g45rnsnp(R)" "(p PLUS MINUS)"))
+layout(swapPins("g45rspd(R)" "(p PLUS MINUS)"))
+layout(swapPins("g45rnspd(R)" "(p PLUS MINUS)"))
+layout(swapPins("g45rspp(R)" "(p PLUS MINUS)"))
+layout(swapPins("g45rnspp(R)" "(p PLUS MINUS)"))
+layout(swapPins("g45rnws(R)" "(p PLUS MINUS)"))
+layout(swapPins("g45rnwo(R)" "(p PLUS MINUS)"))
+layout(swapPins("g45inda(L)" "(p PLUS MINUS)"))
+layout(swapPins("g45inds(L)" "(p PLUS MINUS)"))
+mergeParallel( M merge
+    language("
+             effective W,L,AD,AS,PD,PS       \n
+             checkForZeroW = prod ( W )       \n
+             checkForZeroL = prod ( L )       \n
+             if(checkForZeroW && checkForZeroL) {      \n
+               P = sum(W*L)        \n
+               Q = sum(W/L)        \n
+               W = sqrt(P*Q)        \n
+               L = sqrt(P/Q) }       \n
+             AS = sum( AS )       \n
+             AD = sum( AD )       \n
+             PS = sum( PS )       \n
+             PD = sum( PD )       \n
+             "
+            ))
+mergeParallel( MP merge
+    language("
+             effective W,L,AD,AS,PD,PS       \n
+             checkForZeroW = prod ( W )       \n
+             checkForZeroL = prod ( L )       \n
+             if(checkForZeroW && checkForZeroL) {      \n
+               P = sum(W*L)        \n
+               Q = sum(W/L)        \n
+               W = sqrt(P*Q)        \n
+               L = sqrt(P/Q) }       \n
+             AS = sum( AS )       \n
+             AD = sum( AD )       \n
+             PS = sum( PS )       \n
+             PD = sum( PD )       \n
+             "
+            ))
+mergeParallel( MN merge
+    language("
+             effective W,L,AD,AS,PD,PS       \n
+             checkForZeroW = prod ( W )       \n
+             checkForZeroL = prod ( L )       \n
+             if(checkForZeroW && checkForZeroL) {      \n
+               P = sum(W*L)        \n
+               Q = sum(W/L)        \n
+               W = sqrt(P*Q)        \n
+               L = sqrt(P/Q) }       \n
+             AS = sum( AS )       \n
+             AD = sum( AD )       \n
+             PS = sum( PS )       \n
+             PD = sum( PD )       \n
+             "
+            ))
+mergeParallel( MD merge
+    language("
+             effective W,L,AD,AS,PD,PS       \n
+             checkForZeroW = prod ( W )       \n
+             checkForZeroL = prod ( L )       \n
+             if(checkForZeroW && checkForZeroL) {      \n
+               P = sum(W*L)        \n
+               Q = sum(W/L)        \n
+               W = sqrt(P*Q)        \n
+               L = sqrt(P/Q) }       \n
+             AS = sum( AS )       \n
+             AD = sum( AD )       \n
+             PS = sum( PS )       \n
+             PD = sum( PD )       \n
+             "
+            ))
+mergeParallel( ME merge
+    language("
+             effective W,L,AD,AS,PD,PS       \n
+             checkForZeroW = prod ( W )       \n
+             checkForZeroL = prod ( L )       \n
+             if(checkForZeroW && checkForZeroL) {      \n
+               P = sum(W*L)        \n
+               Q = sum(W/L)        \n
+               W = sqrt(P*Q)        \n
+               L = sqrt(P/Q) }       \n
+             AS = sum( AS )       \n
+             AD = sum( AD )       \n
+             PS = sum( PS )       \n
+             PD = sum( PD )       \n
+             "
+            ))
+mergeParallel( LDD merge
+    language("
+             effective W,L,AD,AS,PD,PS       \n
+             checkForZeroW = prod ( W )       \n
+             checkForZeroL = prod ( L )       \n
+             if(checkForZeroW && checkForZeroL) {      \n
+               P = sum(W*L)        \n
+               Q = sum(W/L)        \n
+               W = sqrt(P*Q)        \n
+               L = sqrt(P/Q) }       \n
+             AS = sum( AS )       \n
+             AD = sum( AD )       \n
+             PS = sum( PS )       \n
+             PD = sum( PD )       \n
+             "
+            ))
+mergeParallel( LDDP merge
+    language("
+             effective W,L,AD,AS,PD,PS       \n
+             checkForZeroW = prod ( W )       \n
+             checkForZeroL = prod ( L )       \n
+             if(checkForZeroW && checkForZeroL) {      \n
+               P = sum(W*L)        \n
+               Q = sum(W/L)        \n
+               W = sqrt(P*Q)        \n
+               L = sqrt(P/Q) }       \n
+             AS = sum( AS )       \n
+             AD = sum( AD )       \n
+             PS = sum( PS )       \n
+             PD = sum( PD )       \n
+             "
+            ))
+mergeParallel( LDDN merge
+    language("
+             effective W,L,AD,AS,PD,PS       \n
+             checkForZeroW = prod ( W )       \n
+             checkForZeroL = prod ( L )       \n
+             if(checkForZeroW && checkForZeroL) {      \n
+               P = sum(W*L)        \n
+               Q = sum(W/L)        \n
+               W = sqrt(P*Q)        \n
+               L = sqrt(P/Q) }       \n
+             AS = sum( AS )       \n
+             AD = sum( AD )       \n
+             PS = sum( PS )       \n
+             PD = sum( PD )       \n
+             "
+            ))
+mergeParallel( LDDD merge
+    language("
+             effective W,L,AD,AS,PD,PS       \n
+             checkForZeroW = prod ( W )       \n
+             checkForZeroL = prod ( L )       \n
+             if(checkForZeroW && checkForZeroL) {      \n
+               P = sum(W*L)        \n
+               Q = sum(W/L)        \n
+               W = sqrt(P*Q)        \n
+               L = sqrt(P/Q) }       \n
+             AS = sum( AS )       \n
+             AD = sum( AD )       \n
+             PS = sum( PS )       \n
+             PD = sum( PD )       \n
+             "
+            ))
+mergeParallel( LDDE merge
+    language("
+             effective W,L,AD,AS,PD,PS       \n
+             checkForZeroW = prod ( W )       \n
+             checkForZeroL = prod ( L )       \n
+             if(checkForZeroW && checkForZeroL) {      \n
+               P = sum(W*L)        \n
+               Q = sum(W/L)        \n
+               W = sqrt(P*Q)        \n
+               L = sqrt(P/Q) }       \n
+             AS = sum( AS )       \n
+             AD = sum( AD )       \n
+             PS = sum( PS )       \n
+             PD = sum( PD )       \n
+             "
+            ))
+mergeParallel( R merge
+    language("
+             effective R,W,L       \n
+             checkForZero = prod ( R )       \n
+             if(checkForZero != 0)       \n
+               R = 1/sum(1/R)        \n
+             else        \n
+               R = 0        \n
+             checkForZeroW = prod ( W )       \n
+             checkForZeroL = prod ( L )       \n
+             if(checkForZeroW && checkForZeroL) {      \n
+               P = sum(W*L)        \n
+               Q = sum(W/L)        \n
+               W = sqrt(P*Q)        \n
+               L = sqrt(P/Q) }       \n
+             "
+            ))
+mergeSeries( R merge
+    language("
+             effective R,W,L       \n
+             R = sum(R)        \n
+             checkForZeroW = prod ( W )       \n
+             checkForZeroL = prod ( L )       \n
+             if(checkForZeroW && checkForZeroL) {      \n
+               P = sum(W*L)        \n
+               Q = sum(L/W)        \n
+               W = sqrt(P/Q)        \n
+               L = sqrt(P*Q) }       \n
+             "
+            ))
+mergeParallel( C merge
+    language("
+             effective C,A,P        \n
+             C = sum(C)        \n
+             A = sum(A)        \n
+             P = sum(P)        \n
+             "
+            ))
+mergeSeries( C merge
+    language("
+             effective C        \n
+             checkForZero = prod ( C )       \n
+             if(checkForZero != 0)       \n
+               C = 1/sum(1/C)        \n
+             else        \n
+               C = 0        \n
+             "
+            ))
+mergeParallel( Q merge
+    language("
+           effective A,W,L        \n
+           A = sum(A)        \n
+           P = sum(W*L)      \n
+           Q = sum(W/L)      \n
+           W = sqrt(P*Q)      \n
+           L = sqrt(P/Q) }     \n
+             "
+            ))
+mergeParallel( D merge
+    language("
+             effective A,P        \n
+             A = sum(A)        \n
+             P = sum(P)        \n
+             "
+            ))
+keepSeriesLoop()
+filterReduceStatistics((preExpand nil))
+saveCoordinates(t)
+spiceReverseWL(nil)
+strictSubTypes(nil)
+exactSubTypes(nil)
+preserveBoxPorts(nil)
+spiceStrictWL(nil)
+( pvsLvsRules ( unit "-length" "1e-06" ) )
+)
+avCompareRules(
+( pvsLvsRules ( input_scale "2000"))
+)
+( pvsLvsRules ( cmdLineRuleFiles "/home/user_50/projects/counter_45/post_layout_analysis/rc_lvs_pegasus/counter_lvs.rul" ) )
+avCompareRules(
+extractionRunData((cpu 17.) (all 24.))
+)

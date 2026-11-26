@@ -1,0 +1,123 @@
+set_multi_cpu_usage -localCpu 8
+set DESIGN "counter"
+
+set VDD_VOLT "<NOMINAL_VDD_VOLTAGE>"      ;# e.g., 1.0 for gpdk045, 0.7 for ASAP7
+set VDD_THRESH "<MIN_ALLOWED_VDD>"          ;# e.g., 0.95 (5% drop for 1.0V) or 0.665 (for 0.7V)
+set VSS_THRESH "<MAX_ALLOWED_VSS>"          ;# e.g., 0.05 (5% bounce for 1.0V) or 0.035 (for 0.7V)
+set TOP_PG_LAYER "<TOP_POWER_RING_LAYER>"     ;# e.g., Metal11 (gpdk045) or M9 (ASAP7)
+
+
+set LIB_FILES [list \
+    "/home/user_50/Cadence-RTL-to-GDSII-Flow-main/LIB/slow_vdd1v0_basiccells.lib" \
+    "/home/user_50/Cadence-RTL-to-GDSII-Flow-main/LIB/fast_vdd1v0_basicCells.lib" \
+]
+set LEF_FILES [list \
+    "/home/user_50/Cadence-RTL-to-GDSII-Flow-main/LEF/gsclib045_tech.lef" \
+    "/home/user_50/Cadence-RTL-to-GDSII-Flow-main/LEF/gsclib045_macro.lef" \
+]
+set QRC_TECH  "/home/user_50/Cadence-RTL-to-GDSII-Flow-main/QRC_tech/gpdk045.tch"
+set NETLIST   "/home/user_50/Cadence-RTL-to-GDSII-Flow-main/Synthesis/_innovus_final.v"
+set DEF_FILE  "/home/user_50/Cadence-RTL-to-GDSII-Flow-main/Synthesis/_final.def"
+set SDC_FILE  "/home/user_50/Cadence-RTL-to-GDSII-Flow-main/constraints/constraints_top.sdc"
+set SPEF_FILE "/home/user_50/Cadence-RTL-to-GDSII-Flow-main/Synthesis/_final.spef"
+
+
+read_lib $LIB_FILES
+read_lib -lef $LEF_FILES
+
+read_verilog $NETLIST
+set_top_module $DESIGN
+
+read_def $DEF_FILE
+read_sdc $SDC_FILE
+
+
+set_multi_cpu_usage -localCpu 1
+read_spef $SPEF_FILE
+set_multi_cpu_usage -localCpu 8
+
+set_propagated_clock [get_clocks clk]
+
+
+# 2A. Metal & Via Grid Library (techonly.cl)
+set_pg_library_mode -reset
+set_pg_library_mode \
+    -celltype techonly \
+    -power_pins [list VDD $VDD_VOLT] \
+    -ground_pins {VSS} \
+    -extraction_tech_file $QRC_TECH
+
+generate_pg_library -output pg_tech_lib
+
+# 2B. Standard Cell Impedance & Decap Library (stdcells.cl)
+set_pg_library_mode -reset
+set_pg_library_mode \
+    -celltype stdcells \
+    -power_pins [list VDD $VDD_VOLT] \
+    -ground_pins {VSS} \
+    -extraction_tech_file $QRC_TECH \
+    -spice_models $SPICE_MODELS \
+    -spice_subckts $SPICE_SUBCKTS \
+    -liberty_files $LIB_FILES
+
+generate_pg_library -output pg_stdcell_lib
+=======================================================================
+# 4. STATIC POWER & CURRENT CALCULATION (VECTORLESS)
+# ==============================================================================
+set_power_analysis_mode -reset
+set_power_analysis_mode \
+    -method static \
+    -analysis_view default_emulate_view \
+    -corner max \
+    -create_binary_db true \
+    -write_static_currents true \
+    -honor_negative_energy true \
+    -ignore_control_signals true
+
+# Standard 20% toggle rate on primary inputs & flip-flop outputs
+set_default_switching_activity -input_activity 0.2 -seq_activity 0.2
+propagate_activity
+
+report_power -outfile voltus_static_power.rpt
+
+# ==============================================================================
+# 5. STATIC RAIL ANALYSIS (IR DROP & ELECTROMIGRATION ON VDD & VSS)
+# ==============================================================================
+set_rail_analysis_mode -reset
+set_rail_analysis_mode \
+    -method static \
+    -accuracy hd \
+    -power_grid_library {pg_tech_lib/techonly.cl pg_stdcell_lib/stdcells.cl} \
+    -enable_rlrp_analysis true \
+    -em_peak_analysis true \
+    -enable_xp true
+# Set nominal voltages & 5% IR drop signoff thresholds (0.95V for VDD, 0.05V for VSS)
+set_pg_nets -net VDD -voltage $VDD_VOLT -threshold $VDD_THRESH -force
+set_pg_nets -net VSS -voltage 0.0       -threshold $VSS_THRESH -force
+
+# Automatically place ideal voltage sources on top Metal11/Metal10 power rings
+#create_power_pads -net VDD -auto_fetch -vsrc_file vdd.pp -layer {Metal11 Metal10}
+#create_power_pads -net VSS -auto_fetch -vsrc_file vss.pp -layer {Metal11 Metal10}
+
+set fp [open "vdd.pp" w]
+puts $fp "*vsrc_name x y layer_name"
+puts $fp "VDD_SRC1 <X1_UM> <Y1_UM> $TOP_PG_LAYER"
+puts $fp "VDD_SRC2 <X2_UM> <Y2_UM> $TOP_PG_LAYER"
+close $fp
+
+set fp [open "vss.pp" w]
+puts $fp "*vsrc_name x y layer_name"
+puts $fp "VSS_SRC1 <X1_UM> <Y1_UM> $TOP_PG_LAYER"
+puts $fp "VSS_SRC2 <X2_UM> <Y2_UM> $TOP_PG_LAYER"
+close $fp
+
+set_power_pads -net VDD -format xy -file vdd.pp
+set_power_pads -net VSS -format xy -file vss.pp
+
+set_power_data -format current {static_VDD.ptiavg static_VSS.ptiavg}
+
+analyze_rail -type net -results_directory static_rail_results VDD
+analyze_rail -type net -results_directory static_rail_results VSS
+
+puts "=== Voltus Static Power & IR Drop Analysis Complete! ==="
+exit

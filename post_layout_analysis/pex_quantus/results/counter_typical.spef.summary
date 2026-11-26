@@ -1,0 +1,68 @@
+Bjob summary Report : 
+
+---Summary of Parallel Preprocessing stage 2 ( LEF/DEF/OA Processing )
+
+====================================================================================================================================
+CPU No.   |BJOB ID   |Host Name                |CPU time            |CLOCK time          |Peak CPU memory     |PSS memory          
+====================================================================================================================================
+0          localhost  techcad                   00:00:00             00:00:02             323 MB               255 MB              
+1          localhost  techcad                   00:00:01             00:00:02             598 MB               530 MB              
+
+---Summary of Parallel Preprocessing stage 3 ( Connectivity Processing )
+
+====================================================================================================================================
+CPU No.   |BJOB ID   |Host Name                |CPU time            |CLOCK time          |Peak CPU memory     |PSS memory          
+====================================================================================================================================
+0          localhost  techcad                   00:00:00             00:00:00             343 MB               274 MB              
+1          localhost  techcad                   00:00:00             00:00:00             599 MB               530 MB              
+
+---Summary of Parallel Preprocessing stage 5 ( GDS/OASIS Processing )
+
+====================================================================================================================================
+CPU No.   |BJOB ID   |Host Name                |CPU time            |CLOCK time          |Peak CPU memory     |PSS memory          
+====================================================================================================================================
+0          localhost  techcad                   00:00:01             00:00:01             344 MB               275 MB              
+1          localhost  techcad                   00:00:00             00:00:01             600 MB               530 MB              
+
+---Summary of Parallel C extraction stage 
+
+====================================================================================================================================
+CPU No.   |BJOB ID   |Host Name                |CPU time            |CLOCK time          |Peak CPU memory     |PSS memory          
+====================================================================================================================================
+0          localhost  techcad                   00:00:00             00:00:00             347 MB               277 MB              
+1          localhost  techcad                   00:00:00             00:00:00             602 MB               532 MB              
+
+---Summary of Parallel Output stage 
+
+====================================================================================================================================
+CPU No.   |BJOB ID   |Host Name                |CPU time            |CLOCK time          |Peak CPU memory     |PSS memory          
+====================================================================================================================================
+0          localhost  techcad                   00:00:00             00:00:00             347 MB               272 MB              
+1          localhost  techcad                   00:00:00             00:00:00             602 MB               526 MB              
+
+
+#####################################################################
+
+Run time summary report:
+
+Pre-extraction, extraction & post-extraction runtime
+
+======================================================================
+stage                                   |clock time              |MAX CPU time            
+======================================================================
+Preprocessing stage:                    00:00:03                 00:00:01                 
+Capacitance extraction:                 00:00:00                 00:00:00                 
+Output generation:                      00:00:00                 00:00:00                 
+
+#####################################################################################
+
+Memory summary report:
+
+Pre-extraction, extraction & post-extraction Memory
+
+======================================================================
+Stage                                   |Max Total Memory        |Peak CPU Memory         
+======================================================================
+Preprocessing stage:                     530 MB                   600 MB                  
+Capacitance extraction:                  0 MB                     602 MB                  
+Output generation:                       0 MB                     602 MB                  
