@@ -1,0 +1,17 @@
+# Version:1.0 MMMC View Definition File
+# Do Not Remove Above Line
+create_rc_corner -name worst_wires -preRoute_res {1.0} -preRoute_cap {1.0} -preRoute_clkres {0.0} -preRoute_clkcap {0.0} -postRoute_res {1.0} -postRoute_cap {1.0} -postRoute_xcap {1.0} -postRoute_clkres {0.0} -postRoute_clkcap {0.0} -qx_tech_file {../qrc/rcworst/qrcTechFile}
+create_rc_corner -name typ_wires -preRoute_res {1.0} -preRoute_cap {1.0} -preRoute_clkres {0.0} -preRoute_clkcap {0.0} -postRoute_res {1.0} -postRoute_cap {1.0} -postRoute_xcap {1.0} -postRoute_clkres {0.0} -postRoute_clkcap {0.0} -qx_tech_file {../qrc/typical/qrcTechFile}
+create_rc_corner -name best_wires -preRoute_res {1.0} -preRoute_cap {1.0} -preRoute_clkres {0.0} -preRoute_clkcap {0.0} -postRoute_res {1.0} -postRoute_cap {1.0} -postRoute_xcap {1.0} -postRoute_clkres {0.0} -postRoute_clkcap {0.0} -qx_tech_file {../qrc/rcbest/qrcTechFile}
+create_op_cond -name op_slow -library_file {../lib/slow_vdd1v0_basicCells_svt.lib} -P {1} -V {0.9} -T {125}
+create_op_cond -name op_fast -library_file {../lib/fast_vdd1v0_basicCells_svt.lib} -P {1} -V {1.1} -T {0}
+create_library_set -name slow -timing {../lib/slow_vdd1v0_basicCells_svt.lib ../lib/slow_vdd1v0_basicCells_lvt.lib ../lib/slow_vdd1v0_basicCells_hvt.lib}
+create_library_set -name fast -timing {../lib/fast_vdd1v0_basicCells_svt.lib ../lib/fast_vdd1v0_basicCells_lvt.lib ../lib/fast_vdd1v0_basicCells_hvt.lib}
+create_constraint_mode -name two_nano -sdc_files {../sdc/counter_synthesized.sdc}
+create_delay_corner -name slow_worst -library_set {slow} -rc_corner {worst_wires}
+create_delay_corner -name fast_best -library_set {fast} -rc_corner {best_wires}
+create_delay_corner -name fast_typ -library_set {fast} -rc_corner {typ_wires}
+create_analysis_view -name slow -constraint_mode {two_nano} -delay_corner {slow_worst}
+create_analysis_view -name mid -constraint_mode {two_nano} -delay_corner {fast_typ}
+create_analysis_view -name fast -constraint_mode {two_nano} -delay_corner {fast_best}
+set_analysis_view -setup {slow} -hold {fast}
